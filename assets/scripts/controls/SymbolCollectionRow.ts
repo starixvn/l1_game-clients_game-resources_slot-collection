@@ -21,7 +21,8 @@ export default class SymbolCollectionRow extends SelectionItem {
       const iconNode = node.getChildByName("icon");
       const spine = iconNode.getComponent(sp.Skeleton);
       spine.skeletonData = skeleton;
-      iconNode.scale = this.itemSample.width / iconNode.width;
+      const iconWidth = iconNode.width || 140;
+      iconNode.scale = this.itemSample.width / iconWidth;
       spine.setAnimation(0, "idle", true);
     });
   }
