@@ -21,7 +21,8 @@ export default class SymbolCollection extends SelectionControl {
       for (let j = 0; j < symbolCount; j++) {
         const path = `${this.key}/pack${i}/symbol-${j}`;
         const skeletonData = await GameUtils.loadResource<sp.SkeletonData>(
-          path
+          path,
+          sp.SkeletonData
         );
         if (skeletonData) {
           skeletons.push(skeletonData);
