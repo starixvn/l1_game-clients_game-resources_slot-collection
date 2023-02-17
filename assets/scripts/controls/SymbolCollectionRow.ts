@@ -22,7 +22,7 @@ export default class SymbolCollectionRow extends SelectionItem {
       const iconNode = node.getChildByName("icon");
       const spine = iconNode.getComponent(sp.Skeleton);
       spine.skeletonData = skeleton;
-      const iconWidth = iconNode.width || 140;
+      const iconWidth = iconNode.width || 150;
       iconNode.scale = this.itemSample.width / iconWidth;
       const anims = spine.skeletonData.getRuntimeData().animations;
       if (GameUtils.checkNameSpine(anims)) {

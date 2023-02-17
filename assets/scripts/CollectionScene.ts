@@ -186,22 +186,19 @@ export default class CollectionScene extends cc.Component {
   }
 
   createAllLines() {
-    [20, 8, 2, 14, 17, 7, 1, 10, 23, 15, 9, 3, 21].forEach((n) => {
+    const createNumberNode = (value) => {
       const node = new cc.Node();
-      node.name = n.toString();
-      const label = node.addComponent(cc.Label);
-      label.fontSize = 27;
-      label.lineHeight = 27;
-      label.string = n.toString();
+      node.name = value.toString();
+      node.width = 40;
+      node.height = 32;
+      return node;
+    };
+    [20, 8, 2, 14, 17, 7, 1, 10, 23, 15, 9, 3, 21].forEach((n) => {
+      const node = createNumberNode(n);
       this.leftNumberContainer.addChild(node);
     });
     [18, 5, 12, 24, 6, 22, 16, 11, 19, 13, 4, 25].forEach((n) => {
-      const node = new cc.Node();
-      node.name = n.toString();
-      const label = node.addComponent(cc.Label);
-      label.fontSize = 27;
-      label.lineHeight = 27;
-      label.string = n.toString();
+      const node = createNumberNode(n);
       this.rightNumberContainer.addChild(node);
     });
     this.leftNumberContainer.children.forEach((child) => {
