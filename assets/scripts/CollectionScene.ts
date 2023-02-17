@@ -14,6 +14,9 @@ export interface LineData {
 }
 @ccclass
 export default class CollectionScene extends cc.Component {
+  @property(cc.Node)
+  collectionNode: cc.Node = null;
+
   @property({ type: sp.SkeletonData })
   defaultSkeleton: sp.SkeletonData[] = [];
 
@@ -44,6 +47,10 @@ export default class CollectionScene extends cc.Component {
 
     this.createAllLines();
     this.initEventForNumberContainer();
+  }
+
+  start() {
+    this.hideCollection();
   }
 
   setBoardFullItems() {
@@ -78,6 +85,19 @@ export default class CollectionScene extends cc.Component {
     const shuffleData = _.shuffle(data);
     this.board.setBoardData(shuffleData);
     await this.board.spin(0.75, false);
+  }
+
+  showCollection() {
+    this.collectionNode.active = true;
+    cc.tween(this.collectionNode).to(0.4, { opacity: 255 }).start();
+  }
+
+  hideCollection() {
+    this.collectionNode.active = true;
+    cc.tween(this.collectionNode)
+      .to(0.4, { opacity: 0 })
+      .call(() => (this.collectionNode.active = false))
+      .start();
   }
 
   initDefault() {
