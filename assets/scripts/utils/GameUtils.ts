@@ -54,4 +54,9 @@ export default class GameUtils {
       });
     });
   }
+
+  public static checkNameSpine(anims: any): boolean {
+    const animFilter = anims.filter((anim) => anim.name === "idle");
+    return animFilter.length === 0 ? false : true;
+  }
 }

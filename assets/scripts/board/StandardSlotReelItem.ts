@@ -1,6 +1,7 @@
 import CollectionScene from "../CollectionScene";
 import { Events } from "../manager/Events";
 import { uiManager } from "../manager/UIManager";
+import GameUtils from "../utils/GameUtils";
 import SlotReelItem from "./SlotReelItem";
 
 const { ccclass, property } = cc._decorator;
@@ -32,7 +33,12 @@ export default class StandardSlotReelItem extends SlotReelItem {
       spine.premultipliedAlpha = true;
       const iconWidth = node.width || 140;
       node.scale = (this.node.width * 0.9) / iconWidth;
-      spine.setAnimation(0, anim, true);
+      const anims = spine.skeletonData.getRuntimeData().animations;
+      if (GameUtils.checkNameSpine(anims)) {
+        spine.setAnimation(0, "idle", true);
+      } else {
+        spine.setAnimation(0, anims[0].name, true);
+      }
     }
   }
 

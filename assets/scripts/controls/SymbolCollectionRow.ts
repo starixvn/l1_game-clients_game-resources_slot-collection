@@ -1,4 +1,5 @@
 import SelectionItem from "../selection-control/SelectionItem";
+import GameUtils from "../utils/GameUtils";
 
 const { ccclass, property } = cc._decorator;
 
@@ -23,7 +24,12 @@ export default class SymbolCollectionRow extends SelectionItem {
       spine.skeletonData = skeleton;
       const iconWidth = iconNode.width || 140;
       iconNode.scale = this.itemSample.width / iconWidth;
-      spine.setAnimation(0, "idle", true);
+      const anims = spine.skeletonData.getRuntimeData().animations;
+      if (GameUtils.checkNameSpine(anims)) {
+        spine.setAnimation(0, "idle", true);
+      } else {
+        spine.setAnimation(0, anims[0].name, true);
+      }
     });
   }
 }
