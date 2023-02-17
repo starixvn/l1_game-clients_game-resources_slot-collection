@@ -11,12 +11,14 @@ export default class SymbolCollection extends SelectionControl {
   @property
   key = "letter-symbols";
 
+  arrPack = [1, 2, 3, 20, 50, 125];
+
   private _skeletons = {};
 
   async initItems() {
     const total = uiManager.PACK_TOTAL;
     const symbolCount = 15;
-    for (let i = 1; i <= total; i++) {
+    for (const i of this.arrPack) {
       const skeletons = [];
       for (let j = 0; j < symbolCount; j++) {
         const path = `${this.key}/pack${i}/symbol-${j}`;

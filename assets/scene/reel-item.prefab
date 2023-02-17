@@ -350,7 +350,7 @@
     "defaultSkin": "",
     "defaultAnimation": "",
     "_preCacheMode": -1,
-    "_cacheMode": 0,
+    "_cacheMode": 2,
     "loop": true,
     "premultipliedAlpha": true,
     "timeScale": 1,
@@ -365,12 +365,12 @@
     "_playTimes": 0,
     "_isAniComplete": true,
     "_N$skeletonData": null,
-    "_N$_defaultCacheMode": 0,
+    "_N$_defaultCacheMode": 2,
     "_N$debugSlots": false,
     "_N$debugBones": false,
     "_N$debugMesh": false,
     "_N$useTint": false,
-    "_N$enableBatch": false,
+    "_N$enableBatch": true,
     "_id": ""
   },
   {

@@ -1,0 +1,958 @@
+
+symbols.png
+size: 2001,745
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+h_clover_leaf_L
+  rotate: false
+  xy: 572, 216
+  size: 112, 105
+  orig: 113, 106
+  offset: 0, 0
+  index: -1
+h_clover_leaf_R
+  rotate: false
+  xy: 1037, 220
+  size: 98, 111
+  orig: 98, 111
+  offset: 0, 0
+  index: -1
+h_clover_leaf_top
+  rotate: false
+  xy: 239, 129
+  size: 110, 96
+  orig: 110, 96
+  offset: 0, 0
+  index: -1
+h_clover_stalk
+  rotate: true
+  xy: 934, 45
+  size: 72, 88
+  orig: 72, 89
+  offset: 0, 0
+  index: -1
+h_daisy_1
+  rotate: false
+  xy: 945, 537
+  size: 209, 206
+  orig: 211, 208
+  offset: 1, 1
+  index: -1
+h_daisy_2
+  rotate: false
+  xy: 257, 533
+  size: 232, 210
+  orig: 234, 212
+  offset: 1, 1
+  index: -1
+h_daisy_3
+  rotate: false
+  xy: 2, 97
+  size: 235, 206
+  orig: 237, 208
+  offset: 1, 1
+  index: -1
+h_daisy_center
+  rotate: true
+  xy: 1585, 23
+  size: 68, 49
+  orig: 70, 51
+  offset: 1, 1
+  index: -1
+h_daisy_leaf_L
+  rotate: false
+  xy: 760, 86
+  size: 97, 45
+  orig: 97, 46
+  offset: 0, 0
+  index: -1
+h_daisy_leaf_R
+  rotate: true
+  xy: 1530, 5
+  size: 71, 53
+  orig: 72, 55
+  offset: 1, 0
+  index: -1
+h_daisy_petal_1
+  rotate: true
+  xy: 1413, 3
+  size: 44, 51
+  orig: 45, 51
+  offset: 0, 0
+  index: -1
+h_daisy_petal_10
+  rotate: true
+  xy: 771, 2
+  size: 82, 44
+  orig: 82, 45
+  offset: 0, 0
+  index: -1
+h_daisy_petal_11
+  rotate: false
+  xy: 1757, 333
+  size: 64, 65
+  orig: 64, 65
+  offset: 0, 0
+  index: -1
+h_daisy_petal_12
+  rotate: true
+  xy: 883, 38
+  size: 92, 49
+  orig: 92, 50
+  offset: 0, 0
+  index: -1
+h_daisy_petal_13
+  rotate: false
+  xy: 1909, 210
+  size: 85, 33
+  orig: 85, 38
+  offset: 0, 5
+  index: -1
+h_daisy_petal_14
+  rotate: false
+  xy: 1909, 169
+  size: 85, 39
+  orig: 85, 39
+  offset: 0, 0
+  index: -1
+h_daisy_petal_15
+  rotate: true
+  xy: 1711, 106
+  size: 38, 67
+  orig: 39, 67
+  offset: 0, 0
+  index: -1
+h_daisy_petal_16
+  rotate: false
+  xy: 1468, 73
+  size: 44, 83
+  orig: 44, 84
+  offset: 0, 1
+  index: -1
+h_daisy_petal_17
+  rotate: false
+  xy: 1680, 38
+  size: 29, 56
+  orig: 31, 56
+  offset: 1, 0
+  index: -1
+h_daisy_petal_18
+  rotate: true
+  xy: 1651, 96
+  size: 44, 58
+  orig: 46, 60
+  offset: 0, 2
+  index: -1
+h_daisy_petal_2
+  rotate: false
+  xy: 1830, 182
+  size: 77, 55
+  orig: 77, 55
+  offset: 0, 0
+  index: -1
+h_daisy_petal_3
+  rotate: false
+  xy: 1582, 93
+  size: 67, 68
+  orig: 67, 68
+  offset: 0, 0
+  index: -1
+h_daisy_petal_4
+  rotate: true
+  xy: 1137, 47
+  size: 87, 64
+  orig: 87, 65
+  offset: 0, 0
+  index: -1
+h_daisy_petal_5
+  rotate: false
+  xy: 1039, 85
+  size: 96, 42
+  orig: 96, 42
+  offset: 0, 0
+  index: -1
+h_daisy_petal_6
+  rotate: true
+  xy: 1024, 2
+  size: 43, 58
+  orig: 43, 58
+  offset: 0, 0
+  index: -1
+h_daisy_petal_7
+  rotate: false
+  xy: 1757, 50
+  size: 34, 54
+  orig: 34, 54
+  offset: 0, 0
+  index: -1
+h_daisy_petal_8
+  rotate: false
+  xy: 1203, 56
+  size: 72, 79
+  orig: 72, 79
+  offset: 0, 0
+  index: -1
+h_daisy_petal_9
+  rotate: false
+  xy: 429, 88
+  size: 90, 31
+  orig: 90, 31
+  offset: 0, 0
+  index: -1
+h_daisy_stalk
+  rotate: true
+  xy: 817, 3
+  size: 81, 64
+  orig: 81, 65
+  offset: 0, 0
+  index: -1
+h_lotus_1
+  rotate: false
+  xy: 1392, 354
+  size: 186, 193
+  orig: 188, 196
+  offset: 1, 1
+  index: -1
+h_lotus_2
+  rotate: false
+  xy: 244, 311
+  size: 193, 208
+  orig: 197, 212
+  offset: 2, 2
+  index: -1
+h_lotus_3
+  rotate: true
+  xy: 726, 540
+  size: 203, 217
+  orig: 207, 220
+  offset: 2, 1
+  index: -1
+h_lotus_base
+  rotate: false
+  xy: 439, 323
+  size: 180, 208
+  orig: 196, 213
+  offset: 7, 3
+  index: -1
+h_lotus_petal_1
+  rotate: true
+  xy: 1792, 227
+  size: 104, 36
+  orig: 104, 36
+  offset: 0, 0
+  index: -1
+h_lotus_petal_10
+  rotate: true
+  xy: 1709, 178
+  size: 30, 80
+  orig: 31, 80
+  offset: 1, 0
+  index: -1
+h_lotus_petal_11
+  rotate: true
+  xy: 1024, 47
+  size: 36, 92
+  orig: 36, 92
+  offset: 0, 0
+  index: -1
+h_lotus_petal_12
+  rotate: true
+  xy: 1709, 146
+  size: 30, 80
+  orig: 30, 80
+  offset: 0, 0
+  index: -1
+h_lotus_petal_13
+  rotate: false
+  xy: 1830, 112
+  size: 75, 68
+  orig: 75, 70
+  offset: 0, 2
+  index: -1
+h_lotus_petal_14
+  rotate: false
+  xy: 1833, 59
+  size: 40, 51
+  orig: 42, 52
+  offset: 1, 1
+  index: -1
+h_lotus_petal_15
+  rotate: true
+  xy: 1780, 106
+  size: 36, 41
+  orig: 37, 42
+  offset: 0, 1
+  index: -1
+h_lotus_petal_16
+  rotate: false
+  xy: 1331, 2
+  size: 55, 48
+  orig: 57, 49
+  offset: 1, 1
+  index: -1
+h_lotus_petal_17
+  rotate: false
+  xy: 1875, 63
+  size: 28, 47
+  orig: 29, 48
+  offset: 0, 1
+  index: -1
+h_lotus_petal_18
+  rotate: false
+  xy: 1841, 10
+  size: 26, 47
+  orig: 27, 49
+  offset: 0, 1
+  index: -1
+h_lotus_petal_19
+  rotate: false
+  xy: 934, 119
+  size: 103, 80
+  orig: 104, 80
+  offset: 1, 0
+  index: -1
+h_lotus_petal_2
+  rotate: false
+  xy: 816, 209
+  size: 116, 121
+  orig: 117, 121
+  offset: 1, 0
+  index: -1
+h_lotus_petal_20
+  rotate: false
+  xy: 565, 2
+  size: 76, 86
+  orig: 76, 86
+  offset: 0, 0
+  index: -1
+h_lotus_petal_21
+  rotate: false
+  xy: 1337, 52
+  size: 77, 66
+  orig: 77, 66
+  offset: 0, 0
+  index: -1
+h_lotus_petal_22
+  rotate: true
+  xy: 329, 2
+  size: 54, 50
+  orig: 54, 52
+  offset: 0, 0
+  index: -1
+h_lotus_petal_3
+  rotate: true
+  xy: 244, 227
+  size: 82, 121
+  orig: 82, 122
+  offset: 0, 0
+  index: -1
+h_lotus_petal_4
+  rotate: true
+  xy: 717, 2
+  size: 82, 52
+  orig: 82, 52
+  offset: 0, 0
+  index: -1
+h_lotus_petal_5
+  rotate: false
+  xy: 1823, 394
+  size: 33, 10
+  orig: 37, 16
+  offset: 3, 5
+  index: -1
+h_lotus_petal_6
+  rotate: true
+  xy: 540, 136
+  size: 78, 115
+  orig: 78, 115
+  offset: 0, 0
+  index: -1
+h_lotus_petal_7
+  rotate: true
+  xy: 770, 133
+  size: 74, 107
+  orig: 74, 107
+  offset: 0, 0
+  index: -1
+h_lotus_petal_8
+  rotate: true
+  xy: 540, 90
+  size: 44, 111
+  orig: 44, 111
+  offset: 0, 0
+  index: -1
+h_lotus_petal_9
+  rotate: false
+  xy: 1777, 406
+  size: 79, 141
+  orig: 79, 141
+  offset: 0, 0
+  index: -1
+h_orchid_1
+  rotate: true
+  xy: 1200, 198
+  size: 154, 165
+  orig: 156, 167
+  offset: 1, 1
+  index: -1
+h_orchid_2
+  rotate: false
+  xy: 1200, 354
+  size: 190, 193
+  orig: 193, 197
+  offset: 2, 2
+  index: -1
+h_orchid_3
+  rotate: true
+  xy: 621, 332
+  size: 205, 202
+  orig: 207, 204
+  offset: 1, 1
+  index: -1
+h_orchid_center
+  rotate: true
+  xy: 367, 227
+  size: 24, 31
+  orig: 26, 33
+  offset: 1, 1
+  index: -1
+h_orchid_center_back
+  rotate: true
+  xy: 208, 64
+  size: 31, 27
+  orig: 34, 31
+  offset: 2, 2
+  index: -1
+h_orchid_center_bottom
+  rotate: false
+  xy: 1516, 151
+  size: 62, 72
+  orig: 64, 72
+  offset: 1, 0
+  index: -1
+h_orchid_petal_L
+  rotate: true
+  xy: 439, 220
+  size: 101, 131
+  orig: 101, 131
+  offset: 0, 0
+  index: -1
+h_orchid_petal_L_bottom
+  rotate: true
+  xy: 122, 2
+  size: 93, 84
+  orig: 93, 84
+  offset: 0, 0
+  index: -1
+h_orchid_petal_R
+  rotate: false
+  xy: 934, 201
+  size: 101, 129
+  orig: 101, 129
+  offset: 0, 0
+  index: -1
+h_orchid_petal_R_bottom
+  rotate: false
+  xy: 381, 2
+  size: 91, 84
+  orig: 92, 84
+  offset: 0, 0
+  index: -1
+h_orchid_petal_top
+  rotate: false
+  xy: 429, 121
+  size: 109, 97
+  orig: 109, 98
+  offset: 0, 1
+  index: -1
+h_periwinkle_1
+  rotate: true
+  xy: 1375, 549
+  size: 194, 212
+  orig: 197, 215
+  offset: 2, 1
+  index: -1
+h_periwinkle_2
+  rotate: true
+  xy: 1156, 549
+  size: 194, 217
+  orig: 197, 220
+  offset: 2, 1
+  index: -1
+h_periwinkle_3
+  rotate: true
+  xy: 1589, 549
+  size: 194, 210
+  orig: 197, 212
+  offset: 2, 1
+  index: -1
+h_periwinkle_center_1
+  rotate: true
+  xy: 1024, 100
+  size: 17, 13
+  orig: 19, 16
+  offset: 1, 2
+  index: -1
+h_periwinkle_center_2
+  rotate: true
+  xy: 1909, 323
+  size: 10, 6
+  orig: 12, 9
+  offset: 1, 2
+  index: -1
+h_periwinkle_leaf_L
+  rotate: true
+  xy: 1367, 158
+  size: 65, 147
+  orig: 65, 148
+  offset: 0, 1
+  index: -1
+h_periwinkle_leaf_R
+  rotate: false
+  xy: 1580, 163
+  size: 78, 46
+  orig: 80, 46
+  offset: 1, 0
+  index: -1
+h_periwinkle_leaf_back
+  rotate: false
+  xy: 1084, 2
+  size: 57, 43
+  orig: 57, 43
+  offset: 0, 0
+  index: -1
+h_periwinkle_leaf_bottom
+  rotate: false
+  xy: 1688, 2
+  size: 54, 34
+  orig: 55, 35
+  offset: 0, 0
+  index: -1
+h_periwinkle_petal_1
+  rotate: true
+  xy: 1416, 49
+  size: 69, 50
+  orig: 69, 50
+  offset: 0, 0
+  index: -1
+h_periwinkle_petal_10
+  rotate: false
+  xy: 883, 2
+  size: 46, 34
+  orig: 46, 34
+  offset: 0, 0
+  index: -1
+h_periwinkle_petal_2
+  rotate: false
+  xy: 1907, 116
+  size: 78, 51
+  orig: 78, 53
+  offset: 0, 1
+  index: -1
+h_periwinkle_petal_3
+  rotate: true
+  xy: 1917, 321
+  size: 71, 73
+  orig: 71, 73
+  offset: 0, 0
+  index: -1
+h_periwinkle_petal_4
+  rotate: true
+  xy: 1277, 56
+  size: 79, 58
+  orig: 79, 58
+  offset: 0, 0
+  index: -1
+h_periwinkle_petal_5
+  rotate: true
+  xy: 1468, 2
+  size: 69, 60
+  orig: 69, 60
+  offset: 0, 0
+  index: -1
+h_periwinkle_petal_6
+  rotate: true
+  xy: 351, 62
+  size: 41, 28
+  orig: 42, 28
+  offset: 0, 0
+  index: -1
+h_periwinkle_petal_7
+  rotate: true
+  xy: 1781, 2
+  size: 46, 27
+  orig: 46, 28
+  offset: 0, 0
+  index: -1
+h_periwinkle_petal_8
+  rotate: false
+  xy: 1143, 2
+  size: 42, 43
+  orig: 42, 43
+  offset: 0, 0
+  index: -1
+h_periwinkle_petal_9
+  rotate: true
+  xy: 1744, 2
+  size: 46, 35
+  orig: 47, 36
+  offset: 0, 0
+  index: -1
+h_periwinkle_stalk
+  rotate: false
+  xy: 1137, 227
+  size: 61, 104
+  orig: 61, 104
+  offset: 0, 0
+  index: -1
+h_periwinkle_stalk_R
+  rotate: true
+  xy: 1792, 144
+  size: 81, 36
+  orig: 81, 36
+  offset: 0, 0
+  index: -1
+h_rose_1
+  rotate: false
+  xy: 1801, 566
+  size: 198, 177
+  orig: 201, 181
+  offset: 1, 2
+  index: -1
+h_rose_2
+  rotate: false
+  xy: 491, 539
+  size: 233, 204
+  orig: 237, 208
+  offset: 2, 2
+  index: -1
+h_rose_3
+  rotate: false
+  xy: 2, 521
+  size: 253, 222
+  orig: 256, 225
+  offset: 2, 1
+  index: -1
+h_rose_base
+  rotate: false
+  xy: 2, 305
+  size: 240, 214
+  orig: 249, 220
+  offset: 8, 2
+  index: -1
+h_rose_petal_1
+  rotate: false
+  xy: 1580, 333
+  size: 175, 65
+  orig: 175, 65
+  offset: 0, 0
+  index: -1
+h_rose_petal_10
+  rotate: false
+  xy: 643, 2
+  size: 72, 84
+  orig: 72, 85
+  offset: 0, 1
+  index: -1
+h_rose_petal_11
+  rotate: false
+  xy: 686, 209
+  size: 128, 121
+  orig: 128, 121
+  offset: 0, 0
+  index: -1
+h_rose_petal_12
+  rotate: false
+  xy: 1793, 50
+  size: 38, 54
+  orig: 38, 55
+  offset: 0, 0
+  index: -1
+h_rose_petal_13
+  rotate: false
+  xy: 1367, 120
+  size: 99, 36
+  orig: 99, 36
+  offset: 0, 0
+  index: -1
+h_rose_petal_14
+  rotate: true
+  xy: 1909, 245
+  size: 74, 86
+  orig: 77, 86
+  offset: 1, 0
+  index: -1
+h_rose_petal_15
+  rotate: false
+  xy: 351, 105
+  size: 76, 120
+  orig: 81, 120
+  offset: 0, 0
+  index: -1
+h_rose_petal_16
+  rotate: false
+  xy: 1858, 394
+  size: 132, 84
+  orig: 132, 85
+  offset: 0, 0
+  index: -1
+h_rose_petal_17
+  rotate: false
+  xy: 1367, 225
+  size: 154, 127
+  orig: 154, 127
+  offset: 0, 0
+  index: -1
+h_rose_petal_18
+  rotate: true
+  xy: 934, 2
+  size: 41, 69
+  orig: 41, 70
+  offset: 0, 1
+  index: -1
+h_rose_petal_19
+  rotate: false
+  xy: 1660, 142
+  size: 47, 67
+  orig: 47, 67
+  offset: 0, 0
+  index: -1
+h_rose_petal_2
+  rotate: true
+  xy: 1291, 2
+  size: 52, 38
+  orig: 52, 38
+  offset: 0, 0
+  index: -1
+h_rose_petal_20
+  rotate: false
+  xy: 1858, 480
+  size: 141, 84
+  orig: 141, 84
+  offset: 0, 0
+  index: -1
+h_rose_petal_21
+  rotate: true
+  xy: 1137, 136
+  size: 89, 61
+  orig: 90, 61
+  offset: 0, 0
+  index: -1
+h_rose_petal_22
+  rotate: false
+  xy: 1200, 137
+  size: 107, 59
+  orig: 108, 59
+  offset: 0, 0
+  index: -1
+h_rose_petal_3
+  rotate: false
+  xy: 653, 88
+  size: 105, 43
+  orig: 105, 44
+  offset: 0, 1
+  index: -1
+h_rose_petal_4
+  rotate: true
+  xy: 1523, 227
+  size: 125, 55
+  orig: 125, 55
+  offset: 0, 0
+  index: -1
+h_rose_petal_5
+  rotate: true
+  xy: 1636, 29
+  size: 62, 42
+  orig: 62, 43
+  offset: 0, 0
+  index: -1
+h_rose_petal_6
+  rotate: true
+  xy: 1810, 7
+  size: 41, 29
+  orig: 153, 29
+  offset: 55, 0
+  index: -1
+h_rose_petal_7
+  rotate: false
+  xy: 1711, 50
+  size: 44, 54
+  orig: 45, 54
+  offset: 1, 0
+  index: -1
+h_rose_petal_8
+  rotate: true
+  xy: 1830, 239
+  size: 94, 77
+  orig: 94, 78
+  offset: 0, 1
+  index: -1
+h_rose_petal_9
+  rotate: true
+  xy: 1907, 91
+  size: 23, 38
+  orig: 24, 39
+  offset: 0, 1
+  index: -1
+h_tulip_1
+  rotate: true
+  xy: 1580, 400
+  size: 147, 195
+  orig: 150, 198
+  offset: 1, 1
+  index: -1
+h_tulip_2
+  rotate: false
+  xy: 1028, 333
+  size: 170, 202
+  orig: 174, 206
+  offset: 2, 2
+  index: -1
+h_tulip_3
+  rotate: false
+  xy: 825, 332
+  size: 201, 203
+  orig: 203, 205
+  offset: 1, 1
+  index: -1
+h_tulip_leaf_L
+  rotate: false
+  xy: 239, 58
+  size: 110, 69
+  orig: 110, 70
+  offset: 0, 0
+  index: -1
+h_tulip_leaf_R
+  rotate: true
+  xy: 1203, 16
+  size: 38, 86
+  orig: 45, 87
+  offset: 6, 0
+  index: -1
+h_tulip_leaf_front
+  rotate: true
+  xy: 657, 133
+  size: 74, 111
+  orig: 75, 116
+  offset: 0, 5
+  index: -1
+h_tulip_petal_1
+  rotate: false
+  xy: 1715, 210
+  size: 75, 121
+  orig: 75, 121
+  offset: 0, 0
+  index: -1
+h_tulip_petal_10
+  rotate: true
+  xy: 1823, 335
+  size: 57, 92
+  orig: 57, 92
+  offset: 0, 0
+  index: -1
+h_tulip_petal_11
+  rotate: true
+  xy: 208, 4
+  size: 52, 119
+  orig: 53, 119
+  offset: 1, 0
+  index: -1
+h_tulip_petal_12
+  rotate: false
+  xy: 474, 2
+  size: 89, 84
+  orig: 89, 84
+  offset: 0, 0
+  index: -1
+h_tulip_petal_2
+  rotate: true
+  xy: 1580, 211
+  size: 120, 133
+  orig: 120, 133
+  offset: 0, 0
+  index: -1
+h_tulip_petal_3
+  rotate: false
+  xy: 1514, 78
+  size: 66, 71
+  orig: 67, 71
+  offset: 0, 0
+  index: -1
+h_tulip_petal_4
+  rotate: false
+  xy: 1039, 129
+  size: 96, 89
+  orig: 100, 92
+  offset: 0, 3
+  index: -1
+h_tulip_petal_5
+  rotate: false
+  xy: 879, 132
+  size: 53, 75
+  orig: 53, 75
+  offset: 0, 0
+  index: -1
+h_tulip_petal_6
+  rotate: true
+  xy: 1869, 19
+  size: 38, 30
+  orig: 38, 30
+  offset: 0, 0
+  index: -1
+h_tulip_petal_7
+  rotate: true
+  xy: 1309, 148
+  size: 48, 56
+  orig: 49, 57
+  offset: 0, 1
+  index: -1
+h_tulip_petal_8
+  rotate: true
+  xy: 367, 253
+  size: 56, 70
+  orig: 57, 70
+  offset: 1, 0
+  index: -1
+h_tulip_petal_9
+  rotate: true
+  xy: 2, 2
+  size: 93, 118
+  orig: 93, 118
+  offset: 0, 0
+  index: -1
+h_tulip_stamen_1
+  rotate: true
+  xy: 1905, 57
+  size: 32, 33
+  orig: 33, 34
+  offset: 0, 1
+  index: -1
+h_tulip_stamen_2
+  rotate: false
+  xy: 1388, 2
+  size: 23, 48
+  orig: 24, 49
+  offset: 0, 0
+  index: -1
+h_tulip_stamen_3
+  rotate: true
+  xy: 1636, 2
+  size: 25, 50
+  orig: 25, 51
+  offset: 0, 1
+  index: -1
+h_tulip_stamen_4
+  rotate: true
+  xy: 1203, 2
+  size: 12, 32
+  orig: 12, 34
+  offset: 0, 1
+  index: -1
+h_tulip_stamen_5
+  rotate: false
+  xy: 1187, 3
+  size: 14, 42
+  orig: 15, 44
+  offset: 0, 1
+  index: -1
