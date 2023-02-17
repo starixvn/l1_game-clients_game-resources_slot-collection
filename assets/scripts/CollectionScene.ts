@@ -70,7 +70,15 @@ export default class CollectionScene extends cc.Component {
     this.board.applyData(shuffleData);
   }
 
+  stopAllFinishTweens() {
+    this.node.stopAllActions();
+    this.hideAllLines();
+    this.hideWinningEffectOnItems();
+  }
+
   async testSpin() {
+    this.stopAllFinishTweens();
+
     const data = [];
     const itemTypeCount = 11;
 
@@ -85,6 +93,53 @@ export default class CollectionScene extends cc.Component {
     const shuffleData = _.shuffle(data);
     this.board.setBoardData(shuffleData);
     await this.board.spin(0.75, false);
+
+    this.showLoopWinningLines([
+      this.generateRandomWinPayline(),
+      this.generateRandomWinPayline(),
+      this.generateRandomWinPayline(),
+    ]);
+  }
+
+  generateRandomWinPayline() {
+    const positions = [
+      [1, 4, 7, 10, 13],
+      [0, 3, 6, 9, 12],
+      [2, 5, 8, 11, 14],
+      [2, 4, 6, 10, 14],
+      [0, 4, 8, 10, 12],
+
+      [1, 3, 6, 9, 13],
+      [1, 5, 8, 11, 13],
+      [0, 3, 7, 11, 14],
+      [2, 5, 7, 9, 12],
+      [1, 5, 7, 9, 13],
+
+      [1, 3, 7, 11, 13],
+      [0, 4, 7, 10, 12],
+      [2, 4, 7, 10, 14],
+      [0, 4, 6, 10, 12],
+      [2, 4, 8, 10, 14],
+
+      [1, 4, 6, 10, 13],
+      [1, 4, 8, 10, 13],
+      [0, 3, 8, 9, 12],
+      [2, 5, 6, 11, 14],
+      [0, 5, 8, 11, 12],
+
+      [2, 3, 6, 9, 14],
+      [1, 3, 8, 9, 13],
+      [1, 5, 6, 11, 13],
+      [0, 5, 6, 11, 12],
+      [2, 3, 8, 9, 14],
+    ];
+
+    const payline = _.random(24);
+    return {
+      payline,
+      positions: positions[payline],
+      symbol: 0,
+    };
   }
 
   showCollection() {
@@ -130,6 +185,10 @@ export default class CollectionScene extends cc.Component {
     }
   }
 
+  hideWinningEffectOnItems() {
+    this.board.hideWinningEffect();
+  }
+
   showLoopWinningLines(winningLines: LineData[]) {
     const length = winningLines.length;
     const timeShowPayline = 1;
@@ -137,7 +196,7 @@ export default class CollectionScene extends cc.Component {
       return;
     }
     let index = 0;
-    cc.tween(this)
+    cc.tween(this.node)
       .repeatForever(
         cc
           .tween()
@@ -146,10 +205,10 @@ export default class CollectionScene extends cc.Component {
               index = 0;
             }
             this.hideAllLines();
-            // this.hideWinningEffectOnItems();
+            this.hideWinningEffectOnItems();
             const line = winningLines[index];
             this.showLine(line.payline + 1);
-            // this.board.showWinningEffect(line.positions, +line.symbol);
+            this.board.showWinningEffect(line.positions, +line.symbol);
             index++;
           })
           .delay(timeShowPayline)
