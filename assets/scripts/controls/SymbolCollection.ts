@@ -9,9 +9,9 @@ const { ccclass, property } = cc._decorator;
 @ccclass
 export default class SymbolCollection extends SelectionControl {
   @property
-  key = "letter-symbols";
+  key = "symbols";
 
-  arrPack = [1, 2, 3, 20, 50, 125];
+  arrPack = [1, 2, 3, 20, 125];
 
   private _skeletons = {};
 

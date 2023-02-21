@@ -8,12 +8,15 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class WinningAnimationCollection extends SelectionControl {
-  private _skeletons = {};
+  private _nodes = [];
   async initItems() {
     const total = uiManager.PACK_TOTAL;
     for (let i = 1; i <= total; i++) {
       const path = `winning-animations/pack${i}/winning-animation`;
-      const skeletonData = await GameUtils.loadResource<sp.SkeletonData>(path);
+      const skeletonData = await GameUtils.loadResource<sp.SkeletonData>(
+        path,
+        sp.SkeletonData
+      );
       if (skeletonData) {
         console.log("ske data", i);
         const item = this.initItem(i);
@@ -22,16 +25,31 @@ export default class WinningAnimationCollection extends SelectionControl {
           skeleton.skeletonData = skeletonData;
           skeleton.setAnimation(0, "win", true);
         }
-        this._skeletons[i] = skeletonData;
+        this._nodes[i] = skeleton.node;
 
         const selectionItem = item.getComponent(SelectionItem);
         this.items.push(selectionItem);
+      } else {
+        const pathPrefab = `winning-animations/pack${i}/AtlasSpriteWinning`;
+        const prefabData = await GameUtils.loadResource<cc.Prefab>(
+          pathPrefab,
+          cc.Prefab
+        );
+        if (prefabData) {
+          const item = cc.instantiate(prefabData);
+          this.content.addChild(item);
+          this._nodes[i] = item;
+
+          const selectionItem = item.getComponent(SelectionItem);
+          this.items.push(selectionItem);
+        }
       }
 
       this.items[0]?.setSelected(true);
     }
+    console.log("winning-animations", this.content.childrenCount);
   }
   emitEventSelected(id: number) {
-    uiManager.emit(Events.UPDATE_WINNING_ANIMATION, this._skeletons[id]);
+    uiManager.emit(Events.UPDATE_WINNING_ANIMATION, this._nodes[id]);
   }
 }

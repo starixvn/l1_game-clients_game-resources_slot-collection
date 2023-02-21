@@ -4027,7 +4027,7 @@
     "_id": "e9wTNDBbdOIZ4z8F4yS2Ar"
   },
   {
-    "__type__": "582cdWDL7NGRY/RPVSg4QEb",
+    "__type__": "5b99dQA5pxAoKVG3Az0To4A",
     "_name": "",
     "_objFlags": 0,
     "node": {
@@ -4038,10 +4038,10 @@
       "__id__": 74
     },
     "itemPrefab": {
-      "__uuid__": "361fc2cb-a021-41a4-9b55-680c5e9293ed"
+      "__uuid__": "f8706c7a-dd25-4c27-85d1-779cdd7e3e77"
     },
     "key": "letter-symbols",
-    "_id": "37mQesiYlJO77j8xpxK/c5"
+    "_id": "29qY1vUCxHYJUWDQ1Sax1/"
   },
   {
     "__type__": "cc.PrefabInfo",
