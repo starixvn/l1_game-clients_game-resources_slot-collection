@@ -1,4 +1,4 @@
-import _ from "lodash";
+import * as _ from "lodash";
 
 import LineView from "./board/LineView";
 import SlotBoard from "./board/SlotBoard";

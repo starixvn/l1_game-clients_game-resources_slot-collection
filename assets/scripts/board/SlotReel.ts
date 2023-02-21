@@ -1,4 +1,4 @@
-import _ from "lodash";
+import * as _ from "lodash";
 
 import GameUtils from "../utils/GameUtils";
 import SlotReelItem from "./SlotReelItem";
