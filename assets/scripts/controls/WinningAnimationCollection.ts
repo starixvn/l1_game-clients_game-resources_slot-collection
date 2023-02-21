@@ -18,7 +18,6 @@ export default class WinningAnimationCollection extends SelectionControl {
         sp.SkeletonData
       );
       if (skeletonData) {
-        console.log("ske data", i);
         const item = this.initItem(i);
         const skeleton = item.getComponentInChildren(sp.Skeleton);
         if (skeleton) {

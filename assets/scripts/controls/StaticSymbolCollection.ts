@@ -3,21 +3,18 @@ import { uiManager } from "../manager/UIManager";
 import SelectionControl from "../selection-control/SelectionControl";
 import GameUtils from "../utils/GameUtils";
 import StaticSymbolColectionRow from "./StaticSymbolColectionRow";
-import SymbolCollectionRow from "./SymbolCollectionRow";
 
 const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class StaticSymbolCollection extends SelectionControl {
-  @property
-  key = "letter-symbols";
+  key = "static-symbols";
 
   arrPack = [1, 2, 3, 20, 125];
 
   private staticSymbol = 6;
-  private keyStatic = "static-symbols";
 
-  private _skeletons = {};
+  private _nodes = {};
 
   async initItems() {
     const total = uiManager.PACK_TOTAL;
@@ -45,6 +42,6 @@ export default class StaticSymbolCollection extends SelectionControl {
     this.items.length && this.items[0].setSelected(true);
   }
   emitEventSelected(id: number) {
-    uiManager.emit(Events.UPDATE_MULTI_SYMBOLS, this._skeletons[id]);
+    uiManager.emit(Events.UPDATE_MULTI_SYMBOLS, this._nodes[id]);
   }
 }

@@ -117,9 +117,10 @@ export default class SlotReel extends cc.Component {
   showWinningEffect(index: number, symbol: number) {
     const item = this.getItemBottom(index);
     const itemCopy = this.getItemTop(index);
-    const highlight =
-      item.index === symbol ||
-      (item.index === this.wildSymbol && symbol !== this.jackpotSymbol);
+    // const highlight =
+    //   item.index === symbol ||
+    //   (item.index === this.wildSymbol && symbol !== this.jackpotSymbol);
+    const highlight = true;
     item.showWinningEffect(highlight);
     itemCopy.showWinningEffect(highlight);
     GameUtils.moveToOtherNode(item.node, this.winningContainer);

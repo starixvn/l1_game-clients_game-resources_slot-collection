@@ -17,32 +17,56 @@ export default class StandardSlotReelItem extends SlotReelItem {
     this.itemSample = this.node.getChildByName("item-sample");
     uiManager.emitterListener(Events.UPDATE_WINNING_ANIMATION, (node) => {
       // console.log("reel item listen winning change");
+      this.winningEffect.destroyAllChildren();
+      const effect = cc.instantiate(node);
+      this.winningEffect.addChild(effect);
+      effect.position = cc.v3();
     });
   }
 
   protected replaceItem(index: number) {
     this.content.removeAllChildren();
-    const node = cc.instantiate(this.itemSample);
-    node.name = "icon";
-    this.content.addChild(node);
 
-    const spine = node.getComponent(sp.Skeleton);
-    if (spine) {
-      const anim = "idle";
-      spine.skeletonData = CollectionScene.symbolsSkeletons[index];
-      spine.premultipliedAlpha = true;
-      const iconWidth = node.width || 150;
-      node.scale = this.node.width / iconWidth;
+    const playAnimationIdle = (spine) => {
+      const idleAnim = "idle";
+      const iconWidth = spine.node.width || 150;
+      spine.node.scale = this.node.width / iconWidth;
       const anims = spine.skeletonData.getRuntimeData().animations;
       if (GameUtils.checkNameSpine(anims)) {
-        spine.setAnimation(0, "idle", true);
+        spine.setAnimation(0, idleAnim, true);
       } else {
         spine.setAnimation(0, anims[0].name, true);
+      }
+    };
+    const data = CollectionScene.symbolsSkeletons[index];
+    if (data instanceof sp.SkeletonData) {
+      const node = cc.instantiate(this.itemSample);
+      node.name = "icon";
+      this.content.addChild(node);
+
+      const spine = node.getComponent(sp.Skeleton);
+      if (spine) {
+        spine.skeletonData = data;
+        spine.premultipliedAlpha = false;
+
+        playAnimationIdle(spine);
+      }
+    }
+
+    if (data instanceof cc.Node) {
+      const node = cc.instantiate(data);
+      node.name = "icon";
+      this.content.addChild(node);
+
+      const spine = node.getComponent(sp.Skeleton);
+      if (spine) {
+        playAnimationIdle(spine);
       }
     }
   }
 
   showWinningEffect(show: boolean) {
+    this.winningEffect.active = show;
     this.content.children.forEach((child) => {
       const spine = child.getChildByName("icon")?.getComponent(sp.Skeleton);
       if (spine) {
