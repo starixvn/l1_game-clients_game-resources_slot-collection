@@ -6,6 +6,7 @@
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
 import SelectionItem from "../selection-control/SelectionItem";
+import GameUtils from "../utils/GameUtils";
 
 const { ccclass, property } = cc._decorator;
 
@@ -27,16 +28,15 @@ export default class StaticSymbolColectionRow extends SelectionItem {
       this.content.addChild(node);
       const spriteNode = node.getChildByName("image");
       spriteNode.getComponent(cc.Sprite).spriteFrame = sprite;
-      //   const spine = iconNode.getComponent(sp.Skeleton);
-      //   spine.skeletonData = skeleton;
-      //   const iconWidth = iconNode.width || 150;
-      //   iconNode.scale = this.itemSample.width / iconWidth;
-      //   const anims = spine.skeletonData.getRuntimeData().animations;
-      //   if (GameUtils.checkNameSpine(anims)) {
-      //     spine.setAnimation(0, "idle", true);
-      //   } else {
-      //     spine.setAnimation(0, anims[0].name, true);
-      //   }
+      const spine = node.getChildByName("anim").getComponent(sp.Skeleton);
+      // const iconWidth = node.width || 150;
+      // node.scale = this.itemSample.width / iconWidth;
+      const anims = spine.skeletonData.getRuntimeData().animations;
+      if (GameUtils.checkNameSpine(anims)) {
+        spine.setAnimation(0, "idle", true);
+      } else {
+        spine.setAnimation(0, anims[0].name, true);
+      }
     });
   }
 }
