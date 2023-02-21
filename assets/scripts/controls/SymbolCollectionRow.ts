@@ -1,3 +1,4 @@
+import { REEL_ITEM_SIZE } from "../board/StandardSlotReelItem";
 import SelectionItem from "../selection-control/SelectionItem";
 import GameUtils from "../utils/GameUtils";
 
@@ -22,7 +23,7 @@ export default class SymbolCollectionRow extends SelectionItem {
       const iconNode = node.getChildByName("icon");
       const spine = iconNode.getComponent(sp.Skeleton);
       spine.skeletonData = skeleton;
-      const iconWidth = iconNode.width || 150;
+      const iconWidth = iconNode.width || REEL_ITEM_SIZE;
       iconNode.scale = this.itemSample.width / iconWidth;
       const anims = spine.skeletonData.getRuntimeData().animations;
       if (GameUtils.checkNameSpine(anims)) {

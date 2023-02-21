@@ -8,9 +8,9 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class StaticSymbolCollection extends SelectionControl {
-  key = "static-symbols";
+  key = "letter-symbols";
 
-  arrPack = [1, 2, 3, 20, 125];
+  arrPack = [1, 3];
 
   private staticSymbol = 6;
 
@@ -18,7 +18,6 @@ export default class StaticSymbolCollection extends SelectionControl {
 
   async initItems() {
     const total = uiManager.PACK_TOTAL;
-    const symbolCount = 15;
     for (const i of this.arrPack) {
       const spriteFrames = [];
       for (let j = 0; j < this.staticSymbol; j++) {
@@ -32,12 +31,12 @@ export default class StaticSymbolCollection extends SelectionControl {
         }
       }
 
-      //this._skeletons[i] = skeletons;
       const item = this.initItem(i);
-
       const selectionItem = item.getComponent(StaticSymbolColectionRow);
       selectionItem.addSymbols(spriteFrames);
       this.items.push(selectionItem);
+
+      this._nodes[i] = selectionItem.nodes;
     }
     this.items.length && this.items[0].setSelected(true);
   }

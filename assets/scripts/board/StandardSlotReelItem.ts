@@ -6,6 +6,7 @@ import SlotReelItem from "./SlotReelItem";
 
 const { ccclass, property } = cc._decorator;
 
+export const REEL_ITEM_SIZE = 150;
 @ccclass
 export default class StandardSlotReelItem extends SlotReelItem {
   @property({ type: cc.Prefab, visible: false, override: true })
@@ -29,7 +30,7 @@ export default class StandardSlotReelItem extends SlotReelItem {
 
     const playAnimationIdle = (spine) => {
       const idleAnim = "idle";
-      const iconWidth = spine.node.width || 150;
+      const iconWidth = spine.node.width || REEL_ITEM_SIZE;
       spine.node.scale = this.node.width / iconWidth;
       const anims = spine.skeletonData.getRuntimeData().animations;
       if (GameUtils.checkNameSpine(anims)) {
@@ -55,6 +56,7 @@ export default class StandardSlotReelItem extends SlotReelItem {
 
     if (data instanceof cc.Node) {
       const node = cc.instantiate(data);
+      node.position = cc.v3();
       node.name = "icon";
       this.content.addChild(node);
 
