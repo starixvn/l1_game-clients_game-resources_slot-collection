@@ -1,4 +1,4 @@
-import _ = require("lodash");
+import _ from "lodash";
 
 import GameUtils from "../utils/GameUtils";
 import SlotReelItem from "./SlotReelItem";
