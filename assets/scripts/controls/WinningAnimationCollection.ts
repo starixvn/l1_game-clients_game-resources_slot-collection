@@ -22,6 +22,7 @@ export default class WinningAnimationCollection extends SelectionControl {
         const item = this.initItem(i);
         const skeleton = item.getComponentInChildren(sp.Skeleton);
         if (skeleton) {
+          skeleton.node.active = true;
           skeleton.skeletonData = skeletonData;
           skeleton.setAnimation(0, "win", true);
         }
@@ -36,8 +37,11 @@ export default class WinningAnimationCollection extends SelectionControl {
           cc.Prefab
         );
         if (prefabData) {
-          const item = cc.instantiate(prefabData);
-          this.content.addChild(item);
+          const prefabNode = cc.instantiate(prefabData);
+          const item = this.initItem(i);
+          const atlasNode = item.getChildByName("atlas-sheet");
+          atlasNode.active = true;
+          atlasNode.addChild(prefabNode);
           this._nodes[i] = item;
 
           const selectionItem = item.getComponent(SelectionItem);
