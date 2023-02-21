@@ -1,0 +1,85 @@
+.game-test:
+  stage: test
+  trigger:
+    include:
+      - local: ci/cocos-testing-ci.yaml
+  allow_failure: true
+
+include:
+  - project: "ci/repos-ci/pentagon_l1_slot_collection_client"
+    ref: master
+    file: "gitlab-ci.yml"
+
+  - local: "ci/*.yml"
+
+variables:
+  COCOS_VERSION: 2.4.6
+
+bundle-verification:
+  stage: build
+  image: registry.nexdev.net:5050/docker/node:14.15
+  tags:
+    - docker
+  before_script:
+    - npm set registry http://npm.lumigame.com
+    - yarn global add fs-extra
+    - yarn install
+  script:
+    - node ./test_bundle/bundle_verification.js
+  rules:
+    - if: $CI_COMMIT_TAG =~ /^deploy- */ && $DEPLOY_BY == "rocketor"
+      when: on_success
+    - when: never
+  allow_failure: false
+
+.build_cocos_creator_script: &build_cocos_creator_script
+  stage: build-cocos-web
+  script:
+    - echo "====== Build Cocos Web Mobile ======"
+    - |
+      if [[ -d "./build/web-mobile" ]]; then
+        echo "Using cache with key $CI_COMMIT_SHA"
+        exit 0
+      fi
+
+    - echo $DEPLOY_ENV
+    - echo $STACK_NAME
+    - echo $CI_COMMIT_BRANCH
+    - echo $CI_COMMIT_REF_NAME
+    - |
+      if [ ! -d "node_modules" ]; then
+        npm set registry http://npm.lumigame.com
+        yarn install
+      fi
+    - if [ "$COCOS_VERSION" == "" ]; then
+      export COCOS_VERSION="2.4.0";
+      else
+      export COCOS_VERSION=$COCOS_VERSION;
+      fi
+    - if [ "$COCOS_VERSION" == "2.2.2" ]; then
+      /Applications/CocosCreator.app/Contents/MacOS/CocosCreator --path ./ --build "platform=web-mobile;inlineSpriteFrames=true;webOrientation=landscape;md5Cache=true";
+      else
+      /Applications/CocosCreator/Creator/$COCOS_VERSION/CocosCreator.app/Contents/MacOS/CocosCreator --path ./ --build "platform=web-mobile;inlineSpriteFrames=true;webOrientation=landscape;md5Cache=true";
+      fi
+  tags:
+    - cocos
+  artifacts:
+    paths:
+      - ./build/web-mobile
+    expire_in: 1 day
+  cache:
+    - key:
+        files:
+          - package.json
+          - yarn.lock
+      paths:
+        - node_modules
+    - key: $CI_COMMIT_SHORT_SHA
+      paths:
+        - build
+
+.base_build_cocos_web_l1_game_client:
+  <<: *build_cocos_creator_script
+  extends:
+    - .deploy_vars_l1_game_client
+    - .build:image:l1_game_client:rules

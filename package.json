@@ -2,5 +2,24 @@
   "dependencies": {
     "@types/lodash": "^4.14.191",
     "tiny-emitter": "^2.1.0"
-  }
+  },
+  "name": "slot-collection",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "javascript-obfuscator": "2.10.7",
+    "typescript": "^4.5.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "javascript-obfuscator ./build --output ./build --exclude cocos2d-js-min",
+    "obfuscator-config-file": "node ./configs/config-obfuscator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git3.nexdev.net/l1/game-clients/slot-collection.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
