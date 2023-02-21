@@ -78,8 +78,8 @@ bundle-verification:
       paths:
         - build
 
-.base_build_cocos_web_l1_game_client:
+.base_build_cocos_web_l1_slot_collection_client:
   <<: *build_cocos_creator_script
   extends:
-    - .deploy_vars_l1_game_client
-    - .build:image:l1_game_client:rules
+    - .deploy_vars_l1_slot_collection_client
+    - .build:image:l1_slot_collection_client:rules
