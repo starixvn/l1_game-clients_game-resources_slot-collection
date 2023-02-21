@@ -3,6 +3,7 @@
     "@types/lodash": "^4.14.191",
     "fs-extra": "^11.1.0",
     "global": "^4.4.0",
+    "lodash": "^4.17.21",
     "tiny-emitter": "^2.1.0"
   },
   "name": "slot-collection",
