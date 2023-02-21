@@ -41,7 +41,7 @@ export default class WinningAnimationCollection extends SelectionControl {
           const atlasNode = item.getChildByName("atlas-sheet");
           atlasNode.active = true;
           atlasNode.addChild(prefabNode);
-          this._nodes[i] = item;
+          this._nodes[i] = atlasNode;
 
           const selectionItem = item.getComponent(SelectionItem);
           this.items.push(selectionItem);
