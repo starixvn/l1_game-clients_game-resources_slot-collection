@@ -2759,7 +2759,7 @@
       "__id__": 41
     },
     "_enabled": true,
-    "alignMode": 1,
+    "alignMode": 2,
     "_target": {
       "__id__": 15
     },
