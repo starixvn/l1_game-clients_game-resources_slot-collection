@@ -9,13 +9,19 @@ export default class SymbolCollectionRow extends SelectionItem {
   private content: cc.Node;
   private itemSample: cc.Node;
 
-  onLoad() {
+  private init() {
     this.content = this.node.getChildByName("content");
     this.itemSample = this.node.getChildByName("item-sample");
+  }
+
+  onLoad() {
+    this.init();
     super.onLoad();
   }
 
   addSymbol(skeleton: sp.SkeletonData) {
+    this.init();
+
     const node = cc.instantiate(this.itemSample);
     node.active = true;
     this.content.addChild(node);

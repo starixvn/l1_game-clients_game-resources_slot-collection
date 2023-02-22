@@ -20,6 +20,8 @@ export default class UIManager {
 
   public PACK_TOTAL = 100;
 
+  public selectedSymbolIndex = 0;
+
   init() {
     this.emitter = new Emitter();
   }

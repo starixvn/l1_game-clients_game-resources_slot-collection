@@ -2,6 +2,8 @@ import * as _ from "lodash";
 
 import LineView from "./board/LineView";
 import SlotBoard from "./board/SlotBoard";
+import { CollectionType } from "./CollectionType";
+import SingleSymbolCollection from "./controls/SingleSymbolCollection";
 import { Events } from "./manager/Events";
 import { uiManager } from "./manager/UIManager";
 import HoverItemBase from "./utils/HoverItemBase";
@@ -38,8 +40,16 @@ export default class CollectionScene extends cc.Component {
   @property(cc.Prefab)
   lightLinePrefab: cc.Prefab = null;
 
+  @property(cc.Node)
+  collectionContainer: cc.Node = null;
+
+  @property(SingleSymbolCollection)
+  currentCollection: SingleSymbolCollection = null;
+
   static symbolsSkeletons: sp.SkeletonData[] = [];
   static winningAnimations: sp.SkeletonData;
+
+  private collectionNodes = {};
 
   onLoad(): void {
     this.initDefault();
@@ -47,6 +57,12 @@ export default class CollectionScene extends cc.Component {
 
     this.createAllLines();
     this.initEventForNumberContainer();
+  }
+
+  initCollections() {
+    this.collectionContainer.children.forEach((child) => {
+      this.collectionNodes[child.name] = child;
+    });
   }
 
   start() {
@@ -280,5 +296,21 @@ export default class CollectionScene extends cc.Component {
       const show = child.getBoundingBox().contains(localPosition);
       this.showLine(+child.name, show);
     });
+  }
+
+  showCategories(type: CollectionType) {
+    this.collectionContainer.children.forEach((child) => {
+      child.active = type === +child.name;
+    });
+
+    this.currentCollection.node.active =
+      type === CollectionType.Symbol || type === CollectionType.LetterSymbol;
+  }
+
+  onCategoryChanged(toggle: cc.Toggle) {
+    const type = +toggle.node.name;
+
+    this.showCollection();
+    this.showCategories(type);
   }
 }
