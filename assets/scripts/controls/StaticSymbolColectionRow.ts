@@ -1,4 +1,6 @@
 import { REEL_ITEM_SIZE } from "../board/StandardSlotReelItem";
+import { Events } from "../manager/Events";
+import { uiManager } from "../manager/UIManager";
 import SelectionItem from "../selection-control/SelectionItem";
 import GameUtils from "../utils/GameUtils";
 
@@ -6,6 +8,9 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class StaticSymbolColectionRow extends SelectionItem {
+  @property(cc.Label)
+  packName: cc.Label = null;
+
   private content: cc.Node;
   private itemSample: cc.Node;
 
@@ -19,6 +24,11 @@ export default class StaticSymbolColectionRow extends SelectionItem {
   private init() {
     this.content = this.node.getChildByName("content");
     this.itemSample = this.node.getChildByName("item-sample");
+  }
+
+  setItemId(id) {
+    super.setItemId(id);
+    this.packName.string = `Pack ${id}`;
   }
 
   addSymbol(sprite) {
@@ -41,7 +51,14 @@ export default class StaticSymbolColectionRow extends SelectionItem {
       spine.setAnimation(0, anims[0].name, true);
     }
 
-    this.nodes.push(node);
+    const dataNode = cc.instantiate(node);
+
+    node.addComponent(cc.Button);
+    node.on("click", () => {
+      uiManager.emit(Events.UPDATE_ONE_SYMBOL, dataNode);
+    });
+
+    this.nodes.push(dataNode);
   }
 
   addSymbols(spriteFrames: cc.SpriteFrame[]) {

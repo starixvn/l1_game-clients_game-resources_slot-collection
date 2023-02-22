@@ -38,7 +38,13 @@ export default class SymbolCollection extends SelectionControl {
         sp.SkeletonData
       );
       if (skeleton) {
-        this.selectionItemDict[packIndex].addSymbol(skeleton);
+        const node = (
+          this.selectionItemDict[packIndex] as SymbolCollectionRow
+        ).addSymbol(skeleton);
+        node.addComponent(cc.Button);
+        node.on("click", () => {
+          uiManager.emit(Events.UPDATE_ONE_SYMBOL, skeleton);
+        });
         this._collectionData[packIndex].push(skeleton);
       }
     }

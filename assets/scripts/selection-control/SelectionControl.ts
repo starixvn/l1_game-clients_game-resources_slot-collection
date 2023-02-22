@@ -37,7 +37,7 @@ export default abstract class SelectionControl extends cc.Component {
     this.content.addChild(node);
     console.log("add item ", id);
     const item = node.getComponent(SelectionItem);
-    item.itemId = id;
+    item.setItemId(id);
     return node;
   }
 

@@ -6,6 +6,9 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class SymbolCollectionRow extends SelectionItem {
+  @property(cc.Label)
+  packName: cc.Label = null;
+
   private content: cc.Node;
   private itemSample: cc.Node;
 
@@ -17,6 +20,11 @@ export default class SymbolCollectionRow extends SelectionItem {
   onLoad() {
     this.init();
     super.onLoad();
+  }
+
+  setItemId(id) {
+    super.setItemId(id);
+    this.packName.string = `Pack ${id}`;
   }
 
   addSymbol(skeleton: sp.SkeletonData) {
@@ -36,6 +44,7 @@ export default class SymbolCollectionRow extends SelectionItem {
     } else {
       spine.setAnimation(0, anims[0].name, true);
     }
+    return node;
   }
 
   addSymbols(skeletons: sp.SkeletonData[]) {

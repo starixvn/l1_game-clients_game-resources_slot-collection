@@ -179,6 +179,12 @@ export default class CollectionScene extends cc.Component {
   }
 
   initListeners() {
+    uiManager.emitterListener(Events.UPDATE_ONE_SYMBOL, (node) => {
+      CollectionScene.symbolsSkeletons[uiManager.selectedSymbolIndex] = node;
+
+      this.board.reloadItems();
+      this.currentCollection.reloadItems();
+    });
     uiManager.emitterListener(
       Events.UPDATE_MULTI_SYMBOLS,
       (skeletons: sp.SkeletonData[]) => {
@@ -186,6 +192,7 @@ export default class CollectionScene extends cc.Component {
           CollectionScene.symbolsSkeletons[index] = skeleton;
         });
         this.board.reloadItems();
+        this.currentCollection.reloadItems();
       }
     );
   }

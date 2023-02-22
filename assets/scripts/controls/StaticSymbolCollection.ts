@@ -37,7 +37,9 @@ export default class StaticSymbolCollection extends SelectionControl {
         cc.SpriteFrame
       );
       if (spriteData) {
-        this.selectionItemDict[packIndex].addSymbol(spriteData);
+        (
+          this.selectionItemDict[packIndex] as StaticSymbolColectionRow
+        ).addSymbol(spriteData);
       }
     }
 

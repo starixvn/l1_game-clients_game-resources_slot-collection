@@ -5,12 +5,24 @@ export default class SelectionItem extends cc.Component {
   @property(cc.Node)
   highlightNode: cc.Node = null;
 
+  @property(cc.Node)
+  selectButtonNode: cc.Node = null;
+
   private _selected: boolean = false;
   public itemId = 0;
   public selectedCallback = (id: number) => {};
   onLoad() {
-    this.node.addComponent(cc.Toggle);
-    this.node.on("click", this.onSelectionClicked.bind(this));
+    this.initSelectButton();
+  }
+
+  setItemId(id) {
+    this.itemId = id;
+  }
+
+  protected initSelectButton() {
+    const node = this.selectButtonNode || this.node;
+    node.addComponent(cc.Button);
+    node.on("click", this.onSelectionClicked.bind(this));
   }
 
   protected onSelectionClicked() {
