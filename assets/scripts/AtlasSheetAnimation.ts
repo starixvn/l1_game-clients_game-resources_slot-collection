@@ -2,41 +2,47 @@ const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class CreateAminFromAtlas extends cc.Component {
-    @property(cc.SpriteAtlas)
-    spriteAtlas: cc.SpriteAtlas = null;
+  @property(cc.SpriteAtlas)
+  spriteAtlas: cc.SpriteAtlas = null;
 
-    @property
-    frameNumber = 0;
+  @property
+  frameNumber = 0;
 
-    @property
-    duration = 0;
+  @property
+  duration = 0;
 
-    @property
-    prefixNameAtlas = "";
+  @property
+  prefixNameAtlas = "";
 
-    @property
-    isLoop = true;
+  @property
+  isLoop = true;
 
-    onLoad() {
-        const spriteNode = this.node.children[0];
+  @property
+  padStart = 2;
 
-        let index = 0;
-        this.schedule(
-            () => {
-                index++;
-                spriteNode.getComponent(cc.Sprite).spriteFrame = this.spriteAtlas.getSpriteFrame(
-                    this.prefixNameAtlas + "_" + String(index).padStart(2, "0")
-                );
-                if (index === this.frameNumber) {
-                    index = 0;
-                    if (!this.isLoop) {
-                        this.node.destroy();
-                    }
-                }
-            },
-            this.duration / this.frameNumber,
-            cc.macro.REPEAT_FOREVER,
-            0
-        );
-    }
+  onLoad() {
+    const spriteNode = this.node.children[0];
+
+    let index = 0;
+    this.schedule(
+      () => {
+        index++;
+        spriteNode.getComponent(cc.Sprite).spriteFrame =
+          this.spriteAtlas.getSpriteFrame(
+            this.prefixNameAtlas +
+              "_" +
+              String(index).padStart(this.padStart, "0")
+          );
+        if (index === this.frameNumber) {
+          index = 0;
+          if (!this.isLoop) {
+            this.node.destroy();
+          }
+        }
+      },
+      this.duration / this.frameNumber,
+      cc.macro.REPEAT_FOREVER,
+      0
+    );
+  }
 }

@@ -10,7 +10,7 @@ const { ccclass, property } = cc._decorator;
 export default class StaticSymbolCollection extends SelectionControl {
   key = "letter-symbols";
 
-  arrPack = [1, 3];
+  arrPack = [1, 3, 6, 7, 18, 25, 26];
 
   private staticSymbol = 6;
 
