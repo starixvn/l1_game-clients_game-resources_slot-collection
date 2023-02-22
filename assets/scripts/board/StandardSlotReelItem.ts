@@ -70,7 +70,7 @@ export default class StandardSlotReelItem extends SlotReelItem {
   showWinningEffect(show: boolean) {
     this.winningEffect.active = show;
     this.content.children.forEach((child) => {
-      const spine = child.getChildByName("icon")?.getComponent(sp.Skeleton);
+      const spine = child.getComponent(sp.Skeleton);
       if (spine) {
         const anim = show ? "highlight" : "idle";
         spine.setAnimation(0, anim, true);
