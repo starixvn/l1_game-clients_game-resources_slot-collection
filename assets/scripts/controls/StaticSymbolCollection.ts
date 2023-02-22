@@ -10,37 +10,40 @@ const { ccclass, property } = cc._decorator;
 export default class StaticSymbolCollection extends SelectionControl {
   key = "letter-symbols";
 
-  arrPack = [1, 3, 6, 7, 18, 25, 26, 33];
-
-  private staticSymbol = 6;
-
-  private _nodes = {};
+  private _collectionData = {};
+  private selectionItemDict = {};
 
   async initItems() {
-    const total = uiManager.PACK_TOTAL;
-    for (const i of this.arrPack) {
-      const spriteFrames = [];
-      for (let j = 0; j < this.staticSymbol; j++) {
-        const path = `${this.key}/pack${i}/symbol-${j}`;
-        const spriteData = await GameUtils.loadResource<cc.SpriteFrame>(
-          path,
-          cc.SpriteFrame
-        );
-        if (spriteData) {
-          spriteFrames.push(spriteData);
-        }
+    const allData = cc.resources.getDirWithPath(this.key, cc.SpriteFrame);
+    let currentIndex: number;
+    for (const key of Object.keys(allData)) {
+      const data = allData[key];
+      const path: string = data.path;
+      const temp = path.split("/");
+      const packIndex = +temp[1];
+
+      if (currentIndex === undefined || currentIndex !== packIndex) {
+        currentIndex = packIndex;
+        const item = this.initItem(packIndex);
+
+        const selectionItem = item.getComponent(StaticSymbolColectionRow);
+        this.selectionItemDict[packIndex] = selectionItem;
+        this.items.push(selectionItem);
+        this._collectionData[packIndex] = selectionItem.nodes;
       }
 
-      const item = this.initItem(i);
-      const selectionItem = item.getComponent(StaticSymbolColectionRow);
-      selectionItem.addSymbols(spriteFrames);
-      this.items.push(selectionItem);
-
-      this._nodes[i] = selectionItem.nodes;
+      const spriteData = await GameUtils.loadResource<cc.SpriteFrame>(
+        path,
+        cc.SpriteFrame
+      );
+      if (spriteData) {
+        this.selectionItemDict[packIndex].addSymbol(spriteData);
+      }
     }
+
     this.items.length && this.items[0].setSelected(true);
   }
   emitEventSelected(id: number) {
-    uiManager.emit(Events.UPDATE_MULTI_SYMBOLS, this._nodes[id]);
+    uiManager.emit(Events.UPDATE_MULTI_SYMBOLS, this._collectionData[id]);
   }
 }

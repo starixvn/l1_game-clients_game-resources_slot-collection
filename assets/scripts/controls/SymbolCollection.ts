@@ -11,11 +11,11 @@ export default class SymbolCollection extends SelectionControl {
   @property
   key = "symbols";
 
-  private _skeletons = {};
+  private _collectionData = {};
   private selectionItemDict = {};
 
   async initItems() {
-    const allData = cc.resources.getDirWithPath("symbols", sp.SkeletonData);
+    const allData = cc.resources.getDirWithPath(this.key, sp.SkeletonData);
     let currentIndex: number;
     for (const key of Object.keys(allData)) {
       const data = allData[key];
@@ -32,19 +32,19 @@ export default class SymbolCollection extends SelectionControl {
         this.items.push(selectionItem);
       }
 
-      this._skeletons[packIndex] = this._skeletons[packIndex] || [];
+      this._collectionData[packIndex] = this._collectionData[packIndex] || [];
       const skeleton = await GameUtils.loadResource<sp.SkeletonData>(
         path,
         sp.SkeletonData
       );
       if (skeleton) {
         this.selectionItemDict[packIndex].addSymbol(skeleton);
-        this._skeletons[packIndex].push(skeleton);
+        this._collectionData[packIndex].push(skeleton);
       }
     }
     this.items.length && this.items[0].setSelected(true);
   }
   emitEventSelected(id: number) {
-    uiManager.emit(Events.UPDATE_MULTI_SYMBOLS, this._skeletons[id]);
+    uiManager.emit(Events.UPDATE_MULTI_SYMBOLS, this._collectionData[id]);
   }
 }
