@@ -11,36 +11,36 @@ export default class SymbolCollection extends SelectionControl {
   @property
   key = "symbols";
 
-  arrPack = [1, 2, 3, 20, 125];
-
   private _skeletons = {};
+  private selectionItemDict = {};
 
   async initItems() {
-    const total = uiManager.PACK_TOTAL;
-    const symbolCount = 15;
-    for (const i of this.arrPack) {
-      const skeletons = [];
-      for (let j = 0; j < symbolCount; j++) {
-        const path = `${this.key}/pack${i}/symbol-${j}`;
-        const skeletonData = await GameUtils.loadResource<sp.SkeletonData>(
-          path,
-          sp.SkeletonData
-        );
-        if (skeletonData) {
-          skeletons.push(skeletonData);
-        }
+    const allData = cc.resources.getDirWithPath("symbols", sp.SkeletonData);
+    let currentIndex: number;
+    for (const key of Object.keys(allData)) {
+      const data = allData[key];
+      const path: string = data.path;
+      const temp = path.split("/");
+      const packIndex = +temp[1];
+
+      if (currentIndex === undefined || currentIndex !== packIndex) {
+        currentIndex = packIndex;
+        const item = this.initItem(packIndex);
+
+        const selectionItem = item.getComponent(SymbolCollectionRow);
+        this.selectionItemDict[packIndex] = selectionItem;
+        this.items.push(selectionItem);
       }
 
-      if (skeletons.length === 0) {
-        break;
+      this._skeletons[packIndex] = this._skeletons[packIndex] || [];
+      const skeleton = await GameUtils.loadResource<sp.SkeletonData>(
+        path,
+        sp.SkeletonData
+      );
+      if (skeleton) {
+        this.selectionItemDict[packIndex].addSymbol(skeleton);
+        this._skeletons[packIndex].push(skeleton);
       }
-
-      this._skeletons[i] = skeletons;
-      const item = this.initItem(i);
-
-      const selectionItem = item.getComponent(SymbolCollectionRow);
-      selectionItem.addSymbols(skeletons);
-      this.items.push(selectionItem);
     }
     this.items.length && this.items[0].setSelected(true);
   }
