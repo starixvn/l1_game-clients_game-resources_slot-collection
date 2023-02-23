@@ -314,8 +314,8 @@ export default class CollectionScene extends cc.Component {
       type === CollectionType.Symbol || type === CollectionType.LetterSymbol;
   }
 
-  onCategoryChanged(toggle: cc.Toggle) {
-    const type = +toggle.node.name;
+  onCategoryChanged(event: cc.Event.EventTouch) {
+    const type = +event.target.name;
 
     this.showCollection();
     this.showCategories(type);

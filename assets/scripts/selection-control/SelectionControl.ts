@@ -35,7 +35,6 @@ export default abstract class SelectionControl extends cc.Component {
   initItem(id: number) {
     const node = cc.instantiate(this.itemPrefab);
     this.content.addChild(node);
-    console.log("add item ", id);
     const item = node.getComponent(SelectionItem);
     item.setItemId(id);
     return node;
