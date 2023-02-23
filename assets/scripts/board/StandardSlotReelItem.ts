@@ -31,7 +31,11 @@ export default class StandardSlotReelItem extends SlotReelItem {
     const playAnimationIdle = (spine) => {
       const idleAnim = "idle";
       const iconWidth = spine.node.width || REEL_ITEM_SIZE;
-      spine.node.scale = this.node.width / iconWidth;
+      const iconHeight = spine.node.height || REEL_ITEM_SIZE;
+      spine.node.scale = Math.min(
+        this.node.width / iconWidth,
+        this.node.height / iconHeight
+      );
       const anims = spine.skeletonData.getRuntimeData().animations;
       if (GameUtils.checkNameSpine(anims)) {
         spine.setAnimation(0, idleAnim, true);
