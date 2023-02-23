@@ -37,7 +37,11 @@ export default class SymbolCollectionRow extends SelectionItem {
     const spine = iconNode.getComponent(sp.Skeleton);
     spine.skeletonData = skeleton;
     const iconWidth = iconNode.width || REEL_ITEM_SIZE;
-    iconNode.scale = this.itemSample.width / iconWidth;
+    const iconHeight = iconNode.height || REEL_ITEM_SIZE;
+    iconNode.scale = Math.min(
+      this.itemSample.width / iconWidth,
+      this.itemSample.height / iconHeight
+    );
     const anims = spine.skeletonData.getRuntimeData().animations;
     if (GameUtils.checkNameSpine(anims)) {
       spine.setAnimation(0, "idle", true);
