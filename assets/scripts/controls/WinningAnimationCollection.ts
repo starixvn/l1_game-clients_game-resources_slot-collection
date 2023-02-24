@@ -1,7 +1,9 @@
+import { REEL_ITEM_SIZE } from "../board/StandardSlotReelItem";
 import { Events } from "../manager/Events";
 import { uiManager } from "../manager/UIManager";
 import SelectionControl from "../selection-control/SelectionControl";
 import SelectionItem from "../selection-control/SelectionItem";
+import SpriteSheetAnimation from "../SpriteSheetAnimation";
 import GameUtils from "../utils/GameUtils";
 
 const { ccclass, property } = cc._decorator;
@@ -30,17 +32,21 @@ export default class WinningAnimationCollection extends SelectionControl {
         const selectionItem = item.getComponent(SelectionItem);
         this.items.push(selectionItem);
       } else {
-        const pathPrefab = `winning-animations/pack${i}/AtlasSpriteWinning`;
-        const prefabData = await GameUtils.loadResource<cc.Prefab>(
-          pathPrefab,
-          cc.Prefab
+        const atlasPath = `winning-animations/pack${i}/winning`;
+        const atlas = await GameUtils.loadResource<cc.SpriteAtlas>(
+          atlasPath,
+          cc.SpriteAtlas
         );
-        if (prefabData) {
-          const prefabNode = cc.instantiate(prefabData);
+        if (atlas) {
+          const node = new cc.Node();
+          node.width = REEL_ITEM_SIZE;
+          node.height = REEL_ITEM_SIZE;
+          const animation = node.addComponent(SpriteSheetAnimation);
+          animation.setAtlas(atlas);
           const item = this.initItem(i);
           const atlasNode = item.getChildByName("atlas-sheet");
           atlasNode.active = true;
-          atlasNode.addChild(prefabNode);
+          atlasNode.addChild(node);
           this._nodes[i] = atlasNode;
 
           const selectionItem = item.getComponent(SelectionItem);
