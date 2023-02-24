@@ -1,0 +1,217 @@
+{
+    "skeleton": {
+        "hash": "FD5XklN2nCfRLg5TY33Oxt1/ZlY",
+        "spine": "3.6.53",
+        "width": 0,
+        "height": 0,
+        "images": "./images/"
+    },
+    "bones": [
+        {
+            "name": "root",
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "name": "scale",
+            "parent": "root",
+            "scaleX": 0.9,
+            "scaleY": 0.9
+        }
+    ],
+    "slots": [
+        {
+            "name": "l_q",
+            "bone": "scale",
+            "attachment": "l_q"
+        },
+        {
+            "name": "l_q_fx01",
+            "bone": "scale",
+            "blend": "screen"
+        },
+        {
+            "name": "l_q_fx02",
+            "bone": "scale",
+            "blend": "screen"
+        },
+        {
+            "name": "l_q_fx03",
+            "bone": "scale",
+            "blend": "screen"
+        }
+    ],
+    "skins": {
+        "default": {
+            "l_q": {
+                "l_q": {
+                    "width": 350,
+                    "height": 350
+                }
+            },
+            "l_q_fx01": {
+                "l_q_fx01": {
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 175,
+                    "height": 175
+                }
+            },
+            "l_q_fx02": {
+                "l_q_fx02": {
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 175,
+                    "height": 175
+                }
+            },
+            "l_q_fx03": {
+                "l_q_fx03": {
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 175,
+                    "height": 175
+                }
+            }
+        }
+    },
+    "animations": {
+        "win": {
+            "slots": {
+                "l_q_fx01": {
+                    "color": [
+                        {
+                            "time": 0.1333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.1333,
+                            "name": "l_q_fx01"
+                        },
+                        {
+                            "time": 0.5667,
+                            "name": null
+                        }
+                    ]
+                },
+                "l_q_fx02": {
+                    "color": [
+                        {
+                            "time": 0.2333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.7,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.2333,
+                            "name": "l_q_fx02"
+                        },
+                        {
+                            "time": 0.7,
+                            "name": null
+                        }
+                    ]
+                },
+                "l_q_fx03": {
+                    "color": [
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.3333,
+                            "name": "l_q_fx03"
+                        },
+                        {
+                            "time": 0.8333,
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "scale": {
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": 0.97,
+                            "y": 0.97,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3,
+                            "x": 1.01,
+                            "y": 1.01,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "x": 0.99,
+                            "y": 0.99,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.235,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,126 @@
+{
+    "skeleton": {
+        "hash": "oBb/iTjtbS9/KGE0o/HW7oArjQM",
+        "spine": "3.6.53",
+        "width": 300,
+        "height": 300,
+        "images": "../_PSD/images/"
+    },
+    "bones": [
+        {
+            "name": "root",
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        }
+    ],
+    "slots": [
+        {
+            "name": "l_block",
+            "bone": "root",
+            "attachment": "l_block"
+        },
+        {
+            "name": "l_9",
+            "bone": "root"
+        },
+        {
+            "name": "l_9_fx",
+            "bone": "root",
+            "blend": "additive"
+        }
+    ],
+    "skins": {
+        "default": {
+            "l_9": {
+                "l_a": {
+                    "x": -3,
+                    "y": -16.5,
+                    "width": 384,
+                    "height": 335
+                }
+            },
+            "l_9_fx": {
+                "l_a_fx": {
+                    "x": 2.5,
+                    "y": -18.5,
+                    "width": 249,
+                    "height": 309
+                }
+            },
+            "l_block": {
+                "l_block": {
+                    "width": 516,
+                    "height": 440
+                }
+            }
+        }
+    },
+    "animations": {
+        "win": {
+            "slots": {
+                "l_9": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.16,
+                                0.23,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffffb6",
+                            "curve": [
+                                0.403,
+                                0,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "l_a"
+                        }
+                    ]
+                },
+                "l_9_fx": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffff7a",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "l_a_fx"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

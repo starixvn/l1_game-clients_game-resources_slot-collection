@@ -1,0 +1,1011 @@
+{
+    "skeleton": {
+        "hash": "rd2dRR7Ld/1AD2O9aD08Bzu18Hc",
+        "spine": "3.6.53",
+        "width": 300,
+        "height": 300,
+        "images": "./images/"
+    },
+    "bones": [
+        {
+            "name": "root",
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "name": "fx_starburst",
+            "parent": "root",
+            "x": 5.38,
+            "y": -15.35,
+            "scaleX": 1.145,
+            "scaleY": 1.145
+        },
+        {
+            "name": "fx_zoom",
+            "parent": "root",
+            "x": 6.98,
+            "y": -6.1
+        },
+        {
+            "name": "wild",
+            "parent": "root",
+            "y": -13.57,
+            "scaleX": 1.051,
+            "scaleY": 1.051
+        }
+    ],
+    "slots": [
+        {
+            "name": "s_w_border",
+            "bone": "root",
+            "attachment": "s_w_border"
+        },
+        {
+            "name": "fx_s_w_starburst",
+            "bone": "fx_starburst",
+            "blend": "additive"
+        },
+        {
+            "name": "fx_s_w_glow",
+            "bone": "root",
+            "blend": "additive"
+        },
+        {
+            "name": "s_w_pyramid2",
+            "bone": "root",
+            "attachment": "s_w_pyramid"
+        },
+        {
+            "name": "s_w_pyramid",
+            "bone": "root",
+            "attachment": "s_w_pyramid"
+        },
+        {
+            "name": "s_w_wild",
+            "bone": "wild",
+            "attachment": "s_w_wild"
+        },
+        {
+            "name": "fx_s_w_pyramid_00",
+            "bone": "root",
+            "color": "ffffff00",
+            "attachment": "fx_s_w_pyramid_00",
+            "blend": "additive"
+        },
+        {
+            "name": "fx_s_w_shine_01",
+            "bone": "wild",
+            "blend": "additive"
+        },
+        {
+            "name": "fx_s_w_shine_02",
+            "bone": "wild",
+            "blend": "additive"
+        },
+        {
+            "name": "fx_s_w_shine_03",
+            "bone": "wild",
+            "blend": "additive"
+        },
+        {
+            "name": "fx_s_w_zoom",
+            "bone": "fx_zoom",
+            "blend": "additive"
+        }
+    ],
+    "skins": {
+        "default": {
+            "fx_s_w_glow": {
+                "fx_s_w_glow": {
+                    "x": -15.47,
+                    "y": -5.62,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 283,
+                    "height": 254
+                }
+            },
+            "fx_s_w_pyramid_00": {
+                "fx_s_w_pyramid_00": {
+                    "x": 2.17,
+                    "y": 214.86,
+                    "width": 651,
+                    "height": 326
+                }
+            },
+            "fx_s_w_shine_01": {
+                "fx_s_w_shine_01": {
+                    "x": -101.33,
+                    "y": -1.36,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 143,
+                    "height": 100
+                }
+            },
+            "fx_s_w_shine_02": {
+                "fx_s_w_shine_02": {
+                    "x": -37.02,
+                    "y": 4.34,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 193,
+                    "height": 102
+                }
+            },
+            "fx_s_w_shine_03": {
+                "fx_s_w_shine_03": {
+                    "x": 111.55,
+                    "y": 1.64,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 134,
+                    "height": 102
+                }
+            },
+            "fx_s_w_starburst": {
+                "fx_s_w_starburst": {
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 282,
+                    "height": 282
+                }
+            },
+            "fx_s_w_zoom": {
+                "fx_s_w_zoom": {
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 350,
+                    "height": 201
+                }
+            },
+            "s_w_border": {
+                "s_w_border": {
+                    "y": 9.06,
+                    "width": 529,
+                    "height": 473
+                }
+            },
+            "s_w_pyramid": {
+                "s_w_pyramid": {
+                    "type": "mesh",
+                    "hull": 4,
+                    "width": 320,
+                    "height": 127,
+                    "uvs": [
+                        0.4977,
+                        0,
+                        0,
+                        0.98641,
+                        0.40356,
+                        1,
+                        1,
+                        1
+                    ],
+                    "triangles": [
+                        2,
+                        1,
+                        0,
+                        3,
+                        2,
+                        0
+                    ],
+                    "vertices": [
+                        -0.25,
+                        247,
+                        -163,
+                        118.77,
+                        -31.04,
+                        117,
+                        164,
+                        117
+                    ],
+                    "edges": [
+                        0,
+                        2,
+                        2,
+                        4,
+                        4,
+                        6,
+                        0,
+                        6
+                    ]
+                }
+            },
+            "s_w_pyramid2": {
+                "s_w_pyramid": {
+                    "type": "mesh",
+                    "hull": 4,
+                    "width": 320,
+                    "height": 127,
+                    "uvs": [
+                        0.4977,
+                        0,
+                        0,
+                        0.98641,
+                        0.40356,
+                        1,
+                        1,
+                        1
+                    ],
+                    "triangles": [
+                        2,
+                        1,
+                        0,
+                        3,
+                        2,
+                        0
+                    ],
+                    "vertices": [
+                        -0.25,
+                        247,
+                        -163,
+                        118.77,
+                        -31.04,
+                        117,
+                        164,
+                        117
+                    ],
+                    "edges": [
+                        0,
+                        2,
+                        2,
+                        4,
+                        4,
+                        6,
+                        0,
+                        6
+                    ]
+                }
+            },
+            "s_w_wild": {
+                "s_w_wild": {
+                    "y": -9.74,
+                    "width": 528,
+                    "height": 244
+                }
+            }
+        }
+    },
+    "animations": {
+        "idle": {
+            "slots": {
+                "fx_s_w_glow": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffff33",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.3,
+                            "color": "ffffff33",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.6667,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx_s_w_glow"
+                        }
+                    ]
+                },
+                "fx_s_w_pyramid_00": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff8b"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffffbd"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff8b"
+                        },
+                        {
+                            "time": 1.2667,
+                            "color": "ffffffbd"
+                        },
+                        {
+                            "time": 1.6667,
+                            "color": "ffffff8b"
+                        }
+                    ]
+                },
+                "fx_s_w_shine_01": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffc6"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx_s_w_shine_01"
+                        }
+                    ]
+                },
+                "fx_s_w_shine_02": {
+                    "color": [
+                        {
+                            "time": 0.2,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff98"
+                        },
+                        {
+                            "time": 1.2,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.2,
+                            "name": "fx_s_w_shine_02"
+                        }
+                    ]
+                },
+                "fx_s_w_shine_03": {
+                    "color": [
+                        {
+                            "time": 0.4,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.7333,
+                            "color": "ffffff98"
+                        },
+                        {
+                            "time": 1.4,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.4,
+                            "name": "fx_s_w_shine_03"
+                        }
+                    ]
+                },
+                "s_w_pyramid": {
+                    "color": [
+                        {
+                            "time": 0.8333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 1.3333,
+                            "color": "ccbbbbff"
+                        },
+                        {
+                            "time": 1.6667,
+                            "color": "bda6a600"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "s_w_pyramid"
+                        }
+                    ]
+                },
+                "s_w_pyramid2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "s_w_pyramid"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "wild": {
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.4333,
+                            "x": 1.05,
+                            "y": 1.05,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.2667,
+                            "x": 1.05,
+                            "y": 1.05,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1.6667,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "deform": {
+                "default": {
+                    "s_w_pyramid": {
+                        "s_w_pyramid": [
+                            {
+                                "time": 0
+                            },
+                            {
+                                "time": 0.8333,
+                                "offset": 4,
+                                "vertices": [
+                                    -132.88788
+                                ],
+                                "curve": [
+                                    0.25,
+                                    0,
+                                    0.75,
+                                    1
+                                ]
+                            },
+                            {
+                                "time": 1.6667,
+                                "offset": 4,
+                                "vertices": [
+                                    -132.88788,
+                                    0,
+                                    -195.0733
+                                ]
+                            }
+                        ]
+                    },
+                    "s_w_pyramid2": {
+                        "s_w_pyramid": [
+                            {
+                                "time": 0.8333,
+                                "offset": 4,
+                                "vertices": [
+                                    144.70804
+                                ]
+                            },
+                            {
+                                "time": 1.6667
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "spawn": {
+            "slots": {
+                "fx_s_w_glow": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx_s_w_glow"
+                        }
+                    ]
+                },
+                "fx_s_w_pyramid_00": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffff8b"
+                        }
+                    ]
+                },
+                "fx_s_w_shine_01": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1333,
+                            "color": "ffffff98"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx_s_w_shine_01"
+                        }
+                    ]
+                },
+                "fx_s_w_shine_02": {
+                    "color": [
+                        {
+                            "time": 0.0667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2,
+                            "color": "ffffff98"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.0667,
+                            "name": "fx_s_w_shine_02"
+                        }
+                    ]
+                },
+                "fx_s_w_shine_03": {
+                    "color": [
+                        {
+                            "time": 0.1333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffff98"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.1333,
+                            "name": "fx_s_w_shine_03"
+                        }
+                    ]
+                },
+                "s_w_pyramid": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "s_w_pyramid"
+                        }
+                    ]
+                },
+                "s_w_pyramid2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "s_w_pyramid"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "wild": {
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": 1.15,
+                            "y": 1.15,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3,
+                            "x": 0.937,
+                            "y": 0.937,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            },
+            "deform": {
+                "default": {
+                    "s_w_pyramid": {
+                        "s_w_pyramid": [
+                            {
+                                "time": 0
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "win": {
+            "slots": {
+                "fx_s_w_glow": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffff95",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx_s_w_glow"
+                        }
+                    ]
+                },
+                "fx_s_w_pyramid_00": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff8b"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffffbd"
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff8b"
+                        },
+                        {
+                            "time": 0.7667,
+                            "color": "ffffffbd"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff8b"
+                        }
+                    ]
+                },
+                "fx_s_w_starburst": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffff63",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff63"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx_s_w_starburst"
+                        }
+                    ]
+                },
+                "fx_s_w_zoom": {
+                    "color": [
+                        {
+                            "time": 0.2,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4333,
+                            "color": "ffffff9b",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffff9b"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.2,
+                            "name": "fx_s_w_zoom"
+                        }
+                    ]
+                },
+                "s_w_pyramid": {
+                    "color": [
+                        {
+                            "time": 0.5,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.8,
+                            "color": "ccbbbbff"
+                        },
+                        {
+                            "time": 1,
+                            "color": "bda6a600"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "s_w_pyramid"
+                        }
+                    ]
+                },
+                "s_w_pyramid2": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "s_w_pyramid"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "wild": {
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1,
+                            "x": 0.942,
+                            "y": 0.942,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3,
+                            "x": 1.116,
+                            "y": 1.116,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6333,
+                            "x": 0.98,
+                            "y": 0.98,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "fx_zoom": {
+                    "scale": [
+                        {
+                            "time": 0.2,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0,
+                                0.38,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 1.3,
+                            "y": 1.3
+                        }
+                    ]
+                },
+                "fx_starburst": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 1,
+                            "angle": -35.97
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1
+                        },
+                        {
+                            "time": 0.4,
+                            "x": 1.207,
+                            "y": 1.207
+                        }
+                    ]
+                }
+            },
+            "deform": {
+                "default": {
+                    "s_w_pyramid": {
+                        "s_w_pyramid": [
+                            {
+                                "time": 0
+                            },
+                            {
+                                "time": 0.5,
+                                "offset": 4,
+                                "vertices": [
+                                    -132.88788
+                                ],
+                                "curve": [
+                                    0.25,
+                                    0,
+                                    0.75,
+                                    1
+                                ]
+                            },
+                            {
+                                "time": 1,
+                                "offset": 4,
+                                "vertices": [
+                                    -132.88788,
+                                    0,
+                                    -195.0733
+                                ]
+                            }
+                        ]
+                    },
+                    "s_w_pyramid2": {
+                        "s_w_pyramid": [
+                            {
+                                "time": 0.5,
+                                "offset": 4,
+                                "vertices": [
+                                    144.70804
+                                ]
+                            },
+                            {
+                                "time": 1
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

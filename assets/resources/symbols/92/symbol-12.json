@@ -1,0 +1,1003 @@
+{
+    "skeleton": {
+        "hash": "uELSv31SSlGzP2np0ziT3++M6F4",
+        "spine": "3.6.53",
+        "width": 247,
+        "height": 209.63,
+        "images": "./images/"
+    },
+    "bones": [
+        {
+            "name": "root"
+        },
+        {
+            "name": "_txt",
+            "parent": "root",
+            "y": -28.62
+        },
+        {
+            "name": "fx",
+            "parent": "root",
+            "x": -4.52,
+            "y": -6.92
+        },
+        {
+            "name": "fx_starburst",
+            "parent": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "s_w1_bg",
+            "bone": "root",
+            "attachment": "s_w1_bg"
+        },
+        {
+            "name": "s_w1_frame",
+            "bone": "root",
+            "attachment": "s_w1_frame"
+        },
+        {
+            "name": "fx_s_w_starburst",
+            "bone": "fx_starburst",
+            "blend": "screen"
+        },
+        {
+            "name": "txt_wild",
+            "bone": "_txt",
+            "color": "ffffff00",
+            "attachment": "txt_wild",
+            "blend": "additive"
+        },
+        {
+            "name": "txt_wildx",
+            "bone": "_txt",
+            "attachment": "txt_wildx"
+        },
+        {
+            "name": "fx_s_w_shine_01",
+            "bone": "_txt",
+            "blend": "additive"
+        },
+        {
+            "name": "fx_s_w_shine_02",
+            "bone": "_txt",
+            "blend": "additive"
+        },
+        {
+            "name": "fx_s_w_shine_03",
+            "bone": "_txt",
+            "blend": "additive"
+        },
+        {
+            "name": "fx_wild_roof_0",
+            "bone": "fx",
+            "blend": "additive"
+        },
+        {
+            "name": "fx_s_w_glow",
+            "bone": "root",
+            "color": "ffffff00",
+            "blend": "additive"
+        }
+    ],
+    "skins": {
+        "default": {
+            "fx_s_w_glow": {
+                "fx_s_w_glow": {
+                    "type": "mesh",
+                    "hull": 4,
+                    "width": 152,
+                    "height": 310,
+                    "uvs": [
+                        0.99999,
+                        0.45976,
+                        0.00023,
+                        0.46118,
+                        0,
+                        0,
+                        1,
+                        0
+                    ],
+                    "triangles": [
+                        0,
+                        2,
+                        3,
+                        1,
+                        2,
+                        0
+                    ],
+                    "vertices": [
+                        186.45,
+                        -61.21,
+                        -182.36,
+                        -62.28,
+                        -182.45,
+                        284.69,
+                        186.45,
+                        284.69
+                    ],
+                    "edges": [
+                        4,
+                        6,
+                        2,
+                        4,
+                        0,
+                        6,
+                        2,
+                        0
+                    ]
+                }
+            },
+            "fx_s_w_shine_01": {
+                "fx_s_w_shine_01": {
+                    "x": -47.13,
+                    "y": 0.03,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 89,
+                    "height": 83
+                }
+            },
+            "fx_s_w_shine_02": {
+                "fx_s_w_shine_02": {
+                    "x": -1.71,
+                    "y": 8.37,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 111,
+                    "height": 91
+                }
+            },
+            "fx_s_w_shine_03": {
+                "fx_s_w_shine_03": {
+                    "x": 46.5,
+                    "y": 8.37,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 92,
+                    "height": 91
+                }
+            },
+            "fx_s_w_starburst": {
+                "fx_s_w_starburst": {
+                    "width": 250,
+                    "height": 250
+                }
+            },
+            "fx_wild_roof_0": {
+                "fx_wild_roof_00": {
+                    "x": 6.12,
+                    "y": 39.78,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 112,
+                    "height": 90
+                },
+                "fx_wild_roof_01": {
+                    "x": 6.12,
+                    "y": 39.78,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 112,
+                    "height": 90
+                },
+                "fx_wild_roof_02": {
+                    "x": 6.12,
+                    "y": 39.78,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 112,
+                    "height": 90
+                },
+                "fx_wild_roof_03": {
+                    "x": 6.12,
+                    "y": 39.78,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 112,
+                    "height": 90
+                },
+                "fx_wild_roof_04": {
+                    "x": 6.12,
+                    "y": 39.78,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 112,
+                    "height": 90
+                },
+                "fx_wild_roof_05": {
+                    "x": 6.12,
+                    "y": 39.78,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 112,
+                    "height": 90
+                },
+                "fx_wild_roof_06": {
+                    "x": 6.12,
+                    "y": 39.78,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 112,
+                    "height": 90
+                },
+                "fx_wild_roof_07": {
+                    "x": 6.12,
+                    "y": 39.78,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 112,
+                    "height": 90
+                },
+                "fx_wild_roof_08": {
+                    "x": 6.12,
+                    "y": 39.78,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 112,
+                    "height": 90
+                },
+                "fx_wild_roof_09": {
+                    "x": 6.12,
+                    "y": 39.78,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 112,
+                    "height": 90
+                },
+                "fx_wild_roof_10": {
+                    "x": 6.12,
+                    "y": 39.78,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 112,
+                    "height": 90
+                },
+                "fx_wild_roof_11": {
+                    "x": 6.12,
+                    "y": 39.78,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 112,
+                    "height": 90
+                },
+                "fx_wild_roof_12": {
+                    "x": 6.12,
+                    "y": 39.78,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 112,
+                    "height": 90
+                },
+                "fx_wild_roof_13": {
+                    "x": 6.12,
+                    "y": 39.78,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 112,
+                    "height": 90
+                },
+                "fx_wild_roof_14": {
+                    "x": 6.12,
+                    "y": 39.78,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 112,
+                    "height": 90
+                },
+                "fx_wild_roof_15": {
+                    "x": 6.12,
+                    "y": 39.78,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 112,
+                    "height": 90
+                },
+                "fx_wild_roof_16": {
+                    "x": 6.12,
+                    "y": 39.78,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 112,
+                    "height": 90
+                },
+                "fx_wild_roof_17": {
+                    "x": 6.12,
+                    "y": 39.78,
+                    "scaleX": 2,
+                    "scaleY": 2,
+                    "width": 112,
+                    "height": 90
+                }
+            },
+            "s_w1_bg": {
+                "s_w1_bg": {
+                    "y": 38.5,
+                    "width": 158,
+                    "height": 51
+                }
+            },
+            "s_w1_frame": {
+                "s_w1_frame": {
+                    "y": 19,
+                    "width": 171,
+                    "height": 166
+                }
+            },
+            "txt_wild": {
+                "txt_wild": {
+                    "y": 9,
+                    "width": 247,
+                    "height": 176
+                }
+            },
+            "txt_wildx": {
+                "txt_wildx": {
+                    "y": 8.99,
+                    "width": 178,
+                    "height": 86
+                }
+            }
+        }
+    },
+    "animations": {
+        "idle": {
+            "slots": {
+                "fx_s_w_shine_01": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffffad"
+                        },
+                        {
+                            "time": 0.6,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx_s_w_shine_01"
+                        }
+                    ]
+                },
+                "fx_s_w_shine_02": {
+                    "color": [
+                        {
+                            "time": 0.1,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3333,
+                            "color": "ffffffad"
+                        },
+                        {
+                            "time": 0.7,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.1,
+                            "name": "fx_s_w_shine_02"
+                        }
+                    ]
+                },
+                "fx_s_w_shine_03": {
+                    "color": [
+                        {
+                            "time": 0.2333,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.4667,
+                            "color": "ffffffad"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.2333,
+                            "name": "fx_s_w_shine_03"
+                        }
+                    ]
+                },
+                "fx_wild_roof_0": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx_wild_roof_00"
+                        },
+                        {
+                            "time": 0.0589,
+                            "name": "fx_wild_roof_01"
+                        },
+                        {
+                            "time": 0.1179,
+                            "name": "fx_wild_roof_02"
+                        },
+                        {
+                            "time": 0.1768,
+                            "name": "fx_wild_roof_03"
+                        },
+                        {
+                            "time": 0.2357,
+                            "name": "fx_wild_roof_04"
+                        },
+                        {
+                            "time": 0.2947,
+                            "name": "fx_wild_roof_05"
+                        },
+                        {
+                            "time": 0.3536,
+                            "name": "fx_wild_roof_06"
+                        },
+                        {
+                            "time": 0.4125,
+                            "name": "fx_wild_roof_07"
+                        },
+                        {
+                            "time": 0.4715,
+                            "name": "fx_wild_roof_08"
+                        },
+                        {
+                            "time": 0.5304,
+                            "name": "fx_wild_roof_09"
+                        },
+                        {
+                            "time": 0.5893,
+                            "name": "fx_wild_roof_10"
+                        },
+                        {
+                            "time": 0.6483,
+                            "name": "fx_wild_roof_11"
+                        },
+                        {
+                            "time": 0.7072,
+                            "name": "fx_wild_roof_12"
+                        },
+                        {
+                            "time": 0.7661,
+                            "name": "fx_wild_roof_13"
+                        },
+                        {
+                            "time": 0.8251,
+                            "name": "fx_wild_roof_14"
+                        },
+                        {
+                            "time": 0.884,
+                            "name": "fx_wild_roof_15"
+                        },
+                        {
+                            "time": 0.9429,
+                            "name": "fx_wild_roof_16"
+                        },
+                        {
+                            "time": 1.0019,
+                            "name": "fx_wild_roof_17"
+                        }
+                    ]
+                },
+                "s_w1_bg": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "s_w1_frame": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffffff"
+                        }
+                    ]
+                },
+                "txt_wild": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff80",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffffbd",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff80"
+                        }
+                    ]
+                },
+                "txt_wildx": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffffff"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "_txt": {
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.4667,
+                            "x": 1.03,
+                            "y": 1.03,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "spawn": {
+            "slots": {
+                "fx_wild_roof_0": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx_wild_roof_06"
+                        },
+                        {
+                            "time": 0.0452,
+                            "name": "fx_wild_roof_07"
+                        },
+                        {
+                            "time": 0.0904,
+                            "name": "fx_wild_roof_08"
+                        },
+                        {
+                            "time": 0.1356,
+                            "name": "fx_wild_roof_09"
+                        },
+                        {
+                            "time": 0.1808,
+                            "name": "fx_wild_roof_10"
+                        },
+                        {
+                            "time": 0.226,
+                            "name": "fx_wild_roof_11"
+                        },
+                        {
+                            "time": 0.2712,
+                            "name": "fx_wild_roof_12"
+                        },
+                        {
+                            "time": 0.3164,
+                            "name": "fx_wild_roof_13"
+                        },
+                        {
+                            "time": 0.3616,
+                            "name": "fx_wild_roof_14"
+                        },
+                        {
+                            "time": 0.4068,
+                            "name": "fx_wild_roof_15"
+                        },
+                        {
+                            "time": 0.452,
+                            "name": "fx_wild_roof_16"
+                        },
+                        {
+                            "time": 0.4972,
+                            "name": "fx_wild_roof_17"
+                        }
+                    ]
+                },
+                "txt_wild": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1667,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "color": "ffffff80"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "_txt": {
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.0667,
+                            "x": 0.98,
+                            "y": 0.98,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "x": 1.01,
+                            "y": 1.01,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.252,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            }
+        },
+        "highlight": {
+            "slots": {
+                "fx_s_w_glow": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2,
+                            "color": "ffffff60"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx_s_w_glow"
+                        }
+                    ]
+                },
+                "fx_s_w_starburst": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.1333,
+                            "color": "ffffffe5",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.2667,
+                            "color": "ffffffe5"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx_s_w_starburst"
+                        }
+                    ]
+                },
+                "fx_wild_roof_0": {
+                    "color": [
+                        {
+                            "time": 0.2333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "fx_wild_roof_00"
+                        },
+                        {
+                            "time": 0.0532,
+                            "name": "fx_wild_roof_01"
+                        },
+                        {
+                            "time": 0.1065,
+                            "name": "fx_wild_roof_02"
+                        },
+                        {
+                            "time": 0.1597,
+                            "name": "fx_wild_roof_03"
+                        },
+                        {
+                            "time": 0.2129,
+                            "name": "fx_wild_roof_04"
+                        },
+                        {
+                            "time": 0.2661,
+                            "name": "fx_wild_roof_05"
+                        },
+                        {
+                            "time": 0.3194,
+                            "name": "fx_wild_roof_06"
+                        },
+                        {
+                            "time": 0.3726,
+                            "name": "fx_wild_roof_07"
+                        },
+                        {
+                            "time": 0.4258,
+                            "name": "fx_wild_roof_08"
+                        },
+                        {
+                            "time": 0.4791,
+                            "name": "fx_wild_roof_09"
+                        },
+                        {
+                            "time": 0.5323,
+                            "name": "fx_wild_roof_10"
+                        }
+                    ]
+                },
+                "s_w1_bg": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.178,
+                                0.21,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "s_w1_frame": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.861,
+                                0.49
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "txt_wild": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff80"
+                        },
+                        {
+                            "time": 0.0667,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.436,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.2,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.773,
+                                0.22
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "txt_wildx": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.773,
+                                0.22
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "_txt": {
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.0667,
+                            "x": 0.97,
+                            "y": 0.97,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1667,
+                            "x": 1.05,
+                            "y": 1.05,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 0.99,
+                            "y": 0.99,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "fx_starburst": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0
+                        },
+                        {
+                            "time": 0.5333,
+                            "angle": -32.3
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
