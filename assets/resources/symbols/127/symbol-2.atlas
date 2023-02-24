@@ -1,0 +1,363 @@
+
+symbols.png
+size: 992,520
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+h_car
+  rotate: true
+  xy: 2, 165
+  size: 171, 166
+  orig: 177, 168
+  offset: 3, 1
+  index: -1
+h_car_lights
+  rotate: true
+  xy: 110, 349
+  size: 169, 155
+  orig: 174, 158
+  offset: 2, 1
+  index: -1
+h_car_shine/h_car_shine_1
+  rotate: false
+  xy: 204, 168
+  size: 155, 12
+  orig: 175, 175
+  offset: 10, 12
+  index: -1
+h_car_shine/h_car_shine_10
+  rotate: true
+  xy: 472, 361
+  size: 157, 77
+  orig: 175, 175
+  offset: 9, 93
+  index: -1
+h_car_shine/h_car_shine_11
+  rotate: true
+  xy: 563, 35
+  size: 157, 61
+  orig: 175, 175
+  offset: 9, 110
+  index: -1
+h_car_shine/h_car_shine_12
+  rotate: true
+  xy: 684, 397
+  size: 121, 45
+  orig: 175, 175
+  offset: 27, 126
+  index: -1
+h_car_shine/h_car_shine_13
+  rotate: false
+  xy: 563, 5
+  size: 105, 28
+  orig: 175, 175
+  offset: 35, 143
+  index: -1
+h_car_shine/h_car_shine_14
+  rotate: false
+  xy: 440, 176
+  size: 104, 12
+  orig: 175, 175
+  offset: 35, 159
+  index: -1
+h_car_shine/h_car_shine_2
+  rotate: true
+  xy: 2, 2
+  size: 161, 28
+  orig: 175, 175
+  offset: 7, 12
+  index: -1
+h_car_shine/h_car_shine_3
+  rotate: true
+  xy: 425, 355
+  size: 163, 45
+  orig: 175, 175
+  offset: 6, 12
+  index: -1
+h_car_shine/h_car_shine_4
+  rotate: true
+  xy: 403, 190
+  size: 163, 61
+  orig: 175, 175
+  offset: 6, 12
+  index: -1
+h_car_shine/h_car_shine_5
+  rotate: true
+  xy: 347, 355
+  size: 163, 76
+  orig: 175, 175
+  offset: 6, 13
+  index: -1
+h_car_shine/h_car_shine_6
+  rotate: true
+  xy: 343, 3
+  size: 163, 78
+  orig: 175, 175
+  offset: 6, 28
+  index: -1
+h_car_shine/h_car_shine_7
+  rotate: true
+  xy: 267, 355
+  size: 163, 78
+  orig: 175, 175
+  offset: 6, 44
+  index: -1
+h_car_shine/h_car_shine_8
+  rotate: true
+  xy: 323, 190
+  size: 163, 78
+  orig: 175, 175
+  offset: 6, 61
+  index: -1
+h_car_shine/h_car_shine_9
+  rotate: true
+  xy: 551, 361
+  size: 157, 70
+  orig: 175, 175
+  offset: 9, 77
+  index: -1
+h_glove_L
+  rotate: false
+  xy: 599, 209
+  size: 135, 150
+  orig: 140, 150
+  offset: 5, 0
+  index: -1
+h_glove_R
+  rotate: false
+  xy: 466, 194
+  size: 131, 159
+  orig: 131, 159
+  offset: 0, 0
+  index: -1
+h_pump_fuel
+  rotate: true
+  xy: 823, 444
+  size: 74, 111
+  orig: 74, 111
+  offset: 0, 0
+  index: -1
+h_pump_fuel_droplets
+  rotate: true
+  xy: 170, 166
+  size: 14, 32
+  orig: 16, 34
+  offset: 1, 1
+  index: -1
+h_pump_fuel_droplets_2
+  rotate: true
+  xy: 934, 353
+  size: 48, 56
+  orig: 51, 58
+  offset: 2, 1
+  index: -1
+h_pump_hose
+  rotate: true
+  xy: 623, 383
+  size: 135, 59
+  orig: 137, 59
+  offset: 0, 0
+  index: -1
+h_pump_nozzle
+  rotate: true
+  xy: 423, 10
+  size: 159, 138
+  orig: 162, 144
+  offset: 1, 1
+  index: -1
+h_pump_tip
+  rotate: false
+  xy: 361, 169
+  size: 12, 19
+  orig: 16, 21
+  offset: 2, 1
+  index: -1
+h_tools_glow_L
+  rotate: false
+  xy: 935, 41
+  size: 43, 39
+  orig: 58, 55
+  offset: 7, 8
+  index: -1
+h_tools_glow_R
+  rotate: false
+  xy: 923, 82
+  size: 47, 48
+  orig: 60, 60
+  offset: 6, 6
+  index: -1
+h_tools_screwdriver
+  rotate: false
+  xy: 187, 5
+  size: 154, 159
+  orig: 154, 160
+  offset: 0, 0
+  index: -1
+h_tools_sparkle
+  rotate: false
+  xy: 722, 371
+  size: 24, 24
+  orig: 28, 28
+  offset: 2, 2
+  index: -1
+h_tools_wrench
+  rotate: true
+  xy: 32, 3
+  size: 160, 153
+  orig: 161, 153
+  offset: 0, 0
+  index: -1
+h_tools_wrench_inside
+  rotate: true
+  xy: 684, 368
+  size: 27, 36
+  orig: 28, 38
+  offset: 1, 1
+  index: -1
+h_wheel
+  rotate: false
+  xy: 170, 182
+  size: 151, 165
+  orig: 153, 167
+  offset: 1, 1
+  index: -1
+h_wheel_glow
+  rotate: false
+  xy: 2, 338
+  size: 106, 180
+  orig: 116, 198
+  offset: 7, 7
+  index: -1
+h_wheel_shine/h_wheel_shine_1
+  rotate: true
+  xy: 375, 170
+  size: 18, 38
+  orig: 153, 167
+  offset: 55, 36
+  index: -1
+h_wheel_shine/h_wheel_shine_10
+  rotate: true
+  xy: 732, 3
+  size: 70, 97
+  orig: 153, 167
+  offset: 65, 40
+  index: -1
+h_wheel_shine/h_wheel_shine_11
+  rotate: false
+  xy: 735, 82
+  size: 62, 87
+  orig: 153, 167
+  offset: 73, 50
+  index: -1
+h_wheel_shine/h_wheel_shine_12
+  rotate: false
+  xy: 936, 403
+  size: 52, 73
+  orig: 153, 167
+  offset: 83, 64
+  index: -1
+h_wheel_shine/h_wheel_shine_13
+  rotate: true
+  xy: 936, 478
+  size: 40, 54
+  orig: 153, 167
+  offset: 95, 82
+  index: -1
+h_wheel_shine/h_wheel_shine_14
+  rotate: true
+  xy: 415, 171
+  size: 17, 23
+  orig: 153, 167
+  offset: 114, 108
+  index: -1
+h_wheel_shine/h_wheel_shine_2
+  rotate: true
+  xy: 923, 132
+  size: 38, 66
+  orig: 153, 167
+  offset: 55, 30
+  index: -1
+h_wheel_shine/h_wheel_shine_3
+  rotate: false
+  xy: 934, 269
+  size: 49, 82
+  orig: 153, 167
+  offset: 54, 29
+  index: -1
+h_wheel_shine/h_wheel_shine_4
+  rotate: false
+  xy: 930, 172
+  size: 59, 95
+  orig: 153, 167
+  offset: 54, 29
+  index: -1
+h_wheel_shine/h_wheel_shine_5
+  rotate: true
+  xy: 831, 4
+  size: 69, 102
+  orig: 153, 167
+  offset: 54, 29
+  index: -1
+h_wheel_shine/h_wheel_shine_6
+  rotate: true
+  xy: 818, 179
+  size: 76, 107
+  orig: 153, 167
+  offset: 54, 29
+  index: -1
+h_wheel_shine/h_wheel_shine_7
+  rotate: false
+  xy: 736, 171
+  size: 80, 107
+  orig: 153, 167
+  offset: 54, 29
+  index: -1
+h_wheel_shine/h_wheel_shine_8
+  rotate: true
+  xy: 820, 257
+  size: 80, 108
+  orig: 153, 167
+  offset: 55, 29
+  index: -1
+h_wheel_shine/h_wheel_shine_9
+  rotate: true
+  xy: 626, 35
+  size: 77, 104
+  orig: 153, 167
+  offset: 58, 33
+  index: -1
+l_10
+  rotate: true
+  xy: 731, 406
+  size: 112, 90
+  orig: 112, 90
+  offset: 0, 0
+  index: -1
+l_a
+  rotate: true
+  xy: 818, 75
+  size: 102, 103
+  orig: 102, 103
+  offset: 0, 0
+  index: -1
+l_j
+  rotate: false
+  xy: 736, 280
+  size: 82, 89
+  orig: 82, 89
+  offset: 0, 0
+  index: -1
+l_k
+  rotate: false
+  xy: 823, 339
+  size: 109, 103
+  orig: 110, 103
+  offset: 0, 0
+  index: -1
+l_q
+  rotate: true
+  xy: 626, 114
+  size: 93, 107
+  orig: 93, 107
+  offset: 0, 0
+  index: -1

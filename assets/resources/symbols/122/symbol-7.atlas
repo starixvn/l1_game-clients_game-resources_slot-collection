@@ -1,0 +1,419 @@
+
+symbols.png
+size: 1714,650
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+9
+  rotate: false
+  xy: 705, 130
+  size: 128, 156
+  orig: 136, 164
+  offset: 4, 4
+  index: -1
+h_blue_gem
+  rotate: false
+  xy: 705, 7
+  size: 138, 121
+  orig: 138, 122
+  offset: 0, 0
+  index: -1
+h_blue_rim
+  rotate: true
+  xy: 835, 154
+  size: 149, 129
+  orig: 151, 132
+  offset: 1, 1
+  index: -1
+h_blue_shadow
+  rotate: false
+  xy: 807, 465
+  size: 191, 183
+  orig: 211, 202
+  offset: 10, 9
+  index: -1
+h_blue_stone
+  rotate: false
+  xy: 574, 429
+  size: 16, 16
+  orig: 18, 18
+  offset: 1, 1
+  index: -1
+h_green_L_bottom_stone
+  rotate: false
+  xy: 907, 5
+  size: 16, 16
+  orig: 18, 18
+  offset: 1, 1
+  index: -1
+h_green_L_top_stone
+  rotate: false
+  xy: 99, 11
+  size: 16, 16
+  orig: 18, 18
+  offset: 1, 1
+  index: -1
+h_green_R_bottom_stone
+  rotate: false
+  xy: 1616, 170
+  size: 16, 16
+  orig: 18, 18
+  offset: 1, 1
+  index: -1
+h_green_R_top_stone
+  rotate: false
+  xy: 1669, 224
+  size: 16, 16
+  orig: 18, 18
+  offset: 1, 1
+  index: -1
+h_green_gem
+  rotate: false
+  xy: 553, 166
+  size: 150, 120
+  orig: 150, 120
+  offset: 0, 0
+  index: -1
+h_green_rim
+  rotate: false
+  xy: 214, 13
+  size: 160, 130
+  orig: 162, 132
+  offset: 1, 1
+  index: -1
+h_green_shadow
+  rotate: false
+  xy: 2, 29
+  size: 210, 180
+  orig: 227, 198
+  offset: 8, 9
+  index: -1
+h_orange_L_stone
+  rotate: false
+  xy: 405, 378
+  size: 16, 16
+  orig: 18, 18
+  offset: 1, 1
+  index: -1
+h_orange_R_stone
+  rotate: false
+  xy: 574, 411
+  size: 16, 16
+  orig: 18, 18
+  offset: 1, 1
+  index: -1
+h_orange_gem
+  rotate: true
+  xy: 960, 3
+  size: 142, 154
+  orig: 142, 154
+  offset: 0, 0
+  index: -1
+h_orange_mid_stone
+  rotate: false
+  xy: 592, 429
+  size: 16, 16
+  orig: 18, 18
+  offset: 1, 1
+  index: -1
+h_orange_rim
+  rotate: true
+  xy: 1528, 495
+  size: 153, 170
+  orig: 155, 179
+  offset: 1, 8
+  index: -1
+h_orange_shadow
+  rotate: false
+  xy: 230, 443
+  size: 197, 205
+  orig: 217, 214
+  offset: 10, 4
+  index: -1
+h_orange_top_stone
+  rotate: false
+  xy: 782, 318
+  size: 16, 16
+  orig: 18, 18
+  offset: 1, 1
+  index: -1
+h_purple_L_stone
+  rotate: false
+  xy: 782, 354
+  size: 23, 95
+  orig: 25, 97
+  offset: 1, 1
+  index: -1
+h_purple_R_stone
+  rotate: true
+  xy: 2, 4
+  size: 23, 95
+  orig: 25, 97
+  offset: 1, 1
+  index: -1
+h_purple_bottom_stone
+  rotate: false
+  xy: 1426, 2
+  size: 59, 18
+  orig: 62, 21
+  offset: 2, 1
+  index: -1
+h_purple_gem
+  rotate: true
+  xy: 1177, 480
+  size: 168, 177
+  orig: 169, 177
+  offset: 0, 0
+  index: -1
+h_purple_rim
+  rotate: false
+  xy: 619, 451
+  size: 186, 197
+  orig: 188, 201
+  offset: 1, 2
+  index: -1
+h_purple_shadow
+  rotate: false
+  xy: 2, 426
+  size: 226, 222
+  orig: 228, 225
+  offset: 1, 2
+  index: -1
+h_purple_top_stone
+  rotate: false
+  xy: 845, 2
+  size: 60, 19
+  orig: 62, 21
+  offset: 1, 1
+  index: -1
+h_red_L_stone
+  rotate: false
+  xy: 1697, 157
+  size: 15, 83
+  orig: 17, 86
+  offset: 1, 1
+  index: -1
+h_red_R_stone
+  rotate: false
+  xy: 376, 60
+  size: 16, 83
+  orig: 18, 86
+  offset: 1, 1
+  index: -1
+h_red_bottom_stone
+  rotate: true
+  xy: 376, 13
+  size: 45, 16
+  orig: 47, 18
+  offset: 1, 1
+  index: -1
+h_red_gem
+  rotate: false
+  xy: 1273, 4
+  size: 151, 151
+  orig: 151, 151
+  offset: 0, 0
+  index: -1
+h_red_rim
+  rotate: false
+  xy: 1000, 475
+  size: 175, 173
+  orig: 178, 176
+  offset: 1, 1
+  index: -1
+h_red_shadow
+  rotate: false
+  xy: 2, 211
+  size: 224, 213
+  orig: 228, 216
+  offset: 2, 1
+  index: -1
+h_red_top_stone
+  rotate: true
+  xy: 405, 396
+  size: 45, 16
+  orig: 47, 18
+  offset: 1, 1
+  index: -1
+h_teal_bottom_stone
+  rotate: false
+  xy: 782, 336
+  size: 16, 16
+  orig: 18, 18
+  offset: 1, 1
+  index: -1
+h_teal_gem
+  rotate: false
+  xy: 1426, 22
+  size: 135, 142
+  orig: 135, 144
+  offset: 0, 1
+  index: -1
+h_teal_rim
+  rotate: false
+  xy: 1123, 148
+  size: 148, 154
+  orig: 150, 158
+  offset: 1, 2
+  index: -1
+h_teal_shadow
+  rotate: false
+  xy: 429, 447
+  size: 188, 201
+  orig: 208, 212
+  offset: 10, 1
+  index: -1
+h_teal_top_stone
+  rotate: false
+  xy: 1487, 4
+  size: 16, 16
+  orig: 18, 18
+  offset: 1, 1
+  index: -1
+l_10
+  rotate: false
+  xy: 1356, 491
+  size: 170, 157
+  orig: 177, 165
+  offset: 4, 4
+  index: -1
+l_a
+  rotate: false
+  xy: 554, 8
+  size: 149, 156
+  orig: 158, 164
+  offset: 4, 4
+  index: -1
+l_j
+  rotate: true
+  xy: 394, 166
+  size: 120, 157
+  orig: 128, 165
+  offset: 4, 4
+  index: -1
+l_k
+  rotate: false
+  xy: 429, 288
+  size: 143, 157
+  orig: 151, 165
+  offset: 4, 4
+  index: -1
+l_q
+  rotate: true
+  xy: 230, 305
+  size: 136, 173
+  orig: 144, 181
+  offset: 4, 4
+  index: -1
+sparkles/ps_particle_00
+  rotate: false
+  xy: 1616, 188
+  size: 51, 52
+  orig: 171, 189
+  offset: 52, 84
+  index: -1
+sparkles/ps_particle_01
+  rotate: false
+  xy: 1616, 242
+  size: 94, 114
+  orig: 171, 189
+  offset: 37, 39
+  index: -1
+sparkles/ps_particle_02
+  rotate: false
+  xy: 845, 23
+  size: 113, 129
+  orig: 171, 189
+  offset: 29, 33
+  index: -1
+sparkles/ps_particle_03
+  rotate: false
+  xy: 1563, 22
+  size: 132, 142
+  orig: 171, 189
+  offset: 19, 27
+  index: -1
+sparkles/ps_particle_04
+  rotate: false
+  xy: 1273, 157
+  size: 148, 151
+  orig: 171, 189
+  offset: 12, 21
+  index: -1
+sparkles/ps_particle_05
+  rotate: false
+  xy: 966, 147
+  size: 155, 155
+  orig: 171, 189
+  offset: 9, 17
+  index: -1
+sparkles/ps_particle_06
+  rotate: true
+  xy: 972, 304
+  size: 159, 157
+  orig: 171, 189
+  offset: 7, 15
+  index: -1
+sparkles/ps_particle_07
+  rotate: false
+  xy: 1453, 166
+  size: 161, 159
+  orig: 171, 189
+  offset: 6, 14
+  index: -1
+sparkles/ps_particle_08
+  rotate: true
+  xy: 1291, 316
+  size: 162, 160
+  orig: 171, 189
+  offset: 5, 14
+  index: -1
+sparkles/ps_particle_09
+  rotate: false
+  xy: 619, 288
+  size: 161, 161
+  orig: 171, 189
+  offset: 5, 14
+  index: -1
+sparkles/ps_particle_10
+  rotate: false
+  xy: 1453, 327
+  size: 160, 162
+  orig: 171, 189
+  offset: 6, 14
+  index: -1
+sparkles/ps_particle_11
+  rotate: false
+  xy: 394, 2
+  size: 158, 162
+  orig: 171, 189
+  offset: 7, 14
+  index: -1
+sparkles/ps_particle_12
+  rotate: true
+  xy: 228, 145
+  size: 158, 164
+  orig: 171, 189
+  offset: 6, 13
+  index: -1
+sparkles/ps_particle_13
+  rotate: true
+  xy: 807, 305
+  size: 158, 163
+  orig: 171, 189
+  offset: 6, 14
+  index: -1
+sparkles/ps_particle_14
+  rotate: false
+  xy: 1131, 310
+  size: 158, 163
+  orig: 171, 189
+  offset: 6, 14
+  index: -1
+sparkles/ps_particle_15
+  rotate: false
+  xy: 1615, 358
+  size: 85, 135
+  orig: 171, 189
+  offset: 12, 43
+  index: -1
