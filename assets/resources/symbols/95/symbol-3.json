@@ -1,0 +1,130 @@
+{
+    "skeleton": {
+        "hash": "4Wj2t1IwKtMQUE8IbDc+G/PO1yE",
+        "spine": "3.6.53",
+        "width": 200,
+        "height": 200,
+        "images": "./images/"
+    },
+    "bones": [
+        {
+            "name": "root",
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "name": "_subroot",
+            "parent": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "h_heart",
+            "bone": "_subroot",
+            "attachment": "h_heart"
+        },
+        {
+            "name": "h_heart2",
+            "bone": "_subroot",
+            "blend": "screen"
+        }
+    ],
+    "skins": {
+        "default": {
+            "h_heart": {
+                "h_heart": {
+                    "x": -5,
+                    "width": 421,
+                    "height": 358
+                },
+                "h_heart_g": {
+                    "x": -5,
+                    "width": 421,
+                    "height": 358
+                }
+            },
+            "h_heart2": {
+                "h_heart": {
+                    "x": -5,
+                    "width": 421,
+                    "height": 358
+                },
+                "h_heart_g": {
+                    "x": -5,
+                    "width": 421,
+                    "height": 358
+                }
+            }
+        }
+    },
+    "animations": {
+        "win": {
+            "slots": {
+                "h_heart2": {
+                    "color": [
+                        {
+                            "time": 0.0667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffff83"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.0667,
+                            "name": "h_heart"
+                        },
+                        {
+                            "time": 0.8333,
+                            "name": null
+                        }
+                    ]
+                }
+            }
+        },
+        "win_gold": {
+            "slots": {
+                "h_heart": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "h_heart_g"
+                        }
+                    ]
+                },
+                "h_heart2": {
+                    "color": [
+                        {
+                            "time": 0.0667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffff83"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.0667,
+                            "name": "h_heart_g"
+                        },
+                        {
+                            "time": 0.8333,
+                            "name": null
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

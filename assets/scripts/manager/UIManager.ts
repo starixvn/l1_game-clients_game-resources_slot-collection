@@ -18,7 +18,7 @@ export default class UIManager {
   private emitterStorages: EmitterStorageType[] = [];
   private emitter: Emitter;
 
-  public PACK_TOTAL = 100;
+  public PACK_TOTAL = 140;
 
   public selectedSymbolIndex = 0;
 

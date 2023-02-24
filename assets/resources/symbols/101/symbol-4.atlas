@@ -1,0 +1,720 @@
+
+symbols.png
+size: 1746,650
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10
+  rotate: false
+  xy: 768, 166
+  size: 142, 118
+  orig: 142, 118
+  offset: 0, 0
+  index: -1
+A
+  rotate: false
+  xy: 912, 198
+  size: 123, 141
+  orig: 123, 141
+  offset: 0, 0
+  index: -1
+J
+  rotate: true
+  xy: 1547, 373
+  size: 101, 122
+  orig: 101, 122
+  offset: 0, 0
+  index: -1
+K
+  rotate: true
+  xy: 614, 57
+  size: 125, 135
+  orig: 125, 135
+  offset: 0, 0
+  index: -1
+Q
+  rotate: true
+  xy: 402, 58
+  size: 134, 142
+  orig: 134, 142
+  offset: 0, 0
+  index: -1
+h_c_dirt_fx
+  rotate: false
+  xy: 1525, 108
+  size: 68, 67
+  orig: 68, 67
+  offset: 0, 0
+  index: -1
+h_c_fx_glow
+  rotate: true
+  xy: 740, 8
+  size: 47, 9
+  orig: 47, 9
+  offset: 0, 0
+  index: -1
+h_c_fx_sparkle
+  rotate: false
+  xy: 1439, 365
+  size: 106, 107
+  orig: 106, 107
+  offset: 0, 0
+  index: -1
+h_c_mainbody
+  rotate: false
+  xy: 1319, 226
+  size: 123, 126
+  orig: 123, 126
+  offset: 0, 0
+  index: -1
+h_c_shdw
+  rotate: false
+  xy: 1080, 344
+  size: 172, 143
+  orig: 172, 143
+  offset: 0, 0
+  index: -1
+h_c_wheel_L_rim_spokes
+  rotate: true
+  xy: 1441, 80
+  size: 28, 81
+  orig: 28, 81
+  offset: 0, 0
+  index: -1
+h_c_wheel_L_rim_tip
+  rotate: true
+  xy: 1676, 12
+  size: 25, 26
+  orig: 25, 26
+  offset: 0, 0
+  index: -1
+h_c_wheel_L_tire
+  rotate: true
+  xy: 927, 18
+  size: 38, 93
+  orig: 38, 93
+  offset: 0, 0
+  index: -1
+h_c_wheel_R_axle
+  rotate: false
+  xy: 1254, 344
+  size: 15, 8
+  orig: 15, 8
+  offset: 0, 0
+  index: -1
+h_c_wheel_R_axle_tip
+  rotate: true
+  xy: 1737, 295
+  size: 8, 7
+  orig: 8, 7
+  offset: 0, 0
+  index: -1
+h_c_wheel_R_rim
+  rotate: true
+  xy: 1670, 305
+  size: 33, 74
+  orig: 33, 74
+  offset: 0, 0
+  index: -1
+h_c_wheel_R_tire
+  rotate: true
+  xy: 1351, 83
+  size: 49, 88
+  orig: 49, 88
+  offset: 0, 0
+  index: -1
+h_harp_bot Side
+  rotate: true
+  xy: 459, 3
+  size: 53, 58
+  orig: 53, 58
+  offset: 0, 0
+  index: -1
+h_harp_bot Top
+  rotate: true
+  xy: 1670, 241
+  size: 62, 65
+  orig: 62, 65
+  offset: 0, 0
+  index: -1
+h_harp_mid_L_Side
+  rotate: true
+  xy: 1444, 217
+  size: 39, 121
+  orig: 39, 121
+  offset: 0, 0
+  index: -1
+h_harp_mid_L_Top
+  rotate: false
+  xy: 1037, 204
+  size: 48, 135
+  orig: 48, 135
+  offset: 0, 0
+  index: -1
+h_harp_mid_R_Side
+  rotate: false
+  xy: 1671, 340
+  size: 64, 134
+  orig: 64, 134
+  offset: 0, 0
+  index: -1
+h_harp_mid_R_Top
+  rotate: false
+  xy: 546, 52
+  size: 66, 140
+  orig: 66, 140
+  offset: 0, 0
+  index: -1
+h_harp_shdw
+  rotate: true
+  xy: 1111, 489
+  size: 159, 181
+  orig: 159, 181
+  offset: 0, 0
+  index: -1
+h_harp_strings
+  rotate: true
+  xy: 1234, 18
+  size: 68, 110
+  orig: 68, 110
+  offset: 0, 0
+  index: -1
+h_harp_top side
+  rotate: true
+  xy: 1317, 88
+  size: 127, 32
+  orig: 127, 32
+  offset: 0, 0
+  index: -1
+h_harp_top top
+  rotate: false
+  xy: 1441, 177
+  size: 127, 38
+  orig: 127, 38
+  offset: 0, 0
+  index: -1
+h_harp_top topX
+  rotate: false
+  xy: 2, 2
+  size: 133, 44
+  orig: 133, 44
+  offset: 0, 0
+  index: -1
+h_horse_body
+  rotate: false
+  xy: 184, 221
+  size: 258, 427
+  orig: 258, 427
+  offset: 0, 0
+  index: -1
+h_horse_ear_L
+  rotate: false
+  xy: 519, 2
+  size: 47, 48
+  orig: 47, 48
+  offset: 0, 0
+  index: -1
+h_horse_ear_R
+  rotate: false
+  xy: 1595, 116
+  size: 43, 49
+  orig: 43, 49
+  offset: 0, 0
+  index: -1
+h_horse_eye_R
+  rotate: false
+  xy: 1255, 2
+  size: 18, 14
+  orig: 18, 14
+  offset: 0, 0
+  index: -1
+h_horse_frame01
+  rotate: true
+  xy: 746, 286
+  size: 180, 150
+  orig: 180, 150
+  offset: 0, 0
+  index: -1
+h_horse_frame01t
+  rotate: false
+  xy: 898, 341
+  size: 180, 150
+  orig: 180, 150
+  offset: 0, 0
+  index: -1
+h_horse_frame02
+  rotate: true
+  xy: 444, 286
+  size: 180, 300
+  orig: 180, 300
+  offset: 0, 0
+  index: -1
+h_horse_frame03
+  rotate: true
+  xy: 444, 468
+  size: 180, 450
+  orig: 180, 450
+  offset: 0, 0
+  index: -1
+h_horse_frame04
+  rotate: false
+  xy: 2, 48
+  size: 180, 600
+  orig: 180, 600
+  offset: 0, 0
+  index: -1
+h_horse_hair_back_L
+  rotate: false
+  xy: 1087, 204
+  size: 11, 11
+  orig: 11, 11
+  offset: 0, 0
+  index: -1
+h_horse_hair_back_R
+  rotate: true
+  xy: 1294, 474
+  size: 174, 178
+  orig: 174, 178
+  offset: 0, 0
+  index: -1
+h_horse_hair_front
+  rotate: false
+  xy: 1425, 23
+  size: 83, 55
+  orig: 83, 55
+  offset: 0, 0
+  index: -1
+h_horse_harness_body_01
+  rotate: true
+  xy: 896, 493
+  size: 155, 213
+  orig: 155, 213
+  offset: 0, 0
+  index: -1
+h_horse_harness_body_01X
+  rotate: false
+  xy: 827, 2
+  size: 29, 17
+  orig: 29, 17
+  offset: 0, 0
+  index: -1
+h_horse_harness_body_02
+  rotate: true
+  xy: 614, 2
+  size: 53, 124
+  orig: 53, 124
+  offset: 0, 0
+  index: -1
+h_horse_harness_head
+  rotate: false
+  xy: 1221, 218
+  size: 96, 124
+  orig: 96, 124
+  offset: 0, 0
+  index: -1
+h_horse_harness_headX
+  rotate: false
+  xy: 1254, 474
+  size: 23, 13
+  orig: 23, 13
+  offset: 0, 0
+  index: -1
+h_horse_harnessx1
+  rotate: false
+  xy: 827, 21
+  size: 98, 143
+  orig: 98, 143
+  offset: 0, 0
+  index: -1
+h_horse_harnessx2
+  rotate: false
+  xy: 751, 2
+  size: 74, 162
+  orig: 74, 162
+  offset: 0, 0
+  index: -1
+h_horse_head
+  rotate: false
+  xy: 1225, 88
+  size: 90, 128
+  orig: 90, 128
+  offset: 0, 0
+  index: -1
+h_horse_leg_BL
+  rotate: true
+  xy: 618, 184
+  size: 100, 148
+  orig: 100, 148
+  offset: 0, 0
+  index: -1
+h_horse_leg_BR
+  rotate: true
+  xy: 1254, 354
+  size: 118, 183
+  orig: 118, 183
+  offset: 0, 0
+  index: -1
+h_horse_leg_FL
+  rotate: false
+  xy: 1117, 87
+  size: 106, 128
+  orig: 106, 128
+  offset: 0, 0
+  index: -1
+h_horse_leg_FL_hoof
+  rotate: false
+  xy: 1613, 167
+  size: 55, 50
+  orig: 55, 50
+  offset: 0, 0
+  index: -1
+h_horse_leg_FR_hoof
+  rotate: false
+  xy: 1617, 219
+  size: 51, 58
+  orig: 51, 58
+  offset: 0, 0
+  index: -1
+h_horse_lid_R
+  rotate: false
+  xy: 1234, 2
+  size: 19, 14
+  orig: 19, 14
+  offset: 0, 0
+  index: -1
+h_horse_mouth
+  rotate: false
+  xy: 1641, 4
+  size: 27, 27
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+h_horse_shdw
+  rotate: true
+  xy: 184, 63
+  size: 156, 216
+  orig: 156, 216
+  offset: 0, 0
+  index: -1
+h_horse_tail
+  rotate: false
+  xy: 1041, 39
+  size: 74, 163
+  orig: 74, 163
+  offset: 0, 0
+  index: -1
+h_s_shdw
+  rotate: false
+  xy: 444, 194
+  size: 172, 90
+  orig: 172, 90
+  offset: 0, 0
+  index: -1
+h_s_shield_centre
+  rotate: true
+  xy: 568, 3
+  size: 47, 44
+  orig: 47, 44
+  offset: 0, 0
+  index: -1
+h_s_shield_inner
+  rotate: true
+  xy: 1444, 258
+  size: 105, 100
+  orig: 105, 100
+  offset: 0, 0
+  index: -1
+h_s_shield_outer
+  rotate: false
+  xy: 1087, 217
+  size: 132, 125
+  orig: 132, 125
+  offset: 0, 0
+  index: -1
+h_s_sword_blade
+  rotate: true
+  xy: 927, 58
+  size: 138, 112
+  orig: 138, 112
+  offset: 0, 0
+  index: -1
+h_s_sword_end
+  rotate: false
+  xy: 1603, 2
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+h_s_sword_grip
+  rotate: false
+  xy: 1709, 61
+  size: 30, 27
+  orig: 30, 27
+  offset: 0, 0
+  index: -1
+h_s_sword_guard_Back
+  rotate: false
+  xy: 1570, 182
+  size: 41, 43
+  orig: 41, 43
+  offset: 0, 0
+  index: -1
+h_s_sword_guard_Front
+  rotate: false
+  xy: 137, 2
+  size: 43, 44
+  orig: 43, 44
+  offset: 0, 0
+  index: -1
+h_v_body
+  rotate: false
+  xy: 1474, 476
+  size: 159, 172
+  orig: 159, 172
+  offset: 0, 0
+  index: -1
+h_v_handle_L
+  rotate: true
+  xy: 1570, 227
+  size: 42, 45
+  orig: 42, 45
+  offset: 0, 0
+  index: -1
+h_v_handle_R
+  rotate: true
+  xy: 1510, 2
+  size: 41, 45
+  orig: 41, 45
+  offset: 0, 0
+  index: -1
+h_v_shdw
+  rotate: false
+  xy: 328, 2
+  size: 129, 48
+  orig: 129, 48
+  offset: 0, 0
+  index: -1
+h_v_top
+  rotate: false
+  xy: 1567, 350
+  size: 102, 21
+  orig: 102, 21
+  offset: 0, 0
+  index: -1
+h_w_b_L_01
+  rotate: true
+  xy: 1675, 78
+  size: 36, 32
+  orig: 36, 32
+  offset: 0, 0
+  index: -1
+h_w_b_L_02
+  rotate: true
+  xy: 1603, 71
+  size: 43, 30
+  orig: 43, 30
+  offset: 0, 0
+  index: -1
+h_w_b_L_03
+  rotate: true
+  xy: 1641, 33
+  size: 38, 33
+  orig: 38, 33
+  offset: 0, 0
+  index: -1
+h_w_b_L_04
+  rotate: false
+  xy: 1709, 125
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+h_w_b_R_01
+  rotate: true
+  xy: 1709, 90
+  size: 33, 35
+  orig: 33, 35
+  offset: 0, 0
+  index: -1
+h_w_b_R_02
+  rotate: false
+  xy: 1603, 26
+  size: 36, 43
+  orig: 36, 43
+  offset: 0, 0
+  index: -1
+h_w_b_stick
+  rotate: false
+  xy: 184, 10
+  size: 142, 51
+  orig: 142, 51
+  offset: 0, 0
+  index: -1
+h_w_f_L_01
+  rotate: false
+  xy: 1669, 116
+  size: 38, 44
+  orig: 38, 44
+  offset: 0, 0
+  index: -1
+h_w_f_L_02
+  rotate: true
+  xy: 1022, 2
+  size: 35, 43
+  orig: 35, 43
+  offset: 0, 0
+  index: -1
+h_w_f_L_03
+  rotate: false
+  xy: 1635, 73
+  size: 38, 40
+  orig: 38, 40
+  offset: 0, 0
+  index: -1
+h_w_f_L_04_b
+  rotate: true
+  xy: 1640, 115
+  size: 50, 27
+  orig: 50, 27
+  offset: 0, 0
+  index: -1
+h_w_f_L_04_f01
+  rotate: false
+  xy: 1425, 2
+  size: 38, 19
+  orig: 38, 19
+  offset: 0, 0
+  index: -1
+h_w_f_L_04_f02
+  rotate: false
+  xy: 1706, 33
+  size: 30, 26
+  orig: 30, 26
+  offset: 0, 0
+  index: -1
+h_w_f_R_01
+  rotate: true
+  xy: 1670, 162
+  size: 47, 56
+  orig: 47, 56
+  offset: 0, 0
+  index: -1
+h_w_f_R_02
+  rotate: true
+  xy: 1067, 2
+  size: 35, 43
+  orig: 35, 43
+  offset: 0, 0
+  index: -1
+h_w_f_R_03
+  rotate: true
+  xy: 1557, 2
+  size: 41, 44
+  orig: 41, 44
+  offset: 0, 0
+  index: -1
+h_w_f_R_04_b
+  rotate: false
+  xy: 1670, 211
+  size: 58, 28
+  orig: 58, 28
+  offset: 0, 0
+  index: -1
+h_w_f_R_04_f01
+  rotate: true
+  xy: 1676, 39
+  size: 37, 28
+  orig: 37, 28
+  offset: 0, 0
+  index: -1
+h_w_f_R_04_f02
+  rotate: false
+  xy: 402, 194
+  size: 36, 25
+  orig: 36, 25
+  offset: 0, 0
+  index: -1
+h_w_leaves
+  rotate: false
+  xy: 1117, 2
+  size: 115, 83
+  orig: 115, 83
+  offset: 0, 0
+  index: -1
+h_w_leavesR
+  rotate: false
+  xy: 1351, 134
+  size: 88, 90
+  orig: 88, 90
+  offset: 0, 0
+  index: -1
+h_w_olive01
+  rotate: false
+  xy: 1489, 2
+  size: 19, 19
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+h_w_olive02
+  rotate: true
+  xy: 1465, 2
+  size: 19, 22
+  orig: 19, 22
+  offset: 0, 0
+  index: -1
+h_w_olive03
+  rotate: true
+  xy: 912, 178
+  size: 18, 13
+  orig: 18, 13
+  offset: 0, 0
+  index: -1
+h_w_olive04
+  rotate: false
+  xy: 1022, 41
+  size: 17, 15
+  orig: 17, 15
+  offset: 0, 0
+  index: -1
+h_w_shdw
+  rotate: true
+  xy: 1635, 476
+  size: 172, 102
+  orig: 172, 102
+  offset: 0, 0
+  index: -1
+l_10_fxnew
+  rotate: false
+  xy: 1441, 110
+  size: 82, 65
+  orig: 82, 65
+  offset: 0, 0
+  index: -1
+l_a_fxnew
+  rotate: true
+  xy: 1524, 45
+  size: 61, 77
+  orig: 61, 77
+  offset: 0, 0
+  index: -1
+l_j_fxnew
+  rotate: false
+  xy: 1617, 279
+  size: 51, 69
+  orig: 51, 69
+  offset: 0, 0
+  index: -1
+l_k_fxnew
+  rotate: true
+  xy: 1346, 16
+  size: 65, 77
+  orig: 65, 77
+  offset: 0, 0
+  index: -1
+l_q_fxnew
+  rotate: false
+  xy: 1546, 271
+  size: 69, 77
+  orig: 69, 77
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,130 @@
+{
+    "skeleton": {
+        "hash": "sFsVoao+9+XvAktzxPj9n5iTS5A",
+        "spine": "3.6.53",
+        "width": 0,
+        "height": 0,
+        "images": "./images/"
+    },
+    "bones": [
+        {
+            "name": "root",
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "name": "_subroot",
+            "parent": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "h_clover",
+            "bone": "_subroot",
+            "attachment": "h_clover"
+        },
+        {
+            "name": "h_clover2",
+            "bone": "_subroot",
+            "blend": "screen"
+        }
+    ],
+    "skins": {
+        "default": {
+            "h_clover": {
+                "h_clover": {
+                    "x": -15,
+                    "width": 356,
+                    "height": 358
+                },
+                "h_clover_g": {
+                    "x": -15,
+                    "width": 356,
+                    "height": 358
+                }
+            },
+            "h_clover2": {
+                "h_clover": {
+                    "x": -15,
+                    "width": 356,
+                    "height": 358
+                },
+                "h_clover_g": {
+                    "x": -15,
+                    "width": 356,
+                    "height": 358
+                }
+            }
+        }
+    },
+    "animations": {
+        "win": {
+            "slots": {
+                "h_clover2": {
+                    "color": [
+                        {
+                            "time": 0.0667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffff83"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.0667,
+                            "name": "h_clover"
+                        },
+                        {
+                            "time": 0.8333,
+                            "name": null
+                        }
+                    ]
+                }
+            }
+        },
+        "win_gold": {
+            "slots": {
+                "h_clover": {
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "h_clover_g"
+                        }
+                    ]
+                },
+                "h_clover2": {
+                    "color": [
+                        {
+                            "time": 0.0667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.3667,
+                            "color": "ffffff83"
+                        },
+                        {
+                            "time": 0.8333,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.0667,
+                            "name": "h_clover_g"
+                        },
+                        {
+                            "time": 0.8333,
+                            "name": null
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
