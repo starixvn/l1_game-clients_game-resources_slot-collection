@@ -1,0 +1,1246 @@
+{
+    "skeleton": {
+        "hash": "G184/us/774o57JfQCPyipA8bHQ",
+        "spine": "3.6.53",
+        "width": 150,
+        "height": 150,
+        "images": "./images/"
+    },
+    "bones": [
+        {
+            "name": "root",
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "name": "_scale_root",
+            "parent": "root"
+        },
+        {
+            "name": "_subroot",
+            "parent": "_scale_root",
+            "rotation": -0.18,
+            "x": 2,
+            "y": -0.26,
+            "scaleX": 0.825,
+            "scaleY": 0.825
+        },
+        {
+            "name": "fire 01",
+            "parent": "_subroot",
+            "length": 77.52,
+            "rotation": 93.37,
+            "x": 19.38,
+            "y": -137.64,
+            "scaleX": 0.786,
+            "scaleY": 0.786
+        },
+        {
+            "name": "fire 02",
+            "parent": "_subroot",
+            "length": 78.65,
+            "x": 151.08,
+            "y": -20.61,
+            "scaleX": 0.786,
+            "scaleY": 0.786
+        },
+        {
+            "name": "fire 03",
+            "parent": "_subroot",
+            "length": 66.09,
+            "x": 65.16,
+            "y": 94.58,
+            "scaleX": 0.786,
+            "scaleY": 0.786
+        },
+        {
+            "name": "fire 04",
+            "parent": "_subroot",
+            "length": 78.65,
+            "x": -108.55,
+            "y": 74.43,
+            "scaleX": 0.786,
+            "scaleY": 0.786
+        },
+        {
+            "name": "fire 05",
+            "parent": "_subroot",
+            "length": 78.55,
+            "x": -142.95,
+            "y": -63.09,
+            "scaleX": 0.786,
+            "scaleY": 0.786
+        }
+    ],
+    "slots": [
+        {
+            "name": "h_diya_base",
+            "bone": "_subroot",
+            "attachment": "h_diya_base"
+        },
+        {
+            "name": "h_diya_fx_glow",
+            "bone": "_subroot",
+            "blend": "screen"
+        },
+        {
+            "name": "fire",
+            "bone": "fire 01",
+            "attachment": "h_diya_fx_fire01"
+        },
+        {
+            "name": "fire2",
+            "bone": "fire 03",
+            "attachment": "h_diya_fx_fire01"
+        },
+        {
+            "name": "fire3",
+            "bone": "fire 02",
+            "attachment": "h_diya_fx_fire01"
+        },
+        {
+            "name": "fire4",
+            "bone": "fire 04",
+            "attachment": "h_diya_fx_fire04"
+        },
+        {
+            "name": "fire5",
+            "bone": "fire 05",
+            "attachment": "h_diya_fx_fire01"
+        }
+    ],
+    "skins": {
+        "default": {
+            "fire": {
+                "h_diya_fx_fire01": {
+                    "x": 34.9,
+                    "y": 0.28,
+                    "rotation": -93.37,
+                    "width": 79,
+                    "height": 110
+                },
+                "h_diya_fx_fire02": {
+                    "x": 34.9,
+                    "y": 0.28,
+                    "rotation": -93.37,
+                    "width": 79,
+                    "height": 110
+                },
+                "h_diya_fx_fire03": {
+                    "x": 34.9,
+                    "y": 0.28,
+                    "rotation": -93.37,
+                    "width": 79,
+                    "height": 110
+                },
+                "h_diya_fx_fire04": {
+                    "x": 34.9,
+                    "y": 0.28,
+                    "rotation": -93.37,
+                    "width": 79,
+                    "height": 110
+                },
+                "h_diya_fx_fire05": {
+                    "x": 34.9,
+                    "y": 0.28,
+                    "rotation": -93.37,
+                    "width": 79,
+                    "height": 110
+                },
+                "h_diya_fx_fire06": {
+                    "x": 34.9,
+                    "y": 0.28,
+                    "rotation": -93.37,
+                    "width": 79,
+                    "height": 110
+                }
+            },
+            "fire2": {
+                "h_diya_fx_fire01": {
+                    "x": 3.16,
+                    "y": 39.16,
+                    "scaleX": -1,
+                    "rotation": 0.41,
+                    "width": 79,
+                    "height": 110
+                },
+                "h_diya_fx_fire02": {
+                    "x": 3.16,
+                    "y": 39.16,
+                    "scaleX": -1,
+                    "rotation": 0.41,
+                    "width": 79,
+                    "height": 110
+                },
+                "h_diya_fx_fire03": {
+                    "x": 3.16,
+                    "y": 39.16,
+                    "scaleX": -1,
+                    "rotation": 0.41,
+                    "width": 79,
+                    "height": 110
+                },
+                "h_diya_fx_fire04": {
+                    "x": 3.16,
+                    "y": 39.16,
+                    "scaleX": -1,
+                    "rotation": 0.41,
+                    "width": 79,
+                    "height": 110
+                },
+                "h_diya_fx_fire05": {
+                    "x": 3.16,
+                    "y": 39.16,
+                    "scaleX": -1,
+                    "rotation": 0.41,
+                    "width": 79,
+                    "height": 110
+                },
+                "h_diya_fx_fire06": {
+                    "x": 3.16,
+                    "y": 39.16,
+                    "scaleX": -1,
+                    "rotation": 0.41,
+                    "width": 79,
+                    "height": 110
+                }
+            },
+            "fire3": {
+                "h_diya_fx_fire01": {
+                    "x": 2.31,
+                    "y": 34.23,
+                    "scaleX": -1,
+                    "width": 79,
+                    "height": 110
+                },
+                "h_diya_fx_fire02": {
+                    "x": 2.31,
+                    "y": 34.23,
+                    "scaleX": -1,
+                    "width": 79,
+                    "height": 110
+                },
+                "h_diya_fx_fire03": {
+                    "x": 2.31,
+                    "y": 34.23,
+                    "scaleX": -1,
+                    "width": 79,
+                    "height": 110
+                },
+                "h_diya_fx_fire04": {
+                    "x": 2.31,
+                    "y": 34.23,
+                    "scaleX": -1,
+                    "width": 79,
+                    "height": 110
+                },
+                "h_diya_fx_fire05": {
+                    "x": 2.31,
+                    "y": 32.54,
+                    "scaleX": -1,
+                    "width": 79,
+                    "height": 110
+                },
+                "h_diya_fx_fire06": {
+                    "x": 2.31,
+                    "y": 34.23,
+                    "scaleX": -1,
+                    "width": 79,
+                    "height": 110
+                }
+            },
+            "fire4": {
+                "h_diya_fx_fire01": {
+                    "x": -5.39,
+                    "y": 35.22,
+                    "width": 79,
+                    "height": 110
+                },
+                "h_diya_fx_fire02": {
+                    "x": -5.39,
+                    "y": 35.22,
+                    "width": 79,
+                    "height": 110
+                },
+                "h_diya_fx_fire03": {
+                    "x": -5.39,
+                    "y": 35.22,
+                    "width": 79,
+                    "height": 110
+                },
+                "h_diya_fx_fire04": {
+                    "x": -5.39,
+                    "y": 35.22,
+                    "width": 79,
+                    "height": 110
+                },
+                "h_diya_fx_fire05": {
+                    "x": -5.39,
+                    "y": 35.22,
+                    "width": 79,
+                    "height": 110
+                },
+                "h_diya_fx_fire06": {
+                    "x": -5.39,
+                    "y": 35.22,
+                    "width": 79,
+                    "height": 110
+                }
+            },
+            "fire5": {
+                "h_diya_fx_fire01": {
+                    "x": -4.37,
+                    "y": 37.01,
+                    "width": 79,
+                    "height": 110
+                },
+                "h_diya_fx_fire02": {
+                    "x": -4.37,
+                    "y": 37.01,
+                    "width": 79,
+                    "height": 110
+                },
+                "h_diya_fx_fire03": {
+                    "x": -4.37,
+                    "y": 37.01,
+                    "width": 79,
+                    "height": 110
+                },
+                "h_diya_fx_fire04": {
+                    "x": -4.37,
+                    "y": 37.01,
+                    "width": 79,
+                    "height": 110
+                },
+                "h_diya_fx_fire05": {
+                    "x": -4.37,
+                    "y": 37.01,
+                    "width": 79,
+                    "height": 110
+                },
+                "h_diya_fx_fire06": {
+                    "x": -4.37,
+                    "y": 37.01,
+                    "width": 79,
+                    "height": 110
+                }
+            },
+            "h_diya_base": {
+                "h_diya_base": {
+                    "width": 308,
+                    "height": 311
+                }
+            },
+            "h_diya_fx_glow": {
+                "h_diya_fx_glow": {
+                    "x": -2.15,
+                    "y": 1.07,
+                    "scaleX": 1.43,
+                    "scaleY": 1.43,
+                    "width": 248,
+                    "height": 245
+                }
+            }
+        }
+    },
+    "animations": {
+        "highlight": {
+            "slots": {
+                "fire": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1395,
+                            "color": "ffffffd9",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.279,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.0582,
+                            "name": "h_diya_fx_fire04"
+                        },
+                        {
+                            "time": 0.1164,
+                            "name": "h_diya_fx_fire05"
+                        },
+                        {
+                            "time": 0.1746,
+                            "name": "h_diya_fx_fire06"
+                        },
+                        {
+                            "time": 0.2329,
+                            "name": "h_diya_fx_fire01"
+                        },
+                        {
+                            "time": 0.2911,
+                            "name": "h_diya_fx_fire02"
+                        },
+                        {
+                            "time": 0.3493,
+                            "name": "h_diya_fx_fire03"
+                        },
+                        {
+                            "time": 0.4075,
+                            "name": "h_diya_fx_fire04"
+                        },
+                        {
+                            "time": 0.4657,
+                            "name": "h_diya_fx_fire05"
+                        },
+                        {
+                            "time": 0.5239,
+                            "name": "h_diya_fx_fire06"
+                        },
+                        {
+                            "time": 0.5821,
+                            "name": "h_diya_fx_fire01"
+                        },
+                        {
+                            "time": 0.6404,
+                            "name": "h_diya_fx_fire02"
+                        },
+                        {
+                            "time": 0.6974,
+                            "name": "h_diya_fx_fire03"
+                        }
+                    ]
+                },
+                "fire2": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.57,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1674,
+                            "color": "ffffffdb",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3069,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.0583,
+                            "name": "h_diya_fx_fire02"
+                        },
+                        {
+                            "time": 0.1165,
+                            "name": "h_diya_fx_fire03"
+                        },
+                        {
+                            "time": 0.1748,
+                            "name": "h_diya_fx_fire04"
+                        },
+                        {
+                            "time": 0.2333,
+                            "name": "h_diya_fx_fire05"
+                        },
+                        {
+                            "time": 0.2913,
+                            "name": "h_diya_fx_fire06"
+                        },
+                        {
+                            "time": 0.3495,
+                            "name": "h_diya_fx_fire01"
+                        },
+                        {
+                            "time": 0.4078,
+                            "name": "h_diya_fx_fire02"
+                        },
+                        {
+                            "time": 0.466,
+                            "name": "h_diya_fx_fire03"
+                        },
+                        {
+                            "time": 0.5243,
+                            "name": "h_diya_fx_fire04"
+                        },
+                        {
+                            "time": 0.5825,
+                            "name": "h_diya_fx_fire05"
+                        },
+                        {
+                            "time": 0.6408,
+                            "name": "h_diya_fx_fire06"
+                        },
+                        {
+                            "time": 0.6974,
+                            "name": "h_diya_fx_fire01"
+                        }
+                    ]
+                },
+                "fire3": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.582,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1674,
+                            "color": "ffffffdc",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3069,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "h_diya_fx_fire03"
+                        },
+                        {
+                            "time": 0.0536,
+                            "name": "h_diya_fx_fire04"
+                        },
+                        {
+                            "time": 0.1071,
+                            "name": "h_diya_fx_fire05"
+                        },
+                        {
+                            "time": 0.1607,
+                            "name": "h_diya_fx_fire06"
+                        },
+                        {
+                            "time": 0.2143,
+                            "name": "h_diya_fx_fire01"
+                        },
+                        {
+                            "time": 0.2678,
+                            "name": "h_diya_fx_fire02"
+                        },
+                        {
+                            "time": 0.3214,
+                            "name": "h_diya_fx_fire03"
+                        },
+                        {
+                            "time": 0.4285,
+                            "name": "h_diya_fx_fire04"
+                        },
+                        {
+                            "time": 0.4821,
+                            "name": "h_diya_fx_fire05"
+                        },
+                        {
+                            "time": 0.5357,
+                            "name": "h_diya_fx_fire06"
+                        },
+                        {
+                            "time": 0.5892,
+                            "name": "h_diya_fx_fire01"
+                        },
+                        {
+                            "time": 0.6428,
+                            "name": "h_diya_fx_fire02"
+                        },
+                        {
+                            "time": 0.6974,
+                            "name": "h_diya_fx_fire03"
+                        }
+                    ]
+                },
+                "fire4": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.532,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1395,
+                            "color": "ffffffdd",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.279,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.0585,
+                            "name": "h_diya_fx_fire05"
+                        },
+                        {
+                            "time": 0.117,
+                            "name": "h_diya_fx_fire06"
+                        },
+                        {
+                            "time": 0.1754,
+                            "name": "h_diya_fx_fire01"
+                        },
+                        {
+                            "time": 0.2339,
+                            "name": "h_diya_fx_fire02"
+                        },
+                        {
+                            "time": 0.2924,
+                            "name": "h_diya_fx_fire03"
+                        },
+                        {
+                            "time": 0.3509,
+                            "name": "h_diya_fx_fire04"
+                        },
+                        {
+                            "time": 0.4093,
+                            "name": "h_diya_fx_fire05"
+                        },
+                        {
+                            "time": 0.4678,
+                            "name": "h_diya_fx_fire06"
+                        },
+                        {
+                            "time": 0.5263,
+                            "name": "h_diya_fx_fire01"
+                        },
+                        {
+                            "time": 0.5848,
+                            "name": "h_diya_fx_fire02"
+                        },
+                        {
+                            "time": 0.6433,
+                            "name": "h_diya_fx_fire03"
+                        },
+                        {
+                            "time": 0.6974,
+                            "name": "h_diya_fx_fire04"
+                        }
+                    ]
+                },
+                "fire5": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.658,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1395,
+                            "color": "ffffffe4",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.2511,
+                            "color": "ffffffff"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.058,
+                            "name": "h_diya_fx_fire02"
+                        },
+                        {
+                            "time": 0.116,
+                            "name": "h_diya_fx_fire03"
+                        },
+                        {
+                            "time": 0.1739,
+                            "name": "h_diya_fx_fire04"
+                        },
+                        {
+                            "time": 0.2319,
+                            "name": "h_diya_fx_fire05"
+                        },
+                        {
+                            "time": 0.2899,
+                            "name": "h_diya_fx_fire06"
+                        },
+                        {
+                            "time": 0.3479,
+                            "name": "h_diya_fx_fire01"
+                        },
+                        {
+                            "time": 0.4058,
+                            "name": "h_diya_fx_fire02"
+                        },
+                        {
+                            "time": 0.4638,
+                            "name": "h_diya_fx_fire03"
+                        },
+                        {
+                            "time": 0.5218,
+                            "name": "h_diya_fx_fire04"
+                        },
+                        {
+                            "time": 0.5798,
+                            "name": "h_diya_fx_fire05"
+                        },
+                        {
+                            "time": 0.6377,
+                            "name": "h_diya_fx_fire06"
+                        },
+                        {
+                            "time": 0.6974,
+                            "name": "h_diya_fx_fire01"
+                        }
+                    ]
+                },
+                "h_diya_fx_glow": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.639,
+                                0,
+                                0.661,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.229,
+                                0,
+                                0.665,
+                                0.54
+                            ]
+                        },
+                        {
+                            "time": 0.7,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "h_diya_fx_glow"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "fire 02": {
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.639,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1395,
+                            "x": 0.98,
+                            "y": 0.94,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.297,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.279,
+                            "x": 1.2,
+                            "y": 1.5,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.282,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6974,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ],
+                    "shear": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1674,
+                            "x": -0.35,
+                            "y": -1.01,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5301,
+                            "x": 2.8,
+                            "y": 2.81,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6974,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                "fire 03": {
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.639,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1953,
+                            "x": 0.836,
+                            "y": 0.65,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.297,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3348,
+                            "x": 1.2,
+                            "y": 1.256,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.282,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6974,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ],
+                    "shear": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1674,
+                            "x": -1.6,
+                            "y": -2.43,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5301,
+                            "x": 1.26,
+                            "y": 2.54,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6974,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                "fire 04": {
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.639,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1333,
+                            "x": 1.036,
+                            "y": 0.652,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.297,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3069,
+                            "x": 1.043,
+                            "y": 1.15,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.282,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6974,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ],
+                    "shear": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1674,
+                            "x": 1.04,
+                            "y": 1.94,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5301,
+                            "x": -2.12,
+                            "y": -1.66,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6974,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                "fire 05": {
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.639,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1116,
+                            "x": 0.99,
+                            "y": 0.755,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.297,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.2511,
+                            "x": 1.02,
+                            "y": 1.23,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.282,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6974,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ],
+                    "shear": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1674,
+                            "x": -0.75,
+                            "y": -1.91,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5301,
+                            "x": 1.8,
+                            "y": 1.7,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6974,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                "fire 01": {
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.639,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1116,
+                            "x": 0.589,
+                            "y": 0.921,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.297,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.2511,
+                            "x": 1.2,
+                            "y": 1.05,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.282,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6974,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ],
+                    "shear": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1674,
+                            "x": 1.03,
+                            "y": 1.89,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5301,
+                            "x": -1.41,
+                            "y": -1.36,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6974,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                "_subroot": {
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1,
+                            "x": 0.99,
+                            "y": 0.99,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.2333,
+                            "x": 1.01,
+                            "y": 1.01,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "x": 1.002,
+                            "y": 1.002,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.756,
+                                0.7
+                            ]
+                        },
+                        {
+                            "time": 0.7,
+                            "x": 0.95,
+                            "y": 0.95
+                        }
+                    ]
+                }
+            }
+        },
+        "idle": {}
+    }
+}

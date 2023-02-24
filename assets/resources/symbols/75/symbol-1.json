@@ -1,0 +1,136 @@
+{
+    "skeleton": {
+        "hash": "BKLjGPIHh/SJKCSAtfB2woMOYc8",
+        "spine": "3.6.53",
+        "width": 107.5,
+        "height": 106.5,
+        "images": "./images/"
+    },
+    "bones": [
+        {
+            "name": "root",
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "name": "scale",
+            "parent": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "l_a",
+            "bone": "scale",
+            "attachment": "l_a"
+        },
+        {
+            "name": "l_a2",
+            "bone": "scale",
+            "blend": "screen"
+        }
+    ],
+    "skins": {
+        "default": {
+            "l_a": {
+                "l_a": {
+                    "width": 215,
+                    "height": 213
+                }
+            },
+            "l_a2": {
+                "l_a": {
+                    "width": 215,
+                    "height": 213
+                }
+            }
+        }
+    },
+    "animations": {
+        "highlight": {
+            "slots": {
+                "l_a2": {
+                    "color": [
+                        {
+                            "time": 0.1,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffffff"
+                        },
+                        {
+                            "time": 0.5333,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.1,
+                            "name": "l_a"
+                        },
+                        {
+                            "time": 0.5333,
+                            "name": null
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "scale": {
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1,
+                            "x": 0.957,
+                            "y": 0.957,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.2333,
+                            "x": 1.03,
+                            "y": 1.03,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "x": 0.98,
+                            "y": 0.98,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.773,
+                                0.69
+                            ]
+                        },
+                        {
+                            "time": 0.7,
+                            "x": 0.95,
+                            "y": 0.95
+                        }
+                    ]
+                }
+            }
+        },
+        "idle": {}
+    }
+}

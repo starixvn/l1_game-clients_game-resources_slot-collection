@@ -1,0 +1,1020 @@
+{
+    "skeleton": {
+        "hash": "026MT1IzUsMlixJXa5iBtlFR478",
+        "spine": "3.6.53",
+        "width": 144.71,
+        "height": 142.88,
+        "images": "./images/"
+    },
+    "bones": [
+        {
+            "name": "root",
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "name": "_scale_root",
+            "parent": "root"
+        },
+        {
+            "name": "_subroot",
+            "parent": "_scale_root",
+            "x": -1.74
+        },
+        {
+            "name": "scale",
+            "parent": "_subroot"
+        },
+        {
+            "name": "bowl",
+            "parent": "scale",
+            "x": -25.52,
+            "y": -76.14,
+            "scaleX": 0.961,
+            "scaleY": 0.961
+        },
+        {
+            "name": "bowl_powder",
+            "parent": "bowl",
+            "x": 15.4,
+            "y": 133.15
+        },
+        {
+            "name": "fx_powder01",
+            "parent": "scale",
+            "x": -20,
+            "y": 23.33
+        },
+        {
+            "name": "fx_powder02",
+            "parent": "scale",
+            "x": -20,
+            "y": 23.33
+        },
+        {
+            "name": "fx_powder03",
+            "parent": "scale",
+            "x": -20,
+            "y": 23.33
+        },
+        {
+            "name": "fx_powder04",
+            "parent": "scale",
+            "x": -20,
+            "y": 23.33
+        },
+        {
+            "name": "fx_powder05",
+            "parent": "scale",
+            "x": -20,
+            "y": 23.33
+        },
+        {
+            "name": "scoop",
+            "parent": "_subroot",
+            "rotation": -14.47,
+            "x": -45.2,
+            "y": -78.4,
+            "scaleX": 0.916,
+            "scaleY": 0.916
+        },
+        {
+            "name": "scoop_powder",
+            "parent": "_subroot",
+            "rotation": 3.95,
+            "x": 11.73,
+            "y": -106.06,
+            "scaleX": 0.916,
+            "scaleY": 0.916
+        }
+    ],
+    "slots": [
+        {
+            "name": "h_cpbowl",
+            "bone": "bowl",
+            "attachment": "h_cp_bowl"
+        },
+        {
+            "name": "bowl_powder",
+            "bone": "bowl_powder",
+            "attachment": "h_cp_bowl_powder"
+        },
+        {
+            "name": "scoop",
+            "bone": "scoop",
+            "attachment": "h_cp_scoop"
+        },
+        {
+            "name": "scoop_powder",
+            "bone": "scoop_powder",
+            "attachment": "h_cp_scoop_powder"
+        },
+        {
+            "name": "h_cp_powder",
+            "bone": "scale",
+            "attachment": "h_cp_powder"
+        },
+        {
+            "name": "fx_powder",
+            "bone": "fx_powder01",
+            "blend": "screen"
+        },
+        {
+            "name": "fx_powder2",
+            "bone": "fx_powder02",
+            "blend": "screen"
+        },
+        {
+            "name": "fx_powder3",
+            "bone": "fx_powder03",
+            "blend": "screen"
+        },
+        {
+            "name": "fx_powder4",
+            "bone": "fx_powder04",
+            "blend": "screen"
+        },
+        {
+            "name": "fx_powder5",
+            "bone": "fx_powder05"
+        }
+    ],
+    "skins": {
+        "default": {
+            "bowl_powder": {
+                "h_cp_bowl_powder": {
+                    "x": 5.43,
+                    "y": 23.33,
+                    "width": 218,
+                    "height": 124
+                }
+            },
+            "fx_powder": {
+                "h_cp_fx_powder": {
+                    "x": 0.5,
+                    "y": 6.67,
+                    "width": 128,
+                    "height": 128
+                }
+            },
+            "fx_powder2": {
+                "h_cp_fx_powder": {
+                    "x": -1.27,
+                    "y": 6.67,
+                    "width": 128,
+                    "height": 128
+                }
+            },
+            "fx_powder3": {
+                "h_cp_fx_powder": {
+                    "x": 0.5,
+                    "y": 6.67,
+                    "width": 128,
+                    "height": 128
+                }
+            },
+            "fx_powder4": {
+                "h_cp_fx_powder": {
+                    "x": 0.5,
+                    "y": 6.67,
+                    "width": 128,
+                    "height": 128
+                }
+            },
+            "fx_powder5": {
+                "h_cp_fx_powderx": {
+                    "x": 0.5,
+                    "y": 6.67,
+                    "width": 128,
+                    "height": 128
+                }
+            },
+            "h_cp_powder": {
+                "h_cp_powder": {
+                    "x": 12.76,
+                    "y": -94.48,
+                    "width": 272,
+                    "height": 115
+                }
+            },
+            "h_cpbowl": {
+                "h_cp_bowl": {
+                    "x": 16.16,
+                    "y": 67.82,
+                    "width": 272,
+                    "height": 181
+                }
+            },
+            "scoop": {
+                "h_cp_scoop": {
+                    "x": 2.28,
+                    "y": -21.12,
+                    "rotation": 18.09,
+                    "width": 179,
+                    "height": 102
+                }
+            },
+            "scoop_powder": {
+                "h_cp_scoop_powder": {
+                    "x": 15.9,
+                    "y": -9.17,
+                    "width": 86,
+                    "height": 62
+                }
+            }
+        }
+    },
+    "animations": {
+        "highlight": {
+            "slots": {
+                "fx_powder": {
+                    "color": [
+                        {
+                            "time": 0.2242,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.4484,
+                            "color": "ffffffd1",
+                            "curve": [
+                                0.252,
+                                0,
+                                0.611,
+                                0.41
+                            ]
+                        },
+                        {
+                            "time": 0.7007,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.2242,
+                            "name": "h_cp_fx_powder"
+                        }
+                    ]
+                },
+                "fx_powder2": {
+                    "color": [
+                        {
+                            "time": 0.2242,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3644,
+                            "color": "ffffffd2",
+                            "curve": [
+                                0.245,
+                                0,
+                                0.615,
+                                0.43
+                            ]
+                        },
+                        {
+                            "time": 0.7007,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.2242,
+                            "name": "h_cp_fx_powder"
+                        }
+                    ]
+                },
+                "fx_powder3": {
+                    "color": [
+                        {
+                            "time": 0.1682,
+                            "color": "aea49300"
+                        },
+                        {
+                            "time": 0.2803,
+                            "color": "c8bdacd5"
+                        },
+                        {
+                            "time": 0.7,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.7007,
+                            "color": "f1edea00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.1682,
+                            "name": "h_cp_fx_powder"
+                        }
+                    ]
+                },
+                "fx_powder4": {
+                    "color": [
+                        {
+                            "time": 0.0841,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3363,
+                            "color": "ffffffbb",
+                            "curve": [
+                                0.232,
+                                0,
+                                0.696,
+                                0.58
+                            ]
+                        },
+                        {
+                            "time": 0.7007,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.0841,
+                            "name": "h_cp_fx_powder"
+                        }
+                    ]
+                },
+                "fx_powder5": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.2242,
+                            "color": "ffe3b3e6",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.831,
+                                0.78
+                            ]
+                        },
+                        {
+                            "time": 0.7,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.334,
+                                0.33,
+                                0.668,
+                                0.67
+                            ]
+                        },
+                        {
+                            "time": 0.7007,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0,
+                            "name": "h_cp_fx_powderx"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "bowl": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1121,
+                            "angle": 359,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.661,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.2522,
+                            "angle": 0.35,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.506,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3924,
+                            "angle": -0.19,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.218,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6166,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0.0841,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.25,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1962,
+                            "x": 0,
+                            "y": 3.33,
+                            "curve": [
+                                0.25,
+                                0,
+                                0,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.4484,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1,
+                            "x": 0.99,
+                            "y": 0.99,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.2333,
+                            "x": 1.01,
+                            "y": 1.01,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "x": 1.041,
+                            "y": 1.041,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.773,
+                                0.73
+                            ]
+                        },
+                        {
+                            "time": 0.7007,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "scoop": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 0,
+                            "curve": [
+                                0.661,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1682,
+                            "angle": -1.7,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3083,
+                            "angle": 0.79,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.4765,
+                            "angle": 0
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.522,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1962,
+                            "x": -5.41,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3363,
+                            "x": 6.67,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5045,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.7,
+                            "x": 4.87,
+                            "y": 2.87
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0.1962,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3363,
+                            "x": 1,
+                            "y": 1.005,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5045,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "scoop_powder": {
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.522,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1962,
+                            "x": -6.67,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3363,
+                            "x": 3.33,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5045,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.522,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1962,
+                            "x": 1.115,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3363,
+                            "x": 0.96,
+                            "y": 1.046,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5045,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "fx_powder01": {
+                    "rotate": [
+                        {
+                            "time": 0.2242,
+                            "angle": 0,
+                            "curve": [
+                                0.068,
+                                0.19,
+                                0.14,
+                                0.68
+                            ]
+                        },
+                        {
+                            "time": 0.7007,
+                            "angle": 30.3
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0.2242,
+                            "x": -23.33,
+                            "y": -98.45,
+                            "curve": [
+                                0.067,
+                                0.18,
+                                0.291,
+                                0.69
+                            ]
+                        },
+                        {
+                            "time": 0.7007,
+                            "x": 29.53,
+                            "y": -96.26
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0.2242,
+                            "x": 0.35,
+                            "y": 0.35,
+                            "curve": [
+                                0.068,
+                                0.19,
+                                0.284,
+                                0.68
+                            ]
+                        },
+                        {
+                            "time": 0.7007,
+                            "x": 0.672,
+                            "y": 0.672
+                        }
+                    ]
+                },
+                "fx_powder02": {
+                    "rotate": [
+                        {
+                            "time": 0.2242,
+                            "angle": 0,
+                            "curve": [
+                                0.068,
+                                0.19,
+                                0.14,
+                                0.68
+                            ]
+                        },
+                        {
+                            "time": 0.7007,
+                            "angle": -8.87
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0.2242,
+                            "x": -13.33,
+                            "y": -110.2,
+                            "curve": [
+                                0.089,
+                                0.18,
+                                0.338,
+                                0.62
+                            ]
+                        },
+                        {
+                            "time": 0.7007,
+                            "x": 60.21,
+                            "y": -105.69
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0.2242,
+                            "x": 0.35,
+                            "y": 0.35,
+                            "curve": [
+                                0.068,
+                                0.19,
+                                0.284,
+                                0.68
+                            ]
+                        },
+                        {
+                            "time": 0.7007,
+                            "x": 0.672,
+                            "y": 0.672
+                        }
+                    ]
+                },
+                "fx_powder03": {
+                    "rotate": [
+                        {
+                            "time": 0.1682,
+                            "angle": 0,
+                            "curve": [
+                                0.1,
+                                0.28,
+                                0.297,
+                                0.76
+                            ]
+                        },
+                        {
+                            "time": 0.7007,
+                            "angle": 17.48
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0.1682,
+                            "x": 61.76,
+                            "y": 23.16,
+                            "curve": [
+                                0.107,
+                                0.28,
+                                0.204,
+                                0.75
+                            ]
+                        },
+                        {
+                            "time": 0.7007,
+                            "x": 137.73,
+                            "y": 71.32
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0.1682,
+                            "x": 0.7,
+                            "y": 0.7,
+                            "curve": [
+                                0.076,
+                                0.19,
+                                0.27,
+                                0.73
+                            ]
+                        },
+                        {
+                            "time": 0.7007,
+                            "x": 0.843,
+                            "y": 0.843
+                        }
+                    ]
+                },
+                "fx_powder04": {
+                    "rotate": [
+                        {
+                            "time": 0.0841,
+                            "angle": 0,
+                            "curve": [
+                                0.085,
+                                0.29,
+                                0.263,
+                                0.84
+                            ]
+                        },
+                        {
+                            "time": 0.7007,
+                            "angle": 54.09
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0.0841,
+                            "x": -15.94,
+                            "y": 24.5,
+                            "curve": [
+                                0.087,
+                                0.3,
+                                0.164,
+                                0.82
+                            ]
+                        },
+                        {
+                            "time": 0.7007,
+                            "x": 83.79,
+                            "y": 51.65
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0.0841,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.064,
+                                0.2,
+                                0.241,
+                                0.81
+                            ]
+                        },
+                        {
+                            "time": 0.7007,
+                            "x": 1.098,
+                            "y": 1.098
+                        }
+                    ]
+                },
+                "fx_powder05": {
+                    "rotate": [
+                        {
+                            "time": 0,
+                            "angle": 54.09,
+                            "curve": [
+                                0.076,
+                                0.29,
+                                0.158,
+                                0.91
+                            ]
+                        },
+                        {
+                            "time": 0.7007,
+                            "angle": 19.3
+                        }
+                    ],
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": -56.57,
+                            "y": -1.46,
+                            "curve": [
+                                0.057,
+                                0.26,
+                                0.149,
+                                0.9
+                            ]
+                        },
+                        {
+                            "time": 0.7007,
+                            "x": 14.35,
+                            "y": 9.93
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1.3,
+                            "y": 1.3,
+                            "curve": [
+                                0.311,
+                                0.43,
+                                0.644,
+                                0.77
+                            ]
+                        },
+                        {
+                            "time": 0.7007,
+                            "x": 1.6,
+                            "y": 1.6
+                        }
+                    ]
+                },
+                "scale": {
+                    "scale": [
+                        {
+                            "time": 0.4667,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.291,
+                                0.34,
+                                0.618,
+                                0.69
+                            ]
+                        },
+                        {
+                            "time": 0.7,
+                            "x": 0.95,
+                            "y": 0.95
+                        }
+                    ]
+                }
+            }
+        },
+        "idle": {}
+    }
+}

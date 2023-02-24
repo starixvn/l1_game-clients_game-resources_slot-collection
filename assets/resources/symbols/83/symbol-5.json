@@ -1,0 +1,143 @@
+{
+    "skeleton": {
+        "hash": "MbOcjIZwS/zAgV9p1SGvTxI2KOQ",
+        "spine": "3.6.53",
+        "width": 199,
+        "height": 253,
+        "images": "./images/"
+    },
+    "bones": [
+        {
+            "name": "root",
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "name": "_subroot",
+            "parent": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "l_a",
+            "bone": "_subroot",
+            "attachment": "l_a"
+        },
+        {
+            "name": "l_a2",
+            "bone": "_subroot",
+            "blend": "screen"
+        }
+    ],
+    "skins": {
+        "default": {
+            "l_a": {
+                "l_a": {
+                    "width": 399,
+                    "height": 507
+                }
+            },
+            "l_a2": {
+                "l_a": {
+                    "width": 399,
+                    "height": 507
+                }
+            }
+        }
+    },
+    "animations": {
+        "win": {
+            "slots": {
+                "l_a2": {
+                    "color": [
+                        {
+                            "time": 0.0667,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.2,
+                            "color": "ffffff7a",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.353,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "color": "ffffff00"
+                        }
+                    ],
+                    "attachment": [
+                        {
+                            "time": 0.0667,
+                            "name": "l_a"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "_subroot": {
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.0667,
+                            "x": 1,
+                            "y": 0.98,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.2,
+                            "x": 1.01,
+                            "y": 1.01,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.4,
+                            "x": 0.99,
+                            "y": 0.99,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.324,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 1,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
