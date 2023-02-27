@@ -1,0 +1,133 @@
+{
+    "skeleton": {
+        "hash": "/+NAajJsEb/G/9WJ/oa/xcXGiBo",
+        "spine": "3.6.53",
+        "width": 200,
+        "height": 200,
+        "images": "./images/"
+    },
+    "bones": [
+        {
+            "name": "root",
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "name": "l_k",
+            "parent": "root"
+        }
+    ],
+    "slots": [
+        {
+            "name": "l_k",
+            "bone": "l_k",
+            "attachment": "l_k"
+        },
+        {
+            "name": "l_k_top",
+            "bone": "l_k",
+            "color": "ffffff00",
+            "attachment": "l_k",
+            "blend": "additive"
+        }
+    ],
+    "skins": {
+        "default": {
+            "l_k": {
+                "l_k": {
+                    "width": 317,
+                    "height": 365
+                }
+            },
+            "l_k_top": {
+                "l_k": {
+                    "width": 317,
+                    "height": 365
+                }
+            }
+        }
+    },
+    "animations": {
+        "win": {
+            "slots": {
+                "l_k_top": {
+                    "color": [
+                        {
+                            "time": 0.0667,
+                            "color": "ffffff00"
+                        },
+                        {
+                            "time": 0.2333,
+                            "color": "ffffff53"
+                        },
+                        {
+                            "time": 0.5667,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "l_k": {
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.0667,
+                            "x": 0.95,
+                            "y": 0.95,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.2,
+                            "x": 1.02,
+                            "y": 1.02,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3667,
+                            "x": 0.98,
+                            "y": 0.98,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5333,
+                            "x": 1,
+                            "y": 1,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.6667,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1659 @@
+{
+    "skeleton": {
+        "hash": "BjroB+ITgWLdg+4wyHWQTxk2QYU",
+        "spine": "3.6.53",
+        "width": 200,
+        "height": 200,
+        "images": "./images/"
+    },
+    "bones": [
+        {
+            "name": "root",
+            "scaleX": 0.5,
+            "scaleY": 0.5
+        },
+        {
+            "name": "h_tequila",
+            "parent": "root"
+        },
+        {
+            "name": "tequila",
+            "parent": "h_tequila",
+            "x": 82.45,
+            "y": -51.26
+        },
+        {
+            "name": "bone",
+            "parent": "tequila",
+            "rotation": 19.7,
+            "x": -49.06,
+            "y": 84.65
+        },
+        {
+            "name": "drop_1",
+            "parent": "tequila",
+            "rotation": 116.93,
+            "x": 109.61,
+            "y": 73.66
+        },
+        {
+            "name": "drop_2",
+            "parent": "tequila",
+            "rotation": 116.93,
+            "x": 114.91,
+            "y": 205.32
+        },
+        {
+            "name": "drop_3",
+            "parent": "tequila",
+            "rotation": 116.93,
+            "x": 21.94,
+            "y": 238.71
+        },
+        {
+            "name": "drop_4",
+            "parent": "tequila",
+            "rotation": 116.93,
+            "x": -72.91,
+            "y": 231.53
+        },
+        {
+            "name": "drop_5",
+            "parent": "tequila",
+            "rotation": 116.93,
+            "x": -127.82,
+            "y": 221.55
+        },
+        {
+            "name": "ice",
+            "parent": "tequila",
+            "x": -39.3,
+            "y": 115.38,
+            "color": "abe323ff"
+        },
+        {
+            "name": "ice_reflection",
+            "parent": "tequila",
+            "x": 14.89,
+            "y": 5.07
+        },
+        {
+            "name": "lime_1",
+            "parent": "tequila",
+            "x": 27.74,
+            "y": 126.55
+        },
+        {
+            "name": "lime_2",
+            "parent": "tequila",
+            "x": -111.12,
+            "y": 61.12
+        },
+        {
+            "name": "lime_big",
+            "parent": "tequila",
+            "length": 111.84,
+            "rotation": 91.91,
+            "x": -185.35,
+            "y": 67.63
+        }
+    ],
+    "slots": [
+        {
+            "name": "h_tequila_base",
+            "bone": "tequila",
+            "attachment": "h_tequila_base"
+        },
+        {
+            "name": "h_tequila_drink",
+            "bone": "tequila",
+            "attachment": "h_tequila_drink"
+        },
+        {
+            "name": "h_tequila_salt_rim_back",
+            "bone": "tequila",
+            "attachment": "h_tequila_salt_rim_back"
+        },
+        {
+            "name": "h_tequila_lime_big",
+            "bone": "lime_big",
+            "attachment": "h_tequila_lime_big"
+        },
+        {
+            "name": "h_tequlia_ice",
+            "bone": "ice",
+            "attachment": "h_tequlia_ice"
+        },
+        {
+            "name": "h_tequila_lime_1",
+            "bone": "lime_1",
+            "attachment": "h_tequila_lime_1"
+        },
+        {
+            "name": "h_tequila_lime_2",
+            "bone": "lime_2",
+            "attachment": "h_tequila_lime_2"
+        },
+        {
+            "name": "h_tequila_salt_rim_front",
+            "bone": "tequila",
+            "attachment": "h_tequila_salt_rim_front"
+        },
+        {
+            "name": "h_tequila_drink_reflection",
+            "bone": "ice_reflection",
+            "attachment": "h_tequila_drink_reflection",
+            "blend": "screen"
+        },
+        {
+            "name": "h_tequila_glass",
+            "bone": "tequila",
+            "attachment": "h_tequila_glass",
+            "blend": "screen"
+        },
+        {
+            "name": "h_tequila_touchup",
+            "bone": "tequila",
+            "attachment": "h_tequila_touchup"
+        },
+        {
+            "name": "h_tequila_light",
+            "bone": "tequila",
+            "attachment": "h_tequila_light",
+            "blend": "screen"
+        },
+        {
+            "name": "h_tequila_drop_2",
+            "bone": "drop_2",
+            "attachment": "h_tequila_drop_2"
+        },
+        {
+            "name": "h_tequila_drop_1",
+            "bone": "drop_1",
+            "attachment": "h_tequila_drop_1"
+        },
+        {
+            "name": "h_tequila_drop_3",
+            "bone": "drop_3",
+            "attachment": "h_tequila_drop_3"
+        },
+        {
+            "name": "h_tequila_drop_4",
+            "bone": "drop_4",
+            "attachment": "h_tequila_drop_4"
+        },
+        {
+            "name": "h_tequila_drop_5",
+            "bone": "drop_5",
+            "attachment": "h_tequila_drop_5"
+        }
+    ],
+    "transform": [
+        {
+            "name": "ice",
+            "order": 0,
+            "target": "ice",
+            "x": 54.19,
+            "y": -110.31,
+            "rotateMix": 0,
+            "translateMix": -0.5,
+            "scaleMix": 0,
+            "shearMix": 0,
+            "bones": [
+                "ice_reflection"
+            ]
+        }
+    ],
+    "skins": {
+        "default": {
+            "h_tequila_base": {
+                "h_tequila_base": {
+                    "type": "mesh",
+                    "hull": 12,
+                    "width": 329,
+                    "height": 358,
+                    "uvs": [
+                        0.96787,
+                        0.87236,
+                        0.84541,
+                        0.96532,
+                        0.69879,
+                        1,
+                        0.57587,
+                        1,
+                        0.00829,
+                        0.51807,
+                        0.00001,
+                        0.37239,
+                        0.12334,
+                        0.21051,
+                        0.35924,
+                        0.07715,
+                        0.59514,
+                        0,
+                        0.86629,
+                        0.00952,
+                        0.93678,
+                        0.12759,
+                        0.99999,
+                        0.74477,
+                        0.35987,
+                        0.5676,
+                        0.15817,
+                        0.57904,
+                        0.59722,
+                        0.49336,
+                        0.73134,
+                        0.41239,
+                        0.85138,
+                        0.28723
+                    ],
+                    "triangles": [
+                        4,
+                        13,
+                        3,
+                        5,
+                        13,
+                        4,
+                        13,
+                        12,
+                        3,
+                        6,
+                        12,
+                        13,
+                        11,
+                        14,
+                        15,
+                        15,
+                        16,
+                        11,
+                        14,
+                        7,
+                        15,
+                        15,
+                        8,
+                        16,
+                        3,
+                        12,
+                        14,
+                        16,
+                        10,
+                        11,
+                        12,
+                        7,
+                        14,
+                        16,
+                        9,
+                        10,
+                        2,
+                        3,
+                        14,
+                        1,
+                        2,
+                        14,
+                        11,
+                        1,
+                        14,
+                        6,
+                        13,
+                        5,
+                        6,
+                        7,
+                        12,
+                        15,
+                        7,
+                        8,
+                        16,
+                        8,
+                        9,
+                        0,
+                        1,
+                        11
+                    ],
+                    "vertices": [
+                        106.98,
+                        -94.04,
+                        66.69,
+                        -127.32,
+                        18.46,
+                        -139.74,
+                        -21.99,
+                        -139.74,
+                        -208.72,
+                        32.79,
+                        -211.44,
+                        84.95,
+                        -170.87,
+                        142.9,
+                        -93.26,
+                        190.64,
+                        -15.65,
+                        218.27,
+                        73.56,
+                        214.85,
+                        96.75,
+                        172.58,
+                        117.55,
+                        -48.37,
+                        -93.05,
+                        15.06,
+                        -159.41,
+                        10.97,
+                        -14.96,
+                        41.64,
+                        29.16,
+                        70.62,
+                        68.65,
+                        115.43
+                    ],
+                    "edges": [
+                        4,
+                        6,
+                        8,
+                        10,
+                        10,
+                        12,
+                        12,
+                        14,
+                        14,
+                        16,
+                        16,
+                        18,
+                        18,
+                        20,
+                        20,
+                        22,
+                        22,
+                        0,
+                        6,
+                        8,
+                        0,
+                        2,
+                        2,
+                        4
+                    ]
+                }
+            },
+            "h_tequila_drink": {
+                "h_tequila_drink": {
+                    "type": "mesh",
+                    "hull": 11,
+                    "width": 277,
+                    "height": 280,
+                    "uvs": [
+                        0.95569,
+                        0.82098,
+                        0.71489,
+                        0.98214,
+                        0.43499,
+                        0.98214,
+                        0.15489,
+                        0.65501,
+                        0,
+                        0.54364,
+                        0.01278,
+                        0.29214,
+                        0.3287,
+                        0.05762,
+                        0.7062,
+                        0.01874,
+                        0.90389,
+                        0.12574,
+                        0.9192,
+                        0.28798,
+                        1,
+                        0.66071,
+                        0.38666,
+                        0.56642,
+                        0.70327,
+                        0.40838
+                    ],
+                    "triangles": [
+                        11,
+                        3,
+                        5,
+                        3,
+                        4,
+                        5,
+                        5,
+                        6,
+                        11,
+                        11,
+                        6,
+                        12,
+                        12,
+                        8,
+                        9,
+                        12,
+                        7,
+                        8,
+                        12,
+                        6,
+                        7,
+                        3,
+                        11,
+                        2,
+                        2,
+                        11,
+                        1,
+                        11,
+                        12,
+                        1,
+                        1,
+                        12,
+                        0,
+                        0,
+                        12,
+                        10,
+                        12,
+                        9,
+                        10
+                    ],
+                    "vertices": [
+                        1,
+                        2,
+                        92.28,
+                        -61.61,
+                        1,
+                        1,
+                        2,
+                        25.58,
+                        -106.74,
+                        1,
+                        2,
+                        2,
+                        -40.08,
+                        -108.96,
+                        0.96815,
+                        3,
+                        -56.82,
+                        -185.31,
+                        0.03185,
+                        2,
+                        2,
+                        -129.54,
+                        -15.14,
+                        0.39794,
+                        3,
+                        -109.42,
+                        -66.82,
+                        0.60206,
+                        2,
+                        2,
+                        -172.45,
+                        16.04,
+                        0.17539,
+                        3,
+                        -139.3,
+                        -23,
+                        0.82461,
+                        2,
+                        2,
+                        -168.91,
+                        86.46,
+                        0.04571,
+                        3,
+                        -112.22,
+                        42.11,
+                        0.95429,
+                        1,
+                        3,
+                        -7.7,
+                        74.43,
+                        1,
+                        2,
+                        2,
+                        23.17,
+                        163.02,
+                        0.13833,
+                        3,
+                        94.42,
+                        49.43,
+                        0.86167,
+                        2,
+                        2,
+                        77.93,
+                        133.05,
+                        0.31916,
+                        3,
+                        135.87,
+                        2.76,
+                        0.68084,
+                        2,
+                        2,
+                        82.17,
+                        87.63,
+                        0.51903,
+                        3,
+                        124.55,
+                        -41.44,
+                        0.48097,
+                        2,
+                        2,
+                        104.55,
+                        -16.74,
+                        0.98524,
+                        3,
+                        110.44,
+                        -147.24,
+                        0.01476,
+                        2,
+                        2,
+                        -65.34,
+                        9.66,
+                        0.55438,
+                        3,
+                        -40.61,
+                        -65.11,
+                        0.44562,
+                        2,
+                        2,
+                        22.36,
+                        53.91,
+                        0.62041,
+                        3,
+                        56.87,
+                        -53.01,
+                        0.37959
+                    ],
+                    "edges": [
+                        0,
+                        2,
+                        2,
+                        4,
+                        4,
+                        6,
+                        6,
+                        8,
+                        18,
+                        20,
+                        20,
+                        0,
+                        16,
+                        18,
+                        8,
+                        10,
+                        12,
+                        14,
+                        14,
+                        16,
+                        10,
+                        12
+                    ]
+                }
+            },
+            "h_tequila_drink_reflection": {
+                "h_tequila_drink_reflection": {
+                    "x": -10.84,
+                    "y": -16.31,
+                    "width": 89,
+                    "height": 105
+                }
+            },
+            "h_tequila_drop_1": {
+                "h_tequila_drop_1": {
+                    "x": -1,
+                    "y": 0.01,
+                    "rotation": -116.93,
+                    "width": 19,
+                    "height": 19
+                }
+            },
+            "h_tequila_drop_2": {
+                "h_tequila_drop_2": {
+                    "x": -1.46,
+                    "y": 0.58,
+                    "rotation": -116.93,
+                    "width": 21,
+                    "height": 19
+                }
+            },
+            "h_tequila_drop_3": {
+                "h_tequila_drop_3": {
+                    "x": -0.45,
+                    "y": 0.1,
+                    "rotation": -116.93,
+                    "width": 17,
+                    "height": 18
+                }
+            },
+            "h_tequila_drop_4": {
+                "h_tequila_drop_4": {
+                    "x": -0.22,
+                    "y": 0.15,
+                    "rotation": -116.93,
+                    "width": 17,
+                    "height": 16
+                }
+            },
+            "h_tequila_drop_5": {
+                "h_tequila_drop_5": {
+                    "x": 0.25,
+                    "y": 0.01,
+                    "rotation": -116.93,
+                    "width": 17,
+                    "height": 17
+                }
+            },
+            "h_tequila_glass": {
+                "h_tequila_glass": {
+                    "x": -41.45,
+                    "y": 25.76,
+                    "width": 318,
+                    "height": 331
+                }
+            },
+            "h_tequila_light": {
+                "h_tequila_light": {
+                    "x": -43.45,
+                    "y": 104.76,
+                    "width": 276,
+                    "height": 189
+                }
+            },
+            "h_tequila_lime_1": {
+                "h_tequila_lime_1": {
+                    "x": -14.68,
+                    "y": 3.21,
+                    "width": 85,
+                    "height": 139
+                }
+            },
+            "h_tequila_lime_2": {
+                "h_tequila_lime_2": {
+                    "x": 35.17,
+                    "y": 24.65,
+                    "width": 187,
+                    "height": 131
+                }
+            },
+            "h_tequila_lime_big": {
+                "h_tequila_lime_big": {
+                    "x": 43.75,
+                    "y": -8.36,
+                    "rotation": -91.91,
+                    "width": 208,
+                    "height": 162
+                }
+            },
+            "h_tequila_salt_rim_back": {
+                "h_tequila_salt_rim_back": {
+                    "x": -101.95,
+                    "y": 120.26,
+                    "width": 335,
+                    "height": 214
+                }
+            },
+            "h_tequila_salt_rim_front": {
+                "h_tequila_salt_rim_front": {
+                    "x": -34.45,
+                    "y": 91.26,
+                    "width": 272,
+                    "height": 236
+                }
+            },
+            "h_tequila_touchup": {
+                "h_tequila_touchup": {
+                    "x": -35.45,
+                    "y": 19.76,
+                    "width": 282,
+                    "height": 235
+                }
+            },
+            "h_tequlia_ice": {
+                "h_tequlia_ice": {
+                    "x": -0.15,
+                    "y": -8.62,
+                    "width": 106,
+                    "height": 111
+                }
+            }
+        }
+    },
+    "animations": {
+        "win": {
+            "slots": {
+                "h_tequila_drop_1": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3056,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.4445,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5834,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "h_tequila_drop_2": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3056,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.4445,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5834,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "h_tequila_drop_3": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3056,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.4445,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5834,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "h_tequila_drop_4": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3056,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.4445,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5834,
+                            "color": "ffffff00"
+                        }
+                    ]
+                },
+                "h_tequila_drop_5": {
+                    "color": [
+                        {
+                            "time": 0,
+                            "color": "ffffff00",
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.3056,
+                            "color": "ffffff00",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.4445,
+                            "color": "ffffffff",
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5834,
+                            "color": "ffffff00"
+                        }
+                    ]
+                }
+            },
+            "bones": {
+                "tequila": {
+                    "rotate": [
+                        {
+                            "time": 0.0833,
+                            "angle": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.2223,
+                            "angle": -2.4,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3056,
+                            "angle": 1.62,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.4723,
+                            "angle": -1.59,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5834,
+                            "angle": 0.51,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.7224,
+                            "angle": 0
+                        }
+                    ],
+                    "scale": [
+                        {
+                            "time": 0,
+                            "x": 1,
+                            "y": 1,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.25,
+                            "x": 0.95,
+                            "y": 0.95,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.4167,
+                            "x": 1.02,
+                            "y": 1.02,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 1,
+                            "y": 1
+                        }
+                    ]
+                },
+                "lime_big": {
+                    "shear": [
+                        {
+                            "time": 0.1389,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.2778,
+                            "x": -3,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.389,
+                            "x": 2,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5279,
+                            "x": -1,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.639,
+                            "x": 0.5,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.7779,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                "lime_2": {
+                    "translate": [
+                        {
+                            "time": 0.1389,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3056,
+                            "x": 2.71,
+                            "y": -4.32,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.4445,
+                            "x": 1.08,
+                            "y": -0.4,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5834,
+                            "x": 2.71,
+                            "y": -4.32,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.7501,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "shear": [
+                        {
+                            "time": 0.1389,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.2778,
+                            "x": -3,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3612,
+                            "x": 2,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5279,
+                            "x": -2,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.639,
+                            "x": 1,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.7501,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                "ice": {
+                    "translate": [
+                        {
+                            "time": 0.0833,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.25,
+                            "x": 2.71,
+                            "y": -4.32,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.389,
+                            "x": 1.08,
+                            "y": -0.4,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5279,
+                            "x": 4.56,
+                            "y": -9.34,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6946,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.292,
+                                0,
+                                0.63,
+                                0.37
+                            ]
+                        },
+                        {
+                            "time": 0.7501,
+                            "x": -0.92,
+                            "y": 1.39,
+                            "curve": [
+                                0.303,
+                                0.23,
+                                0.646,
+                                0.59
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "shear": [
+                        {
+                            "time": 0.0833,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.2223,
+                            "x": -6.44,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3056,
+                            "x": 4.33,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.4723,
+                            "x": -4.72,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5834,
+                            "x": 1.66,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6946,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                "lime_1": {
+                    "translate": [
+                        {
+                            "time": 0.0833,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.25,
+                            "x": 2.71,
+                            "y": -4.32,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.389,
+                            "x": 1.08,
+                            "y": -0.4,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5279,
+                            "x": 2.71,
+                            "y": -4.32,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6946,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.292,
+                                0,
+                                0.63,
+                                0.37
+                            ]
+                        },
+                        {
+                            "time": 0.7501,
+                            "x": -0.92,
+                            "y": 1.39,
+                            "curve": [
+                                0.303,
+                                0.23,
+                                0.646,
+                                0.59
+                            ]
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "shear": [
+                        {
+                            "time": 0.0833,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.2223,
+                            "x": -6.44,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3056,
+                            "x": 4.33,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.4723,
+                            "x": -4.72,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5834,
+                            "x": 1.66,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6946,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.8333,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                "drop_1": {
+                    "translate": [
+                        {
+                            "time": 0.3056,
+                            "x": -21.65,
+                            "y": 23.45,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5834,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                "drop_2": {
+                    "translate": [
+                        {
+                            "time": 0.3056,
+                            "x": -33.37,
+                            "y": -15.33,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5834,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                "drop_3": {
+                    "translate": [
+                        {
+                            "time": 0.3056,
+                            "x": 0,
+                            "y": -26.16,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5834,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                "drop_4": {
+                    "translate": [
+                        {
+                            "time": 0.3056,
+                            "x": 15.33,
+                            "y": -40.14,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5834,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                "drop_5": {
+                    "translate": [
+                        {
+                            "time": 0.3056,
+                            "x": 29.31,
+                            "y": -53.22,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.5834,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                },
+                "bone": {
+                    "translate": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": "stepped"
+                        },
+                        {
+                            "time": 0.1667,
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "time": 0.3612,
+                            "x": 1.5,
+                            "y": -2.31
+                        },
+                        {
+                            "time": 0.5,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ],
+                    "shear": [
+                        {
+                            "time": 0,
+                            "x": 0,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.1389,
+                            "x": -6.09,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.3333,
+                            "x": 8.16,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.4723,
+                            "x": -4.83,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.6112,
+                            "x": 2.5,
+                            "y": 0,
+                            "curve": [
+                                0.25,
+                                0,
+                                0.75,
+                                1
+                            ]
+                        },
+                        {
+                            "time": 0.7501,
+                            "x": 0,
+                            "y": 0
+                        }
+                    ]
+                }
+            },
+            "deform": {
+                "default": {
+                    "h_tequila_drink": {
+                        "h_tequila_drink": [
+                            {
+                                "time": 0.0833
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}
