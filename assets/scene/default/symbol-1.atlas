@@ -1,0 +1,13 @@
+
+symbol-1.png
+size: 128,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+symbol-1
+  rotate: false
+  xy: 2, 2
+  size: 91, 114
+  orig: 91, 114
+  offset: 0, 0
+  index: -1
