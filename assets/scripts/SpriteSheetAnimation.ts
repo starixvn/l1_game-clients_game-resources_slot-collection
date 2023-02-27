@@ -21,8 +21,17 @@ export default class SpriteSheetAnimation extends cc.Component {
   padStart = 2;
 
   private readonly fps = 15;
-  initAnimation() {
+  private sprite: cc.Sprite;
+
+  initSpriteNode() {
+    const nodeName = "Sprite";
+    if (this.node.getChildByName(nodeName)) {
+      this.sprite = this.node.getChildByName(nodeName).getComponent(cc.Sprite);
+      return;
+    }
+
     const spriteNode = new cc.Node();
+    spriteNode.name = nodeName;
     this.node.addChild(spriteNode);
     const sprite = spriteNode.addComponent(cc.Sprite);
     sprite.type = cc.Sprite.Type.SIMPLE;
@@ -30,6 +39,12 @@ export default class SpriteSheetAnimation extends cc.Component {
     sprite.sizeMode = cc.Sprite.SizeMode.RAW;
     sprite.srcBlendFactor = cc.macro.BlendFactor.ONE;
     sprite.dstBlendFactor = cc.macro.BlendFactor.ONE;
+
+    this.sprite = sprite;
+  }
+  initAnimation() {
+    this.initSpriteNode();
+    const sprite = this.sprite;
 
     let index = 0;
     const frames = this.spriteAtlas.getSpriteFrames().sort((a, b) => {
@@ -64,6 +79,9 @@ export default class SpriteSheetAnimation extends cc.Component {
     const frames = atlas.getSpriteFrames();
     this.frameNumber = frames.length;
     this.duration = this.frameNumber / this.fps;
+  }
+
+  start() {
     this.initAnimation();
   }
 }

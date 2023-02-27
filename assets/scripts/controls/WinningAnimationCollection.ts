@@ -13,50 +13,37 @@ export default class WinningAnimationCollection extends SelectionControl {
   private _nodes = [];
   async initItems() {
     const total = uiManager.PACK_TOTAL;
-    for (let i = 1; i <= total; i++) {
-      const path = `winning-animations/pack${i}/winning-animation`;
-      const skeletonData = await GameUtils.loadResource<sp.SkeletonData>(
+    const allData = cc.resources.getDirWithPath(
+      "winning-animations",
+      cc.SpriteAtlas
+    );
+    let i: number = 0;
+    for (const key of Object.keys(allData)) {
+      const data = allData[key];
+      const path: string = data.path;
+      const atlas = await GameUtils.loadResource<cc.SpriteAtlas>(
         path,
-        sp.SkeletonData
+        cc.SpriteAtlas
       );
-      if (skeletonData) {
+      if (atlas) {
+        const node = new cc.Node();
+        node.name = "winning-effect";
+        node.width = REEL_ITEM_SIZE;
+        node.height = REEL_ITEM_SIZE;
+        const animation = node.addComponent(SpriteSheetAnimation);
+        animation.setAtlas(atlas);
         const item = this.initItem(i);
-        const skeleton = item.getComponentInChildren(sp.Skeleton);
-        if (skeleton) {
-          skeleton.node.active = true;
-          skeleton.skeletonData = skeletonData;
-          skeleton.setAnimation(0, "win", true);
-        }
-        this._nodes[i] = skeleton.node;
+        const atlasNode = item.getChildByName("atlas-sheet");
+        atlasNode.active = true;
+        atlasNode.addChild(node);
+        this._nodes[i] = atlasNode;
 
         const selectionItem = item.getComponent(SelectionItem);
         this.items.push(selectionItem);
-      } else {
-        const atlasPath = `winning-animations/pack${i}/winning`;
-        const atlas = await GameUtils.loadResource<cc.SpriteAtlas>(
-          atlasPath,
-          cc.SpriteAtlas
-        );
-        if (atlas) {
-          const node = new cc.Node();
-          node.width = REEL_ITEM_SIZE;
-          node.height = REEL_ITEM_SIZE;
-          const animation = node.addComponent(SpriteSheetAnimation);
-          animation.setAtlas(atlas);
-          const item = this.initItem(i);
-          const atlasNode = item.getChildByName("atlas-sheet");
-          atlasNode.active = true;
-          atlasNode.addChild(node);
-          this._nodes[i] = atlasNode;
-
-          const selectionItem = item.getComponent(SelectionItem);
-          this.items.push(selectionItem);
-        }
       }
-
-      this.items[0]?.setSelected(true);
+      i++;
     }
-    console.log("winning-animations", this.content.childrenCount);
+    this.items[0]?.setSelected(true);
   }
   emitEventSelected(id: number) {
     uiManager.emit(Events.UPDATE_WINNING_ANIMATION, this._nodes[id]);
