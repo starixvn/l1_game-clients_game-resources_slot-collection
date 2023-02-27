@@ -2530,7 +2530,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 1450,
-      "height": 0
+      "height": 400
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -2574,9 +2574,9 @@
       "__id__": 56
     },
     "_enabled": true,
-    "alignMode": 2,
+    "alignMode": 1,
     "_target": null,
-    "_alignFlags": 45,
+    "_alignFlags": 41,
     "_left": 0,
     "_right": 0,
     "_top": 0,
@@ -2633,8 +2633,8 @@
       "__id__": 55
     },
     "_enabled": true,
-    "horizontal": true,
-    "vertical": false,
+    "horizontal": false,
+    "vertical": true,
     "inertia": true,
     "brake": 0.75,
     "elastic": true,
