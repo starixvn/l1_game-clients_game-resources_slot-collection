@@ -3,4 +3,6 @@ export enum CollectionType {
   LetterSymbol,
   WinningAnimation,
   PayLine,
+  Background,
+  Audio,
 }

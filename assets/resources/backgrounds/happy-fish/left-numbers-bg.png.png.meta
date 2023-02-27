@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "ccf7bd13-da7e-4a1d-a23a-903737079be6",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 69,
+  "height": 464,
+  "platformSettings": {},
+  "subMetas": {
+    "left-numbers-bg.png": {
+      "ver": "1.0.6",
+      "uuid": "1a453fc2-45b8-4f83-8f7b-17138c2d27e1",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "ccf7bd13-da7e-4a1d-a23a-903737079be6",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -0.5,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 68,
+      "height": 464,
+      "rawWidth": 69,
+      "rawHeight": 464,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
