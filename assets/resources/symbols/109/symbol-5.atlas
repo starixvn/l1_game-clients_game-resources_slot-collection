@@ -1,0 +1,230 @@
+
+symbols.png
+size: 975,534
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+h_ebi_prawn
+  rotate: true
+  xy: 556, 60
+  size: 183, 113
+  orig: 183, 113
+  offset: 0, 0
+  index: -1
+h_ebi_rice
+  rotate: false
+  xy: 2, 3
+  size: 153, 110
+  orig: 153, 110
+  offset: 0, 0
+  index: -1
+h_ebi_shdw
+  rotate: true
+  xy: 421, 118
+  size: 200, 133
+  orig: 200, 133
+  offset: 0, 0
+  index: -1
+h_ebi_tail_left
+  rotate: true
+  xy: 811, 4
+  size: 32, 58
+  orig: 32, 58
+  offset: 0, 0
+  index: -1
+h_ebi_tail_right
+  rotate: true
+  xy: 759, 3
+  size: 33, 50
+  orig: 33, 50
+  offset: 0, 0
+  index: -1
+h_kappa_cucumber
+  rotate: false
+  xy: 708, 2
+  size: 49, 37
+  orig: 49, 37
+  offset: 0, 0
+  index: -1
+h_kappa_front
+  rotate: false
+  xy: 413, 14
+  size: 118, 102
+  orig: 118, 102
+  offset: 0, 0
+  index: -1
+h_kappa_shadow
+  rotate: true
+  xy: 234, 344
+  size: 188, 211
+  orig: 188, 211
+  offset: 0, 0
+  index: -1
+h_kappa_shdw
+  rotate: true
+  xy: 161, 197
+  size: 125, 69
+  orig: 125, 69
+  offset: 0, 0
+  index: -1
+h_kappa_top_back
+  rotate: false
+  xy: 852, 46
+  size: 121, 73
+  orig: 121, 73
+  offset: 0, 0
+  index: -1
+h_kappa_top_front
+  rotate: false
+  xy: 586, 2
+  size: 120, 37
+  orig: 120, 37
+  offset: 0, 0
+  index: -1
+h_magu_eggs_base_l
+  rotate: false
+  xy: 871, 5
+  size: 55, 39
+  orig: 55, 39
+  offset: 0, 0
+  index: -1
+h_magu_eggs_base_r
+  rotate: true
+  xy: 922, 358
+  size: 51, 36
+  orig: 51, 36
+  offset: 0, 0
+  index: -1
+h_magu_eggs_top
+  rotate: true
+  xy: 157, 17
+  size: 83, 56
+  orig: 83, 56
+  offset: 0, 0
+  index: -1
+h_magu_eggs_top_back
+  rotate: false
+  xy: 928, 12
+  size: 40, 32
+  orig: 40, 32
+  offset: 0, 0
+  index: -1
+h_magu_mayo
+  rotate: true
+  xy: 856, 405
+  size: 127, 58
+  orig: 127, 58
+  offset: 0, 0
+  index: -1
+h_magu_mayo_front
+  rotate: true
+  xy: 916, 411
+  size: 121, 47
+  orig: 121, 47
+  offset: 0, 0
+  index: -1
+h_magu_rice
+  rotate: true
+  xy: 793, 218
+  size: 178, 127
+  orig: 178, 127
+  offset: 0, 0
+  index: -1
+h_magu_shdw
+  rotate: false
+  xy: 2, 324
+  size: 230, 208
+  orig: 230, 208
+  offset: 0, 0
+  index: -1
+h_magu_shiso
+  rotate: true
+  xy: 234, 140
+  size: 202, 185
+  orig: 202, 185
+  offset: 0, 0
+  index: -1
+h_magu_tuna
+  rotate: true
+  xy: 2, 115
+  size: 207, 157
+  orig: 207, 157
+  offset: 0, 0
+  index: -1
+h_tako_leg
+  rotate: true
+  xy: 447, 320
+  size: 212, 130
+  orig: 212, 130
+  offset: 0, 0
+  index: -1
+h_tako_legX
+  rotate: false
+  xy: 579, 245
+  size: 212, 130
+  orig: 212, 130
+  offset: 0, 0
+  index: -1
+h_tako_leg_end
+  rotate: true
+  xy: 533, 14
+  size: 44, 51
+  orig: 44, 51
+  offset: 0, 0
+  index: -1
+h_tako_rice
+  rotate: false
+  xy: 227, 16
+  size: 184, 122
+  orig: 184, 122
+  offset: 0, 0
+  index: -1
+h_tako_shdw
+  rotate: true
+  xy: 772, 38
+  size: 178, 78
+  orig: 178, 78
+  offset: 0, 0
+  index: -1
+l_a
+  rotate: false
+  xy: 671, 143
+  size: 99, 100
+  orig: 99, 100
+  offset: 0, 0
+  index: -1
+l_j
+  rotate: false
+  xy: 161, 102
+  size: 64, 93
+  orig: 64, 93
+  offset: 0, 0
+  index: -1
+l_k
+  rotate: false
+  xy: 852, 121
+  size: 86, 95
+  orig: 86, 95
+  offset: 0, 0
+  index: -1
+l_maki
+  rotate: true
+  xy: 718, 398
+  size: 134, 136
+  orig: 134, 136
+  offset: 0, 0
+  index: -1
+l_maki_shadow
+  rotate: true
+  xy: 579, 377
+  size: 155, 137
+  orig: 155, 137
+  offset: 0, 0
+  index: -1
+l_q
+  rotate: false
+  xy: 671, 41
+  size: 98, 100
+  orig: 98, 100
+  offset: 0, 0
+  index: -1

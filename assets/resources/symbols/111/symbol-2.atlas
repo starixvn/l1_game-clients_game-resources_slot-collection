@@ -1,0 +1,328 @@
+
+symbols.png
+size: 920,528
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+apple
+  rotate: false
+  xy: 285, 2
+  size: 122, 139
+  orig: 122, 139
+  offset: 0, 0
+  index: -1
+apple_leaf
+  rotate: false
+  xy: 178, 143
+  size: 43, 36
+  orig: 43, 36
+  offset: 0, 0
+  index: -1
+apple_outline
+  rotate: true
+  xy: 454, 262
+  size: 124, 141
+  orig: 124, 141
+  offset: 0, 0
+  index: -1
+apple_shadow
+  rotate: false
+  xy: 158, 373
+  size: 142, 153
+  orig: 142, 153
+  offset: 0, 0
+  index: -1
+apple_stem
+  rotate: false
+  xy: 118, 19
+  size: 22, 41
+  orig: 22, 41
+  offset: 0, 0
+  index: -1
+bellpepper
+  rotate: true
+  xy: 608, 390
+  size: 136, 146
+  orig: 136, 146
+  offset: 0, 0
+  index: -1
+bellpepper_outline
+  rotate: true
+  xy: 459, 388
+  size: 138, 147
+  orig: 138, 147
+  offset: 0, 0
+  index: -1
+bellpepper_shadow
+  rotate: false
+  xy: 2, 373
+  size: 154, 153
+  orig: 154, 153
+  offset: 0, 0
+  index: -1
+bellpepper_stem
+  rotate: false
+  xy: 662, 34
+  size: 72, 43
+  orig: 72, 43
+  offset: 0, 0
+  index: -1
+carrot
+  rotate: false
+  xy: 409, 8
+  size: 130, 131
+  orig: 130, 131
+  offset: 0, 0
+  index: -1
+carrot_outline
+  rotate: true
+  xy: 143, 2
+  size: 137, 140
+  orig: 137, 140
+  offset: 0, 0
+  index: -1
+carrot_shadow
+  rotate: false
+  xy: 2, 218
+  size: 151, 153
+  orig: 151, 153
+  offset: 0, 0
+  index: -1
+carrot_stalk_L
+  rotate: true
+  xy: 662, 8
+  size: 24, 35
+  orig: 24, 35
+  offset: 0, 0
+  index: -1
+carrot_stalk_M
+  rotate: true
+  xy: 786, 46
+  size: 41, 42
+  orig: 41, 42
+  offset: 0, 0
+  index: -1
+carrot_stalk_R
+  rotate: false
+  xy: 887, 103
+  size: 31, 26
+  orig: 31, 26
+  offset: 0, 0
+  index: -1
+corn
+  rotate: true
+  xy: 301, 143
+  size: 119, 144
+  orig: 119, 144
+  offset: 0, 0
+  index: -1
+corn_leaf
+  rotate: false
+  xy: 541, 5
+  size: 119, 134
+  orig: 119, 134
+  offset: 0, 0
+  index: -1
+corn_leaf_left
+  rotate: false
+  xy: 857, 300
+  size: 28, 84
+  orig: 28, 84
+  offset: 0, 0
+  index: -1
+corn_leaf_right
+  rotate: true
+  xy: 2, 8
+  size: 52, 114
+  orig: 52, 114
+  offset: 0, 0
+  index: -1
+corn_outline
+  rotate: true
+  xy: 302, 264
+  size: 125, 150
+  orig: 125, 150
+  offset: 0, 0
+  index: -1
+corn_shadow
+  rotate: false
+  xy: 2, 62
+  size: 139, 154
+  orig: 139, 154
+  offset: 0, 0
+  index: -1
+grape_1
+  rotate: false
+  xy: 675, 212
+  size: 46, 47
+  orig: 46, 47
+  offset: 0, 0
+  index: -1
+grape_10
+  rotate: false
+  xy: 857, 257
+  size: 44, 41
+  orig: 44, 41
+  offset: 0, 0
+  index: -1
+grape_11
+  rotate: false
+  xy: 828, 3
+  size: 40, 41
+  orig: 40, 41
+  offset: 0, 0
+  index: -1
+grape_12
+  rotate: false
+  xy: 786, 89
+  size: 53, 40
+  orig: 53, 40
+  offset: 0, 0
+  index: -1
+grape_13
+  rotate: false
+  xy: 872, 46
+  size: 39, 41
+  orig: 39, 41
+  offset: 0, 0
+  index: -1
+grape_2
+  rotate: false
+  xy: 178, 181
+  size: 43, 42
+  orig: 43, 42
+  offset: 0, 0
+  index: -1
+grape_3
+  rotate: false
+  xy: 785, 2
+  size: 41, 42
+  orig: 41, 42
+  offset: 0, 0
+  index: -1
+grape_4
+  rotate: false
+  xy: 736, 33
+  size: 47, 44
+  orig: 47, 44
+  offset: 0, 0
+  index: -1
+grape_5
+  rotate: false
+  xy: 223, 181
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+grape_6
+  rotate: true
+  xy: 723, 211
+  size: 44, 45
+  orig: 44, 45
+  offset: 0, 0
+  index: -1
+grape_7
+  rotate: false
+  xy: 870, 4
+  size: 39, 40
+  orig: 39, 40
+  offset: 0, 0
+  index: -1
+grape_8
+  rotate: false
+  xy: 830, 46
+  size: 40, 41
+  orig: 40, 41
+  offset: 0, 0
+  index: -1
+grape_9
+  rotate: true
+  xy: 841, 89
+  size: 40, 44
+  orig: 40, 44
+  offset: 0, 0
+  index: -1
+grape_leaf_left
+  rotate: false
+  xy: 592, 207
+  size: 81, 52
+  orig: 81, 52
+  offset: 0, 0
+  index: -1
+grape_leaf_right
+  rotate: false
+  xy: 143, 167
+  size: 33, 49
+  orig: 33, 49
+  offset: 0, 0
+  index: -1
+grape_outline
+  rotate: true
+  xy: 447, 141
+  size: 119, 143
+  orig: 119, 143
+  offset: 0, 0
+  index: -1
+grape_shadow
+  rotate: true
+  xy: 302, 391
+  size: 135, 155
+  orig: 135, 155
+  offset: 0, 0
+  index: -1
+grape_stem
+  rotate: true
+  xy: 592, 150
+  size: 55, 68
+  orig: 55, 68
+  offset: 0, 0
+  index: -1
+grape_stem_right
+  rotate: true
+  xy: 118, 6
+  size: 11, 23
+  orig: 11, 23
+  offset: 0, 0
+  index: -1
+onion
+  rotate: false
+  xy: 597, 261
+  size: 127, 125
+  orig: 127, 125
+  offset: 0, 0
+  index: -1
+onion_outline
+  rotate: false
+  xy: 726, 257
+  size: 129, 127
+  orig: 129, 127
+  offset: 0, 0
+  index: -1
+onion_shadow
+  rotate: true
+  xy: 155, 225
+  size: 146, 144
+  orig: 146, 144
+  offset: 0, 0
+  index: -1
+potato
+  rotate: false
+  xy: 786, 131
+  size: 120, 124
+  orig: 120, 124
+  offset: 0, 0
+  index: -1
+potato_outline
+  rotate: false
+  xy: 662, 79
+  size: 122, 126
+  orig: 122, 126
+  offset: 0, 0
+  index: -1
+potato_shadow
+  rotate: true
+  xy: 756, 386
+  size: 140, 143
+  orig: 140, 143
+  offset: 0, 0
+  index: -1

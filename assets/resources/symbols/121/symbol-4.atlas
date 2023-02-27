@@ -1,0 +1,328 @@
+
+symbols.png
+size: 882,772
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+h_globe_ball
+  rotate: false
+  xy: 771, 51
+  size: 99, 99
+  orig: 101, 103
+  offset: 1, 2
+  index: -1
+h_globe_ball_glow
+  rotate: false
+  xy: 616, 137
+  size: 135, 135
+  orig: 141, 141
+  offset: 3, 3
+  index: -1
+h_globe_ring_glow
+  rotate: false
+  xy: 2, 569
+  size: 192, 201
+  orig: 196, 205
+  offset: 2, 2
+  index: -1
+h_globe_ring_inner
+  rotate: true
+  xy: 472, 23
+  size: 113, 128
+  orig: 115, 130
+  offset: 1, 1
+  index: -1
+h_globe_ring_inner2
+  rotate: false
+  xy: 568, 421
+  size: 171, 78
+  orig: 173, 80
+  offset: 1, 1
+  index: -1
+h_globe_ring_inner2_back
+  rotate: false
+  xy: 586, 501
+  size: 175, 82
+  orig: 178, 85
+  offset: 1, 2
+  index: -1
+h_globe_ring_inner_back
+  rotate: false
+  xy: 753, 152
+  size: 105, 120
+  orig: 107, 122
+  offset: 1, 1
+  index: -1
+h_globe_ring_outer
+  rotate: true
+  xy: 195, 285
+  size: 159, 163
+  orig: 161, 165
+  offset: 1, 1
+  index: -1
+h_globe_ring_outer2
+  rotate: false
+  xy: 185, 9
+  size: 130, 176
+  orig: 132, 179
+  offset: 1, 1
+  index: -1
+h_globe_ring_outer2_back
+  rotate: true
+  xy: 394, 453
+  size: 124, 172
+  orig: 128, 174
+  offset: 2, 1
+  index: -1
+h_globe_ring_outer_back
+  rotate: false
+  xy: 317, 25
+  size: 153, 161
+  orig: 156, 163
+  offset: 2, 1
+  index: -1
+h_globe_ring_outer_darken
+  rotate: true
+  xy: 780, 274
+  size: 18, 36
+  orig: 25, 43
+  offset: 2, 2
+  index: -1
+h_globe_star
+  rotate: false
+  xy: 741, 425
+  size: 64, 67
+  orig: 66, 69
+  offset: 1, 1
+  index: -1
+h_moon
+  rotate: false
+  xy: 602, 10
+  size: 125, 125
+  orig: 127, 127
+  offset: 1, 1
+  index: -1
+h_moon_glow
+  rotate: false
+  xy: 196, 574
+  size: 196, 196
+  orig: 200, 200
+  offset: 2, 2
+  index: -1
+h_moon_glow_inner
+  rotate: false
+  xy: 2, 376
+  size: 191, 191
+  orig: 195, 195
+  offset: 2, 2
+  index: -1
+h_moon_rays
+  rotate: false
+  xy: 2, 187
+  size: 187, 187
+  orig: 190, 190
+  offset: 1, 2
+  index: -1
+h_sextant
+  rotate: true
+  xy: 196, 446
+  size: 126, 164
+  orig: 126, 169
+  offset: 0, 0
+  index: -1
+h_sextant_bar
+  rotate: false
+  xy: 780, 374
+  size: 38, 49
+  orig: 39, 50
+  offset: 0, 1
+  index: -1
+h_sextant_bottom
+  rotate: false
+  xy: 860, 497
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+h_sextant_pin
+  rotate: false
+  xy: 836, 516
+  size: 44, 29
+  orig: 44, 31
+  offset: 0, 1
+  index: -1
+h_sextant_pin_back
+  rotate: false
+  xy: 771, 2
+  size: 61, 47
+  orig: 63, 48
+  offset: 0, 0
+  index: -1
+h_sextant_rim
+  rotate: false
+  xy: 780, 294
+  size: 25, 35
+  orig: 27, 37
+  offset: 1, 1
+  index: -1
+h_sextant_slot_L
+  rotate: false
+  xy: 820, 396
+  size: 23, 33
+  orig: 24, 35
+  offset: 0, 1
+  index: -1
+h_sextant_slot_R
+  rotate: false
+  xy: 362, 457
+  size: 26, 39
+  orig: 26, 39
+  offset: 0, 0
+  index: -1
+h_sextant_viewer
+  rotate: true
+  xy: 729, 15
+  size: 120, 40
+  orig: 120, 42
+  offset: 0, 1
+  index: -1
+h_sun
+  rotate: true
+  xy: 772, 547
+  size: 109, 108
+  orig: 111, 110
+  offset: 1, 1
+  index: -1
+h_sun_glow
+  rotate: false
+  xy: 394, 579
+  size: 190, 191
+  orig: 194, 195
+  offset: 2, 2
+  index: -1
+h_sun_glow_inner
+  rotate: false
+  xy: 586, 585
+  size: 184, 185
+  orig: 188, 189
+  offset: 2, 2
+  index: -1
+h_sun_rays
+  rotate: false
+  xy: 2, 3
+  size: 181, 182
+  orig: 183, 184
+  offset: 1, 1
+  index: -1
+h_sundial_angle
+  rotate: false
+  xy: 807, 431
+  size: 39, 61
+  orig: 40, 63
+  offset: 0, 1
+  index: -1
+h_sundial_angle_rim
+  rotate: false
+  xy: 836, 494
+  size: 22, 20
+  orig: 24, 21
+  offset: 1, 1
+  index: -1
+h_sundial_base
+  rotate: true
+  xy: 772, 658
+  size: 112, 108
+  orig: 113, 108
+  offset: 0, 0
+  index: -1
+h_sundial_indicator
+  rotate: false
+  xy: 568, 563
+  size: 16, 14
+  orig: 17, 16
+  offset: 0, 1
+  index: -1
+h_telescope
+  rotate: true
+  xy: 360, 283
+  size: 161, 116
+  orig: 161, 116
+  offset: 0, 0
+  index: -1
+h_telescope_holder
+  rotate: false
+  xy: 834, 2
+  size: 46, 47
+  orig: 46, 47
+  offset: 0, 0
+  index: -1
+h_telescope_holder_back
+  rotate: false
+  xy: 362, 498
+  size: 26, 46
+  orig: 27, 47
+  offset: 0, 1
+  index: -1
+h_telescope_stand
+  rotate: false
+  xy: 336, 201
+  size: 123, 80
+  orig: 125, 83
+  offset: 1, 1
+  index: -1
+h_telescope_wheel
+  rotate: false
+  xy: 763, 494
+  size: 71, 51
+  orig: 73, 53
+  offset: 1, 1
+  index: -1
+h_telescope_wheel_1
+  rotate: false
+  xy: 780, 331
+  size: 29, 41
+  orig: 29, 41
+  offset: 0, 0
+  index: -1
+h_telescope_wheel_2
+  rotate: true
+  xy: 336, 188
+  size: 11, 37
+  orig: 13, 41
+  offset: 1, 2
+  index: -1
+h_telescope_wheel_3
+  rotate: false
+  xy: 362, 546
+  size: 30, 26
+  orig: 31, 27
+  offset: 0, 0
+  index: -1
+l_a
+  rotate: false
+  xy: 472, 138
+  size: 142, 137
+  orig: 148, 142
+  offset: 3, 2
+  index: -1
+l_j
+  rotate: true
+  xy: 191, 188
+  size: 95, 143
+  orig: 101, 148
+  offset: 3, 2
+  index: -1
+l_k
+  rotate: false
+  xy: 478, 277
+  size: 152, 142
+  orig: 157, 148
+  offset: 2, 3
+  index: -1
+l_q
+  rotate: false
+  xy: 632, 274
+  size: 146, 145
+  orig: 151, 150
+  offset: 2, 3
+  index: -1

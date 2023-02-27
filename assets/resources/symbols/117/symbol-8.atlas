@@ -1,0 +1,461 @@
+
+symbols.png
+size: 2033,761
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+h_cocktailblue
+  rotate: false
+  xy: 1669, 533
+  size: 159, 226
+  orig: 166, 227
+  offset: 6, 0
+  index: -1
+h_cocktailblue_back
+  rotate: false
+  xy: 1462, 92
+  size: 148, 30
+  orig: 150, 30
+  offset: 0, 0
+  index: -1
+h_cocktailblue_flower
+  rotate: false
+  xy: 1944, 10
+  size: 60, 43
+  orig: 61, 44
+  offset: 1, 1
+  index: -1
+h_cocktailblue_lemon_peel
+  rotate: true
+  xy: 1333, 79
+  size: 48, 127
+  orig: 50, 127
+  offset: 1, 0
+  index: -1
+h_cocktailblue_lemon_slice
+  rotate: false
+  xy: 1818, 2
+  size: 87, 73
+  orig: 87, 74
+  offset: 0, 1
+  index: -1
+h_cocktailblue_lemon_wedge
+  rotate: true
+  xy: 2009, 548
+  size: 58, 20
+  orig: 58, 20
+  offset: 0, 0
+  index: -1
+h_cocktailblue_mint
+  rotate: false
+  xy: 1388, 3
+  size: 47, 14
+  orig: 47, 15
+  offset: 0, 1
+  index: -1
+h_cocktailblue_reflection
+  rotate: false
+  xy: 1472, 283
+  size: 170, 224
+  orig: 170, 224
+  offset: 0, 0
+  index: -1
+h_cocktailblue_shadow
+  rotate: false
+  xy: 987, 22
+  size: 156, 58
+  orig: 191, 58
+  offset: 35, 0
+  index: -1
+h_cocktailgreen_droplets
+  rotate: false
+  xy: 1644, 316
+  size: 25, 28
+  orig: 27, 30
+  offset: 1, 1
+  index: -1
+h_cocktailgreen_glass
+  rotate: true
+  xy: 1830, 608
+  size: 151, 201
+  orig: 151, 201
+  offset: 0, 0
+  index: -1
+h_cocktailgreen_ice
+  rotate: false
+  xy: 1984, 514
+  size: 33, 31
+  orig: 33, 31
+  offset: 0, 0
+  index: -1
+h_cocktailgreen_liquid
+  rotate: true
+  xy: 1818, 77
+  size: 143, 126
+  orig: 143, 126
+  offset: 0, 0
+  index: -1
+h_cocktailgreen_peel_1
+  rotate: false
+  xy: 1614, 81
+  size: 54, 41
+  orig: 55, 42
+  offset: 1, 1
+  index: -1
+h_cocktailgreen_peel_2
+  rotate: false
+  xy: 1292, 2
+  size: 94, 75
+  orig: 94, 75
+  offset: 0, 0
+  index: -1
+h_cocktailgreen_reflection
+  rotate: true
+  xy: 1472, 124
+  size: 157, 197
+  orig: 157, 197
+  offset: 0, 0
+  index: -1
+h_cocktailgreen_rim
+  rotate: false
+  xy: 1145, 2
+  size: 145, 43
+  orig: 145, 43
+  offset: 0, 0
+  index: -1
+h_cocktailgreen_shadow
+  rotate: true
+  xy: 1950, 366
+  size: 146, 57
+  orig: 188, 57
+  offset: 0, 0
+  index: -1
+h_cocktailpeach_condensation
+  rotate: true
+  xy: 609, 5
+  size: 122, 132
+  orig: 122, 132
+  offset: 0, 0
+  index: -1
+h_cocktailpeach_glass
+  rotate: true
+  xy: 161, 5
+  size: 122, 145
+  orig: 123, 146
+  offset: 0, 0
+  index: -1
+h_cocktailpeach_ice
+  rotate: false
+  xy: 1462, 46
+  size: 94, 44
+  orig: 94, 44
+  offset: 0, 0
+  index: -1
+h_cocktailpeach_liquid_rim
+  rotate: false
+  xy: 1669, 510
+  size: 72, 8
+  orig: 72, 9
+  offset: 0, 1
+  index: -1
+h_cocktailpeach_mint_bottom
+  rotate: true
+  xy: 1455, 4
+  size: 40, 60
+  orig: 42, 62
+  offset: 1, 1
+  index: -1
+h_cocktailpeach_mint_mid
+  rotate: false
+  xy: 1224, 48
+  size: 64, 41
+  orig: 65, 46
+  offset: 1, 0
+  index: -1
+h_cocktailpeach_mint_top
+  rotate: false
+  xy: 1160, 47
+  size: 62, 42
+  orig: 62, 42
+  offset: 0, 0
+  index: -1
+h_cocktailpeach_reflection
+  rotate: true
+  xy: 2, 5
+  size: 122, 157
+  orig: 126, 162
+  offset: 2, 3
+  index: -1
+h_cocktailpeach_rim
+  rotate: false
+  xy: 862, 2
+  size: 95, 17
+  orig: 97, 20
+  offset: 1, 3
+  index: -1
+h_cocktailpeach_shadow
+  rotate: false
+  xy: 987, 82
+  size: 171, 45
+  orig: 171, 45
+  offset: 0, 0
+  index: -1
+h_shot_glass
+  rotate: true
+  xy: 862, 21
+  size: 106, 123
+  orig: 107, 123
+  offset: 1, 0
+  index: -1
+h_shot_glass_top
+  rotate: false
+  xy: 457, 2
+  size: 103, 13
+  orig: 104, 19
+  offset: 0, 5
+  index: -1
+h_shot_lime
+  rotate: true
+  xy: 1946, 149
+  size: 68, 85
+  orig: 70, 87
+  offset: 1, 1
+  index: -1
+h_shot_liquid
+  rotate: true
+  xy: 1946, 55
+  size: 92, 84
+  orig: 92, 84
+  offset: 0, 0
+  index: -1
+h_shot_liquid_top
+  rotate: false
+  xy: 1669, 520
+  size: 91, 11
+  orig: 91, 11
+  offset: 0, 0
+  index: -1
+h_shot_reflection
+  rotate: false
+  xy: 743, 5
+  size: 117, 122
+  orig: 121, 130
+  offset: 2, 6
+  index: -1
+h_shot_shadow
+  rotate: false
+  xy: 1160, 91
+  size: 171, 36
+  orig: 171, 36
+  offset: 0, 0
+  index: -1
+h_xobottle
+  rotate: false
+  xy: 1472, 509
+  size: 195, 250
+  orig: 195, 250
+  offset: 0, 0
+  index: -1
+h_xobottle_back
+  rotate: true
+  xy: 1907, 25
+  size: 50, 35
+  orig: 54, 37
+  offset: 4, 0
+  index: -1
+h_xobottle_cork
+  rotate: false
+  xy: 1388, 19
+  size: 65, 58
+  orig: 68, 60
+  offset: 2, 1
+  index: -1
+h_xoglass_cigar
+  rotate: true
+  xy: 1955, 219
+  size: 145, 65
+  orig: 156, 65
+  offset: 0, 0
+  index: -1
+h_xoglass_cigar_lit
+  rotate: false
+  xy: 1614, 34
+  size: 48, 45
+  orig: 51, 47
+  offset: 2, 1
+  index: -1
+h_xoglass_cigar_lit_glow
+  rotate: false
+  xy: 1558, 40
+  size: 54, 50
+  orig: 54, 50
+  offset: 0, 0
+  index: -1
+h_xoglass_glass
+  rotate: false
+  xy: 1644, 346
+  size: 152, 161
+  orig: 155, 161
+  offset: 1, 0
+  index: -1
+h_xoglass_glass_top
+  rotate: false
+  xy: 1830, 514
+  size: 152, 31
+  orig: 174, 41
+  offset: 12, 0
+  index: -1
+h_xoglass_reflection
+  rotate: false
+  xy: 1798, 366
+  size: 150, 146
+  orig: 152, 154
+  offset: 1, 6
+  index: -1
+h_xoglass_shadow
+  rotate: false
+  xy: 1830, 547
+  size: 177, 59
+  orig: 184, 63
+  offset: 4, 2
+  index: -1
+l_10
+  rotate: false
+  xy: 1671, 47
+  size: 145, 140
+  orig: 146, 140
+  offset: 1, 0
+  index: -1
+l_a
+  rotate: true
+  xy: 1671, 189
+  size: 155, 141
+  orig: 155, 141
+  offset: 0, 0
+  index: -1
+l_j
+  rotate: true
+  xy: 457, 17
+  size: 110, 150
+  orig: 110, 150
+  offset: 0, 0
+  index: -1
+l_k
+  rotate: false
+  xy: 1814, 222
+  size: 139, 142
+  orig: 139, 142
+  offset: 0, 0
+  index: -1
+l_q
+  rotate: true
+  xy: 308, 9
+  size: 118, 147
+  orig: 124, 152
+  offset: 4, 2
+  index: -1
+smoke/smoke_0
+  rotate: false
+  xy: 2, 445
+  size: 208, 314
+  orig: 208, 314
+  offset: 0, 0
+  index: -1
+smoke/smoke_1
+  rotate: false
+  xy: 2, 129
+  size: 208, 314
+  orig: 208, 314
+  offset: 0, 0
+  index: -1
+smoke/smoke_10
+  rotate: false
+  xy: 842, 129
+  size: 208, 314
+  orig: 208, 314
+  offset: 0, 0
+  index: -1
+smoke/smoke_11
+  rotate: false
+  xy: 1052, 445
+  size: 208, 314
+  orig: 208, 314
+  offset: 0, 0
+  index: -1
+smoke/smoke_12
+  rotate: false
+  xy: 1052, 129
+  size: 208, 314
+  orig: 208, 314
+  offset: 0, 0
+  index: -1
+smoke/smoke_13
+  rotate: false
+  xy: 1262, 445
+  size: 208, 314
+  orig: 208, 314
+  offset: 0, 0
+  index: -1
+smoke/smoke_14
+  rotate: false
+  xy: 1262, 129
+  size: 208, 314
+  orig: 208, 314
+  offset: 0, 0
+  index: -1
+smoke/smoke_2
+  rotate: false
+  xy: 212, 445
+  size: 208, 314
+  orig: 208, 314
+  offset: 0, 0
+  index: -1
+smoke/smoke_3
+  rotate: false
+  xy: 212, 129
+  size: 208, 314
+  orig: 208, 314
+  offset: 0, 0
+  index: -1
+smoke/smoke_4
+  rotate: false
+  xy: 422, 445
+  size: 208, 314
+  orig: 208, 314
+  offset: 0, 0
+  index: -1
+smoke/smoke_5
+  rotate: false
+  xy: 422, 129
+  size: 208, 314
+  orig: 208, 314
+  offset: 0, 0
+  index: -1
+smoke/smoke_6
+  rotate: false
+  xy: 422, 129
+  size: 208, 314
+  orig: 208, 314
+  offset: 0, 0
+  index: -1
+smoke/smoke_7
+  rotate: false
+  xy: 632, 445
+  size: 208, 314
+  orig: 208, 314
+  offset: 0, 0
+  index: -1
+smoke/smoke_8
+  rotate: false
+  xy: 632, 129
+  size: 208, 314
+  orig: 208, 314
+  offset: 0, 0
+  index: -1
+smoke/smoke_9
+  rotate: false
+  xy: 842, 445
+  size: 208, 314
+  orig: 208, 314
+  offset: 0, 0
+  index: -1
