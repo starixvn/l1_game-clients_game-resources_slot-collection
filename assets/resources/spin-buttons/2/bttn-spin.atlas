@@ -1,0 +1,146 @@
+
+bttn-spin.png
+size: 1835,1052
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arrow
+  rotate: true
+  xy: 1714, 230
+  size: 116, 118
+  orig: 122, 122
+  offset: 4, 3
+  index: -1
+arrow-blur
+  rotate: true
+  xy: 1714, 112
+  size: 116, 118
+  orig: 122, 122
+  offset: 4, 3
+  index: -1
+hover
+  rotate: true
+  xy: 1436, 835
+  size: 215, 213
+  orig: 218, 218
+  offset: 1, 4
+  index: -1
+hover_light
+  rotate: true
+  xy: 1651, 717
+  size: 149, 147
+  orig: 187, 190
+  offset: 18, 22
+  index: -1
+sb_wave_00
+  rotate: false
+  xy: 1490, 102
+  size: 222, 244
+  orig: 382, 372
+  offset: 76, 65
+  index: -1
+sb_wave_01
+  rotate: false
+  xy: 584, 84
+  size: 234, 246
+  orig: 382, 372
+  offset: 71, 65
+  index: -1
+sb_wave_02
+  rotate: true
+  xy: 306, 46
+  size: 278, 276
+  orig: 382, 372
+  offset: 55, 51
+  index: -1
+sb_wave_03
+  rotate: false
+  xy: 2, 22
+  size: 302, 302
+  orig: 382, 372
+  offset: 43, 38
+  index: -1
+sb_wave_04
+  rotate: false
+  xy: 820, 2
+  size: 330, 330
+  orig: 382, 372
+  offset: 29, 24
+  index: -1
+sb_wave_05
+  rotate: false
+  xy: 1080, 346
+  size: 348, 348
+  orig: 382, 372
+  offset: 20, 16
+  index: -1
+sb_wave_06
+  rotate: false
+  xy: 724, 696
+  size: 354, 354
+  orig: 382, 372
+  offset: 17, 12
+  index: -1
+sb_wave_07
+  rotate: true
+  xy: 364, 332
+  size: 358, 356
+  orig: 382, 372
+  offset: 15, 11
+  index: -1
+sb_wave_08
+  rotate: true
+  xy: 2, 688
+  size: 362, 360
+  orig: 382, 372
+  offset: 13, 9
+  index: -1
+sb_wave_09
+  rotate: false
+  xy: 722, 334
+  size: 356, 356
+  orig: 382, 372
+  offset: 16, 11
+  index: -1
+sb_wave_10
+  rotate: false
+  xy: 2, 326
+  size: 360, 360
+  orig: 382, 372
+  offset: 14, 9
+  index: -1
+sb_wave_11
+  rotate: false
+  xy: 1080, 696
+  size: 354, 354
+  orig: 382, 372
+  offset: 17, 12
+  index: -1
+sb_wave_12
+  rotate: false
+  xy: 364, 692
+  size: 358, 358
+  orig: 382, 372
+  offset: 15, 11
+  index: -1
+sb_wave_13
+  rotate: false
+  xy: 1430, 348
+  size: 344, 346
+  orig: 382, 372
+  offset: 22, 16
+  index: -1
+sb_wave_14
+  rotate: false
+  xy: 1152, 6
+  size: 336, 338
+  orig: 382, 372
+  offset: 26, 21
+  index: -1
+spin-button-base-bg
+  rotate: false
+  xy: 1651, 868
+  size: 182, 182
+  orig: 184, 184
+  offset: 1, 1
+  index: -1

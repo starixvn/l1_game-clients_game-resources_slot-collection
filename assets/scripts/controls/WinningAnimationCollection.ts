@@ -12,7 +12,6 @@ const { ccclass, property } = cc._decorator;
 export default class WinningAnimationCollection extends SelectionControl {
   private _nodes = [];
   async initItems() {
-    const total = uiManager.PACK_TOTAL;
     const allData = cc.resources.getDirWithPath(
       "winning-animations",
       cc.SpriteAtlas

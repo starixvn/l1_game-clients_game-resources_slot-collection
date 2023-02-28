@@ -5,4 +5,5 @@ export enum CollectionType {
   PayLine,
   Background,
   Audio,
+  SpinButton,
 }

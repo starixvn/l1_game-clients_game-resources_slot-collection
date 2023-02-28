@@ -47,6 +47,9 @@ export default class CollectionScene extends cc.Component {
   @property(SingleSymbolCollection)
   currentCollection: SingleSymbolCollection = null;
 
+  @property(sp.Skeleton)
+  spinButtonSkeleton: sp.Skeleton = null;
+
   static symbolsSkeletons: sp.SkeletonData[] = [];
   static audioClips = {};
   static winningAnimations: sp.SkeletonData;
@@ -138,7 +141,9 @@ export default class CollectionScene extends cc.Component {
       })
       .start();
     this.playSound(ClassicSlotSound.SPINNING_NORMAL);
+    this.playAnimationSpinButton("spin");
     await this.board.spin(spinDuration, false);
+    this.playAnimationSpinButton("idle");
     this.playSound(ClassicSlotSound.SYMBOL_WIN);
     this.showLoopWinningLines([
       this.generateRandomWinPayline(),
@@ -208,7 +213,15 @@ export default class CollectionScene extends cc.Component {
     this.setBoardFullItems();
   }
 
+  playAnimationSpinButton(name: string) {
+    this.spinButtonSkeleton.setAnimation(0, name, true);
+  }
+
   initListeners() {
+    uiManager.emitterListener(Events.UPDATE_SPIN_BUTTON, (ske) => {
+      this.spinButtonSkeleton.skeletonData = ske;
+      this.playAnimationSpinButton("idle");
+    });
     uiManager.emitterListener(Events.UPDATE_AUDIO_PACK, (pack) => {
       CollectionScene.audioClips = pack;
     });
