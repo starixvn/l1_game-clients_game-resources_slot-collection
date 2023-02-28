@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "ccf7bd13-da7e-4a1d-a23a-903737079be6",
+  "uuid": "e75af82a-5e39-4788-ad0c-3c943df0fef4",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "left-numbers-bg.png": {
       "ver": "1.0.6",
-      "uuid": "1a453fc2-45b8-4f83-8f7b-17138c2d27e1",
+      "uuid": "90ff8038-b8c3-4cd1-8b79-1dbc5aad07e3",
       "importer": "sprite-frame",
-      "rawTextureUuid": "ccf7bd13-da7e-4a1d-a23a-903737079be6",
+      "rawTextureUuid": "e75af82a-5e39-4788-ad0c-3c943df0fef4",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,

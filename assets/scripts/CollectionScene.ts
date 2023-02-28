@@ -55,6 +55,7 @@ export default class CollectionScene extends cc.Component {
   static winningAnimations: sp.SkeletonData;
 
   private collectionNodes = {};
+  private isAnimatingResult = false;
 
   readonly audioMap = {
     [ClassicSlotSound.SPIN]: "spin-button",
@@ -117,6 +118,10 @@ export default class CollectionScene extends cc.Component {
   }
 
   async testSpin() {
+    if (this.isAnimatingResult) {
+      return;
+    }
+    this.isAnimatingResult = true;
     this.playSound(ClassicSlotSound.SPIN);
     this.stopAllFinishTweens();
 
@@ -150,6 +155,7 @@ export default class CollectionScene extends cc.Component {
       this.generateRandomWinPayline(),
       this.generateRandomWinPayline(),
     ]);
+    this.isAnimatingResult = false;
   }
 
   generateRandomWinPayline() {

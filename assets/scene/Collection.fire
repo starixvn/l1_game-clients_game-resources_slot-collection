@@ -5942,7 +5942,7 @@
       }
     ],
     "paused": false,
-    "defaultSkin": "",
+    "defaultSkin": "default",
     "defaultAnimation": "",
     "_preCacheMode": 0,
     "_cacheMode": 0,

@@ -1,6 +1,6 @@
 {
   "ver": "2.3.7",
-  "uuid": "32f94b46-1d1b-4f25-b5a4-a2ce3dd2f562",
+  "uuid": "8629ddf6-a138-40ef-a747-24cecd850970",
   "importer": "texture",
   "type": "sprite",
   "wrapMode": "clamp",
@@ -14,9 +14,9 @@
   "subMetas": {
     "right-numbers-bg.png": {
       "ver": "1.0.6",
-      "uuid": "8ec2e4e6-0fc2-430b-b712-560ac65fa1c8",
+      "uuid": "407cf939-0603-4e8f-b61b-4a1cddc7b364",
       "importer": "sprite-frame",
-      "rawTextureUuid": "32f94b46-1d1b-4f25-b5a4-a2ce3dd2f562",
+      "rawTextureUuid": "8629ddf6-a138-40ef-a747-24cecd850970",
       "trimType": "auto",
       "trimThreshold": 1,
       "rotated": false,
