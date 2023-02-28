@@ -1,5 +1,6 @@
 import * as _ from "lodash";
 
+import { ClassicSlotSound } from "./board/ClassicSlotSound";
 import LineView from "./board/LineView";
 import SlotBoard from "./board/SlotBoard";
 import { CollectionType } from "./CollectionType";
@@ -47,9 +48,29 @@ export default class CollectionScene extends cc.Component {
   currentCollection: SingleSymbolCollection = null;
 
   static symbolsSkeletons: sp.SkeletonData[] = [];
+  static audioClips = {};
   static winningAnimations: sp.SkeletonData;
 
   private collectionNodes = {};
+
+  readonly audioMap = {
+    [ClassicSlotSound.SPIN]: "spin-button",
+    [ClassicSlotSound.WIN]: "win",
+    [ClassicSlotSound.BIG_WIN]: "big-win",
+    [ClassicSlotSound.JACKPOT]: "jackpot",
+    [ClassicSlotSound.FREESPIN]: "freespin",
+    [ClassicSlotSound.BONUS]: "bonus",
+    [ClassicSlotSound.SPINNING_NORMAL]: "spinning-normal",
+    [ClassicSlotSound.SPINNING_TURBO]: "spinning-turbo",
+
+    [ClassicSlotSound.REEL_STOP]: "reel-stop",
+    [ClassicSlotSound.BONUS_POPUP]: "bonus-popup",
+    [ClassicSlotSound.CLICK]: "click",
+    [ClassicSlotSound.BONUS_TOTAL]: "bonus-total",
+
+    [ClassicSlotSound.TRANSITION]: "transition",
+    [ClassicSlotSound.SYMBOL_WIN]: "symbol-win",
+  };
 
   onLoad(): void {
     this.initDefault();
@@ -93,6 +114,7 @@ export default class CollectionScene extends cc.Component {
   }
 
   async testSpin() {
+    this.playSound(ClassicSlotSound.SPIN);
     this.stopAllFinishTweens();
 
     const data = [];
@@ -108,8 +130,16 @@ export default class CollectionScene extends cc.Component {
 
     const shuffleData = _.shuffle(data);
     this.board.setBoardData(shuffleData);
-    await this.board.spin(0.75, false);
-
+    const spinDuration = 0.75;
+    cc.tween(this.node)
+      .delay(spinDuration * 0.5)
+      .call(() => {
+        this.playSound(ClassicSlotSound.REEL_STOP);
+      })
+      .start();
+    this.playSound(ClassicSlotSound.SPINNING_NORMAL);
+    await this.board.spin(spinDuration, false);
+    this.playSound(ClassicSlotSound.SYMBOL_WIN);
     this.showLoopWinningLines([
       this.generateRandomWinPayline(),
       this.generateRandomWinPayline(),
@@ -179,6 +209,10 @@ export default class CollectionScene extends cc.Component {
   }
 
   initListeners() {
+    uiManager.emitterListener(Events.UPDATE_AUDIO_PACK, (pack) => {
+      CollectionScene.audioClips = pack;
+    });
+
     uiManager.emitterListener(Events.UPDATE_ONE_SYMBOL, (node) => {
       CollectionScene.symbolsSkeletons[uiManager.selectedSymbolIndex] = node;
 
@@ -319,5 +353,12 @@ export default class CollectionScene extends cc.Component {
 
     this.showCollection();
     this.showCategories(type);
+  }
+
+  playSound(type: ClassicSlotSound) {
+    const key = this.audioMap[type.toString()];
+    if (CollectionScene.audioClips[key]) {
+      cc.audioEngine.play(CollectionScene.audioClips[key], false, 1);
+    }
   }
 }

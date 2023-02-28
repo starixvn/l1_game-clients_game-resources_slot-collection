@@ -1,7 +1,7 @@
 import { uiManager } from "../manager/UIManager";
 import SelectionControl from "../selection-control/SelectionControl";
 import GameUtils from "../utils/GameUtils";
-import BackgroundCollectionItem from "./BackgroundCollectionItem";
+import SimpleCollectionItem from "./SimpleCollectionItem";
 
 const { ccclass, property } = cc._decorator;
 
@@ -29,7 +29,7 @@ export default class BackgroundCollection extends SelectionControl {
       const folder = this.folders[key];
       const item = this.initItem(index);
 
-      const selectionItem = item.getComponent(BackgroundCollectionItem);
+      const selectionItem = item.getComponent(SimpleCollectionItem);
       selectionItem.setNameLabel(key);
       this.items.push(selectionItem);
       this.collectionData[index] = {};
