@@ -1,1 +1,101 @@
-{"skeleton":{"hash":"4EoYqxm9sV2+fFgM+oBDEWbiWlk","spine":"3.8.99","x":-45.69,"y":-57.15,"width":91.38,"height":114.31},"bones":[{"name":"root","rotation":0.19},{"name":"character","parent":"root","x":-1.36,"y":-48.74},{"name":"character_xoay","parent":"character","x":0.47,"y":20.89},{"name":"j","parent":"character_xoay","rotation":91.27,"x":0.89,"y":27.86},{"name":"j-outer","parent":"character_xoay","rotation":91.27,"x":0.89,"y":27.86}],"slots":[{"name":"symbol-0","bone":"j","attachment":"symbol-1"},{"name":"symbol-1","bone":"j-outer","color":"eadfa79e","attachment":"symbol-1","blend":"additive"}],"skins":[{"name":"default","attachments":{"symbol-0":{"symbol-1":{"rotation":-91.27,"width":91,"height":114}},"symbol-1":{"symbol-1":{"rotation":-91.27,"width":91,"height":114}}}}],"animations":{"highlight":{"slots":{"symbol-1":{"color":[{"time":2,"color":"e2c217ff"}],"attachment":[{"name":null},{"time":0.1667,"name":"symbol-1"},{"time":2,"name":null}]}},"bones":{"j":{"translate":[{"curve":0.25,"c3":0.75},{"time":0.1667,"x":0.2,"curve":0.25,"c3":0.75},{"time":0.2333}],"scale":[{"curve":0.25,"c3":0.75},{"time":0.1667,"x":1.2,"y":1.2,"curve":0.25,"c3":0.75},{"time":0.2333}]},"j-outer":{"rotate":[{"time":2,"angle":-0.19}],"translate":[{"curve":0.25,"c3":0.75},{"time":0.1667,"x":0.2,"curve":0.25,"c3":0.75},{"time":0.3333}],"scale":[{"curve":0.25,"c3":0.75},{"time":0.1667,"x":1.2,"y":1.2,"curve":0.25,"c3":0.75},{"time":0.3333}]},"character_xoay":{"scale":[{"curve":0.25,"c3":0.75},{"time":0.0667,"x":0.003,"curve":0.25,"c3":0.75},{"time":0.2}]}}},"idle":{}}}
+{
+  "skeleton": {
+    "hash": "4EoYqxm9sV2+fFgM+oBDEWbiWlk",
+    "spine": "3.8.99",
+    "x": -45.69,
+    "y": -57.15,
+    "width": 150,
+    "height": 150
+  },
+  "bones": [
+    { "name": "root", "rotation": 0.19 },
+    { "name": "character", "parent": "root", "x": -1.36, "y": -48.74 },
+    { "name": "character_xoay", "parent": "character", "x": 0.47, "y": 20.89 },
+    {
+      "name": "j",
+      "parent": "character_xoay",
+      "rotation": 91.27,
+      "x": 0.89,
+      "y": 27.86
+    },
+    {
+      "name": "j-outer",
+      "parent": "character_xoay",
+      "rotation": 91.27,
+      "x": 0.89,
+      "y": 27.86
+    }
+  ],
+  "slots": [
+    { "name": "symbol-0", "bone": "j", "attachment": "symbol-1" },
+    {
+      "name": "symbol-1",
+      "bone": "j-outer",
+      "color": "eadfa79e",
+      "attachment": "symbol-1",
+      "blend": "additive"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "symbol-0": {
+          "symbol-1": { "rotation": -91.27, "width": 91, "height": 114 }
+        },
+        "symbol-1": {
+          "symbol-1": { "rotation": -91.27, "width": 91, "height": 114 }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "highlight": {
+      "slots": {
+        "symbol-1": {
+          "color": [{ "time": 2, "color": "e2c217ff" }],
+          "attachment": [
+            { "name": null },
+            { "time": 0.1667, "name": "symbol-1" },
+            { "time": 2, "name": null }
+          ]
+        }
+      },
+      "bones": {
+        "j": {
+          "translate": [
+            { "curve": 0.25, "c3": 0.75 },
+            { "time": 0.1667, "x": 0.2, "curve": 0.25, "c3": 0.75 },
+            { "time": 0.2333 }
+          ],
+          "scale": [
+            { "curve": 0.25, "c3": 0.75 },
+            { "time": 0.1667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.75 },
+            { "time": 0.2333 }
+          ]
+        },
+        "j-outer": {
+          "rotate": [{ "time": 2, "angle": -0.19 }],
+          "translate": [
+            { "curve": 0.25, "c3": 0.75 },
+            { "time": 0.1667, "x": 0.2, "curve": 0.25, "c3": 0.75 },
+            { "time": 0.3333 }
+          ],
+          "scale": [
+            { "curve": 0.25, "c3": 0.75 },
+            { "time": 0.1667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.75 },
+            { "time": 0.3333 }
+          ]
+        },
+        "character_xoay": {
+          "scale": [
+            { "curve": 0.25, "c3": 0.75 },
+            { "time": 0.0667, "x": 0.003, "curve": 0.25, "c3": 0.75 },
+            { "time": 0.2 }
+          ]
+        }
+      }
+    },
+    "idle": {}
+  }
+}

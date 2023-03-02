@@ -1,1 +1,113 @@
-{"skeleton":{"hash":"HiwEqQ+UH+GKHrl2t2fIy3UVMq0","spine":"3.8.99","x":-76.25,"y":-76.02,"width":152.51,"height":152.51},"bones":[{"name":"root","rotation":0.19},{"name":"character","parent":"root","x":-1.36,"y":-48.74},{"name":"character_xoay","parent":"character","x":0.47,"y":20.89},{"name":"10","parent":"character_xoay","rotation":91.27,"x":0.89,"y":27.86},{"name":"10-outer","parent":"character_xoay","rotation":91.27,"x":0.89,"y":27.86}],"slots":[{"name":"symbol-0","bone":"10","attachment":"symbol-0"},{"name":"symbol-1","bone":"10-outer","color":"eadfa79e","blend":"additive"},{"name":"symbol-2","bone":"root"},{"name":"symbol-3","bone":"character"},{"name":"symbol-4","bone":"root"}],"skins":[{"name":"default","attachments":{"symbol-0":{"symbol-0":{"x":0.24,"y":-0.01,"rotation":-91.27,"width":152,"height":152}},"symbol-1":{"symbol-0":{"color":"cdd523ff","rotation":-91.27,"width":152,"height":152}}}}],"animations":{"highlight":{"slots":{"symbol-1":{"color":[{"time":2,"color":"e2c217ff"}],"attachment":[{"time":0.1667,"name":"symbol-0"},{"time":2,"name":null}]}},"bones":{"10":{"translate":[{"curve":0.25,"c3":0.75},{"time":0.1667,"x":0.2,"curve":0.25,"c3":0.75},{"time":0.2333}],"scale":[{"curve":0.25,"c3":0.75},{"time":0.1667,"x":1.2,"y":1.2,"curve":0.25,"c3":0.75},{"time":0.2333}]},"10-outer":{"rotate":[{"time":2,"angle":-0.19}],"translate":[{"curve":0.25,"c3":0.75},{"time":0.1667,"x":0.2,"curve":0.25,"c3":0.75},{"time":0.3333}],"scale":[{"curve":0.25,"c3":0.75},{"time":0.1667,"x":1.2,"y":1.2,"curve":0.25,"c3":0.75},{"time":0.3333}]},"character_xoay":{"scale":[{"curve":0.25,"c3":0.75},{"time":0.0667,"x":0.003,"curve":0.25,"c3":0.75},{"time":0.2}]}}},"idle":{}}}
+{
+  "skeleton": {
+    "hash": "HiwEqQ+UH+GKHrl2t2fIy3UVMq0",
+    "spine": "3.8.99",
+    "x": -76.25,
+    "y": -76.02,
+    "width": 150,
+    "height": 150
+  },
+  "bones": [
+    { "name": "root", "rotation": 0.19 },
+    { "name": "character", "parent": "root", "x": -1.36, "y": -48.74 },
+    { "name": "character_xoay", "parent": "character", "x": 0.47, "y": 20.89 },
+    {
+      "name": "10",
+      "parent": "character_xoay",
+      "rotation": 91.27,
+      "x": 0.89,
+      "y": 27.86
+    },
+    {
+      "name": "10-outer",
+      "parent": "character_xoay",
+      "rotation": 91.27,
+      "x": 0.89,
+      "y": 27.86
+    }
+  ],
+  "slots": [
+    { "name": "symbol-0", "bone": "10", "attachment": "symbol-0" },
+    {
+      "name": "symbol-1",
+      "bone": "10-outer",
+      "color": "eadfa79e",
+      "blend": "additive"
+    },
+    { "name": "symbol-2", "bone": "root" },
+    { "name": "symbol-3", "bone": "character" },
+    { "name": "symbol-4", "bone": "root" }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "symbol-0": {
+          "symbol-0": {
+            "x": 0.24,
+            "y": -0.01,
+            "rotation": -91.27,
+            "width": 152,
+            "height": 152
+          }
+        },
+        "symbol-1": {
+          "symbol-0": {
+            "color": "cdd523ff",
+            "rotation": -91.27,
+            "width": 152,
+            "height": 152
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "highlight": {
+      "slots": {
+        "symbol-1": {
+          "color": [{ "time": 2, "color": "e2c217ff" }],
+          "attachment": [
+            { "time": 0.1667, "name": "symbol-0" },
+            { "time": 2, "name": null }
+          ]
+        }
+      },
+      "bones": {
+        "10": {
+          "translate": [
+            { "curve": 0.25, "c3": 0.75 },
+            { "time": 0.1667, "x": 0.2, "curve": 0.25, "c3": 0.75 },
+            { "time": 0.2333 }
+          ],
+          "scale": [
+            { "curve": 0.25, "c3": 0.75 },
+            { "time": 0.1667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.75 },
+            { "time": 0.2333 }
+          ]
+        },
+        "10-outer": {
+          "rotate": [{ "time": 2, "angle": -0.19 }],
+          "translate": [
+            { "curve": 0.25, "c3": 0.75 },
+            { "time": 0.1667, "x": 0.2, "curve": 0.25, "c3": 0.75 },
+            { "time": 0.3333 }
+          ],
+          "scale": [
+            { "curve": 0.25, "c3": 0.75 },
+            { "time": 0.1667, "x": 1.2, "y": 1.2, "curve": 0.25, "c3": 0.75 },
+            { "time": 0.3333 }
+          ]
+        },
+        "character_xoay": {
+          "scale": [
+            { "curve": 0.25, "c3": 0.75 },
+            { "time": 0.0667, "x": 0.003, "curve": 0.25, "c3": 0.75 },
+            { "time": 0.2 }
+          ]
+        }
+      }
+    },
+    "idle": {}
+  }
+}
