@@ -31,7 +31,7 @@ export default class BackgroundCollection extends SelectionControl {
 
       const selectionItem = item.getComponent(SimpleCollectionItem);
       selectionItem.setNameLabel(key);
-      this.items.push(selectionItem);
+      this.pushItem(selectionItem);
       this.collectionData[index] = {};
       for (const filename of Object.keys(folder)) {
         const path = folder[filename];

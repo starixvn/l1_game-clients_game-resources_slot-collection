@@ -32,7 +32,7 @@ export default class PaylineCollection extends SelectionControl {
 
         this._sprites[i] = [resource, resource2];
         const selectionItem = item.getComponent(SelectionItem);
-        this.items.push(selectionItem);
+        this.pushItem(selectionItem);
       }
 
       this.items.length && this.items[0].setSelected(true);

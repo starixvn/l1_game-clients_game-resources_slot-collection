@@ -31,14 +31,14 @@ export default class StaticSymbolColectionRow extends SelectionItem {
     this.packName.string = `Pack ${id}`;
   }
 
-  addSymbol(sprite) {
+  addSymbol({ symbol, path }) {
     this.init();
 
     const node = cc.instantiate(this.itemSample);
     node.active = true;
     this.content.addChild(node);
     const spriteNode = node.getChildByName("image");
-    spriteNode.getComponent(cc.Sprite).spriteFrame = sprite;
+    (spriteNode.getComponent(cc.Sprite).spriteFrame = symbol), path;
     const spine = node.getComponent(sp.Skeleton);
     node.scale = Math.min(
       REEL_ITEM_SIZE / spriteNode.width,
@@ -52,18 +52,13 @@ export default class StaticSymbolColectionRow extends SelectionItem {
     }
 
     const dataNode = cc.instantiate(node);
+    const nodeData = { symbol: dataNode, path };
 
     node.addComponent(cc.Button);
     node.on("click", () => {
-      uiManager.emit(Events.UPDATE_ONE_SYMBOL, dataNode);
+      uiManager.emit(Events.UPDATE_ONE_SYMBOL, nodeData);
     });
 
-    this.nodes.push(dataNode);
-  }
-
-  addSymbols(spriteFrames: cc.SpriteFrame[]) {
-    spriteFrames.forEach((sprite) => {
-      this.addSymbol(sprite);
-    });
+    this.nodes.push(nodeData);
   }
 }

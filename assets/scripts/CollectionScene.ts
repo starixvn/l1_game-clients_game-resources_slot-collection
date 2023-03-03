@@ -5,6 +5,7 @@ import LineView from "./board/LineView";
 import SlotBoard from "./board/SlotBoard";
 import { CollectionType } from "./CollectionType";
 import SingleSymbolCollection from "./controls/SingleSymbolCollection";
+import Exporter from "./Exporter";
 import { Events } from "./manager/Events";
 import { uiManager } from "./manager/UIManager";
 import HoverItemBase from "./utils/HoverItemBase";
@@ -50,6 +51,9 @@ export default class CollectionScene extends cc.Component {
   @property(sp.Skeleton)
   spinButtonSkeleton: sp.Skeleton = null;
 
+  @property(Exporter)
+  exporter: Exporter = null;
+
   static symbolsSkeletons: sp.SkeletonData[] = [];
   static audioClips = {};
   static winningAnimations: sp.SkeletonData;
@@ -75,6 +79,8 @@ export default class CollectionScene extends cc.Component {
     [ClassicSlotSound.TRANSITION]: "transition",
     [ClassicSlotSound.SYMBOL_WIN]: "symbol-win",
   };
+
+  readonly SYMBOL_COUNT = 11;
 
   onLoad(): void {
     this.initDefault();
@@ -224,30 +230,59 @@ export default class CollectionScene extends cc.Component {
   }
 
   initListeners() {
-    uiManager.emitterListener(Events.UPDATE_SPIN_BUTTON, (ske) => {
-      this.spinButtonSkeleton.skeletonData = ske;
+    uiManager.emitterListener(Events.UPDATE_SPIN_BUTTON, (data) => {
+      this.spinButtonSkeleton.skeletonData = data.data;
       this.playAnimationSpinButton("idle");
+
+      const key = "spin_button";
+      this.exporter.exportData[key] = data.path;
+      this.exporter.updateData();
     });
-    uiManager.emitterListener(Events.UPDATE_AUDIO_PACK, (pack) => {
-      CollectionScene.audioClips = pack;
+    uiManager.emitterListener(Events.UPDATE_AUDIO_PACK, (data) => {
+      CollectionScene.audioClips = data.audio;
+
+      const key = "audio";
+      this.exporter.exportData[key] = data.path;
+      this.exporter.updateData();
     });
 
-    uiManager.emitterListener(Events.UPDATE_ONE_SYMBOL, (node) => {
-      CollectionScene.symbolsSkeletons[uiManager.selectedSymbolIndex] = node;
-
+    uiManager.emitterListener(Events.UPDATE_ONE_SYMBOL, (data) => {
+      CollectionScene.symbolsSkeletons[uiManager.selectedSymbolIndex] =
+        data.symbol;
+      const key = data.symbol.skeletonJson ? "symbol_spines" : "symbol_images";
+      this.exporter.exportData[key][uiManager.selectedSymbolIndex] = data.path;
+      this.exporter.updateData();
       this.board.reloadItems();
       this.currentCollection.reloadItems();
     });
-    uiManager.emitterListener(
-      Events.UPDATE_MULTI_SYMBOLS,
-      (skeletons: sp.SkeletonData[]) => {
-        skeletons.forEach((skeleton, index) => {
-          CollectionScene.symbolsSkeletons[index] = skeleton;
-        });
-        this.board.reloadItems();
-        this.currentCollection.reloadItems();
-      }
-    );
+    uiManager.emitterListener(Events.UPDATE_MULTI_SYMBOLS, (data: any[]) => {
+      data.forEach((item, index) => {
+        if (index >= this.SYMBOL_COUNT) {
+          return;
+        }
+        CollectionScene.symbolsSkeletons[index] = item.symbol;
+      });
+      CollectionScene.symbolsSkeletons.forEach((item, index) => {
+        if (index >= this.SYMBOL_COUNT || index >= data.length) {
+          return;
+        }
+        if (data[index].path) {
+          const key = data[index].symbol.skeletonJson
+            ? "symbol_spines"
+            : "symbol_images";
+          this.exporter.exportData[key][index] = data[index].path;
+        }
+      });
+      this.exporter.updateData();
+      this.board.reloadItems();
+      this.currentCollection.reloadItems();
+    });
+
+    uiManager.emitterListener(Events.UPDATE_WINNING_ANIMATION, (data) => {
+      const key = "winning_effect";
+      this.exporter.exportData[key] = data.path;
+      this.exporter.updateData();
+    });
   }
 
   hideAllLines() {

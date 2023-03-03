@@ -29,7 +29,7 @@ export default class SymbolCollection extends SelectionControl {
 
         const selectionItem = item.getComponent(SymbolCollectionRow);
         this.selectionItemDict[packIndex] = selectionItem;
-        this.items.push(selectionItem);
+        this.pushItem(selectionItem);
       }
 
       this._collectionData[packIndex] = this._collectionData[packIndex] || [];
@@ -42,10 +42,11 @@ export default class SymbolCollection extends SelectionControl {
           this.selectionItemDict[packIndex] as SymbolCollectionRow
         ).addSymbol(skeleton);
         node.addComponent(cc.Button);
+        const symbolData = { symbol: skeleton, path };
         node.on("click", () => {
-          uiManager.emit(Events.UPDATE_ONE_SYMBOL, skeleton);
+          uiManager.emit(Events.UPDATE_ONE_SYMBOL, symbolData);
         });
-        this._collectionData[packIndex].push(skeleton);
+        this._collectionData[packIndex].push(symbolData);
       }
     }
     this.items.length && this.items[0].setSelected(true);

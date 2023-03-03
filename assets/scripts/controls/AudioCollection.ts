@@ -17,7 +17,7 @@ export default class BackgroundCollection extends SelectionControl {
       const data = allData[key];
       const path: string = data.path;
       const temp = path.split("/");
-      const folder = temp[1];
+      const folder = temp[0] + "/" + temp[1];
       const filename = temp[2];
 
       this.folders[folder] = this.folders[folder] || {};
@@ -32,16 +32,17 @@ export default class BackgroundCollection extends SelectionControl {
 
       const selectionItem = item.getComponent(SimpleCollectionItem);
       selectionItem.setNameLabel(key);
-      this.items.push(selectionItem);
-      this.collectionData[index] = {};
+      this.pushItem(selectionItem);
+      this.collectionData[index] = { audio: {}, path: "" };
       for (const filename of Object.keys(folder)) {
         const path = folder[filename];
-        const spriteFrame = await GameUtils.loadResource<cc.AudioClip>(
+        const audio = await GameUtils.loadResource<cc.AudioClip>(
           path,
           cc.AudioClip
         );
 
-        this.collectionData[index][filename] = spriteFrame;
+        this.collectionData[index]["audio"][filename] = audio;
+        this.collectionData[index]["path"] = key;
       }
 
       index++;

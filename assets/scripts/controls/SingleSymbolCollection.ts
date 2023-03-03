@@ -11,7 +11,7 @@ export default class SingleSymbolCollection extends SelectionControl {
       const node = this.initItem(i);
       const item = node.getComponent(SingleSymbolItem);
       item.reelItem.setItem(i);
-      this.items.push(item);
+      this.pushItem(item);
     }
   }
 

@@ -31,7 +31,7 @@ export default class SpinButtonCollection extends SelectionControl {
       const item = this.initItem(index);
 
       const selectionItem = item.getComponent(SpinButtonViewItem);
-      this.items.push(selectionItem);
+      this.pushItem(selectionItem);
       this.collectionData[index] = {};
       for (const filename of Object.keys(folder)) {
         const path = folder[filename];
@@ -40,7 +40,7 @@ export default class SpinButtonCollection extends SelectionControl {
           sp.SkeletonData
         );
 
-        this.collectionData[index] = data;
+        this.collectionData[index] = { data, path };
         selectionItem.setSkeleton(data);
       }
 

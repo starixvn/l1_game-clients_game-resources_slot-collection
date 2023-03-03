@@ -16,10 +16,10 @@ export default class StandardSlotReelItem extends SlotReelItem {
   onLoad() {
     super.onLoad();
     this.itemSample = this.node.getChildByName("item-sample");
-    uiManager.emitterListener(Events.UPDATE_WINNING_ANIMATION, (node) => {
+    uiManager.emitterListener(Events.UPDATE_WINNING_ANIMATION, (data) => {
       // console.log("reel item listen winning change");
       this.winningEffect.destroyAllChildren();
-      const effect = cc.instantiate(node);
+      const effect = cc.instantiate(data.node);
       this.winningEffect.addChild(effect);
       effect.position = cc.v3();
     });

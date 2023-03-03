@@ -13,13 +13,12 @@ export default abstract class SelectionControl extends cc.Component {
   protected items: SelectionItem[] = [];
 
   onLoad() {
-    this.initItems().then(() => this.initItemsEvent());
+    this.initItems();
   }
 
-  initItemsEvent() {
-    this.items.forEach((item) => {
-      item.selectedCallback = this.onItemSelected.bind(this);
-    });
+  pushItem(item: SelectionItem) {
+    item.selectedCallback = this.onItemSelected.bind(this);
+    this.items.push(item);
   }
 
   onItemSelected(id: number) {

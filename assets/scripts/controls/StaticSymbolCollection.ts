@@ -28,7 +28,7 @@ export default class StaticSymbolCollection extends SelectionControl {
 
         const selectionItem = item.getComponent(StaticSymbolColectionRow);
         this.selectionItemDict[packIndex] = selectionItem;
-        this.items.push(selectionItem);
+        this.pushItem(selectionItem);
         this._collectionData[packIndex] = selectionItem.nodes;
       }
 
@@ -37,9 +37,10 @@ export default class StaticSymbolCollection extends SelectionControl {
         cc.SpriteFrame
       );
       if (spriteData) {
+        const symbolData = { symbol: spriteData, path };
         (
           this.selectionItemDict[packIndex] as StaticSymbolColectionRow
-        ).addSymbol(spriteData);
+        ).addSymbol(symbolData);
       }
     }
 
