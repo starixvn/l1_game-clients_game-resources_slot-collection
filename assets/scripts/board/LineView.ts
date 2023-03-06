@@ -43,8 +43,8 @@ export default class LineView extends cc.Component {
   initEventListener() {
     uiManager.emitterListener(
       Events.UPDATE_PAYLINE,
-      (sprites: cc.SpriteFrame[]) => {
-        this._sprites = [...sprites];
+      (data: { sprites: cc.SpriteFrame[] }) => {
+        this._sprites = [...data.sprites];
         this.updateSprites(this._sprites);
       }
     );

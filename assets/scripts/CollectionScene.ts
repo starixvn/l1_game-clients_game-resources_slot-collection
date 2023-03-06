@@ -283,6 +283,11 @@ export default class CollectionScene extends cc.Component {
       this.exporter.exportData[key] = data.path;
       this.exporter.updateData();
     });
+    uiManager.emitterListener(Events.UPDATE_PAYLINE, (data: { path }) => {
+      const key = "pay_line";
+      this.exporter.exportData[key] = data.path;
+      this.exporter.updateData();
+    });
   }
 
   hideAllLines() {

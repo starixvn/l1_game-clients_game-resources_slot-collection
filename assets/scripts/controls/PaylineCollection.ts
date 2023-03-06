@@ -12,8 +12,9 @@ export default class PaylineCollection extends SelectionControl {
   async initItems() {
     const total = uiManager.PACK_TOTAL;
     for (let i = 1; i <= total; i++) {
-      const path = `paylines/pack${i}/line-normal`;
-      const path2 = `paylines/pack${i}/line-glow`;
+      const folderPath = `paylines/pack${i}/`;
+      const path = `${folderPath}line-normal`;
+      const path2 = `${folderPath}line-glow`;
       const resource = await GameUtils.loadResource<cc.SpriteFrame>(
         path,
         cc.SpriteFrame
@@ -30,7 +31,10 @@ export default class PaylineCollection extends SelectionControl {
         item.getChildByName("line-glow").getComponent(cc.Sprite).spriteFrame =
           resource2;
 
-        this._sprites[i] = [resource, resource2];
+        this._sprites[i] = {
+          sprites: [resource, resource2],
+          path: folderPath,
+        };
         const selectionItem = item.getComponent(SelectionItem);
         this.pushItem(selectionItem);
       }
