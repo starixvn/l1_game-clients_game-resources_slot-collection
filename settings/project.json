@@ -10,7 +10,6 @@
   ],
   "excluded-modules": [
     "DragonBones",
-    "EditBox",
     "Intersection",
     "MotionStreak",
     "Physics",
