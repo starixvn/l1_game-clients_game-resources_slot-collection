@@ -57,4 +57,9 @@ export default class Exporter extends cc.Component {
     const text = JSON.stringify(this.exportData, null, 4);
     cc.sys.localStorage.setItem(this.storageKey, text);
   }
+
+  copyToClipboard() {
+    const text = this.outputTextBox.string;
+    navigator.clipboard.writeText(text);
+  }
 }
