@@ -1,0 +1,313 @@
+rago_hv01_golden_clover.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+ rotate: true
+ xy: 34, 458
+ size: 481, 389
+ orig: 481, 389
+ offset: 0, 0
+ index: -1
+bg_pattern_stroke_00000
+ rotate: false
+ xy: 484, 0
+ size: 237, 192
+ orig: 237, 192
+ offset: 0, 0
+ index: -1
+bg_pattern_stroke_00001
+ rotate: true
+ xy: 820, 233
+ size: 235, 192
+ orig: 235, 192
+ offset: 0, 0
+ index: -1
+bg_pattern_stroke_00002
+ rotate: true
+ xy: 1130, 1
+ size: 232, 194
+ orig: 232, 194
+ offset: 0, 0
+ index: -1
+bg_pattern_stroke_00003
+ rotate: true
+ xy: 1274, 705
+ size: 234, 194
+ orig: 234, 194
+ offset: 0, 0
+ index: -1
+bg_pattern_stroke_00004
+ rotate: true
+ xy: 625, 227
+ size: 237, 193
+ orig: 237, 193
+ offset: 0, 0
+ index: -1
+bg_pattern_stroke_00005
+ rotate: true
+ xy: 886, 704
+ size: 235, 192
+ orig: 235, 192
+ offset: 0, 0
+ index: -1
+bg_pattern_stroke_00006
+ rotate: true
+ xy: 1014, 235
+ size: 235, 192
+ orig: 235, 192
+ offset: 0, 0
+ index: -1
+bg_pattern_stroke_00007
+ rotate: true
+ xy: 1080, 704
+ size: 235, 192
+ orig: 235, 192
+ offset: 0, 0
+ index: -1
+bg_pattern_stroke_00008
+ rotate: false
+ xy: 484, 0
+ size: 237, 192
+ orig: 237, 192
+ offset: 0, 0
+ index: -1
+clover_stick
+ rotate: true
+ xy: 402, 194
+ size: 262, 221
+ orig: 262, 221
+ offset: 0, 0
+ index: -1
+clover_stick_shadow
+ rotate: false
+ xy: 1868, 665
+ size: 146, 125
+ orig: 146, 125
+ offset: 0, 0
+ index: -1
+clover_stick_upper_shadow_1
+ rotate: false
+ xy: 34, 52
+ size: 48, 32
+ orig: 48, 32
+ offset: 0, 0
+ index: -1
+clover_stick_upper_shadow_2
+ rotate: true
+ xy: 84, 55
+ size: 29, 101
+ orig: 29, 101
+ offset: 0, 0
+ index: -1
+frame_bottom_shadow_2
+ rotate: false
+ xy: 187, 62
+ size: 254, 22
+ orig: 254, 22
+ offset: 0, 0
+ index: -1
+frame_right
+ rotate: false
+ xy: 0, 48
+ size: 32, 404
+ orig: 32, 404
+ offset: 0, 0
+ index: -1
+frame_right_shadow
+ rotate: true
+ xy: 263, 22
+ size: 38, 219
+ orig: 38, 219
+ offset: 0, 0
+ index: -1
+frame_upper
+ rotate: true
+ xy: 0, 454
+ size: 485, 32
+ orig: 485, 32
+ offset: 0, 0
+ index: -1
+frame_upper_shadow
+ rotate: false
+ xy: 0, 8
+ size: 261, 38
+ orig: 261, 38
+ offset: 0, 0
+ index: -1
+particle_00000
+ rotate: true
+ xy: 862, 472
+ size: 212, 207
+ orig: 212, 207
+ offset: 0, 0
+ index: -1
+particle_00001
+ rotate: false
+ xy: 1799, 133
+ size: 202, 187
+ orig: 202, 187
+ offset: 0, 0
+ index: -1
+particle_00002
+ rotate: true
+ xy: 1666, 524
+ size: 204, 189
+ orig: 204, 189
+ offset: 0, 0
+ index: -1
+particle_00003
+ rotate: true
+ xy: 1472, 522
+ size: 206, 192
+ orig: 206, 192
+ offset: 0, 0
+ index: -1
+particle_00004
+ rotate: true
+ xy: 1524, 76
+ size: 206, 191
+ orig: 206, 191
+ offset: 0, 0
+ index: -1
+particle_00005
+ rotate: true
+ xy: 1276, 493
+ size: 210, 194
+ orig: 210, 194
+ offset: 0, 0
+ index: -1
+particle_00006
+ rotate: true
+ xy: 663, 470
+ size: 214, 197
+ orig: 214, 197
+ offset: 0, 0
+ index: -1
+particle_00007
+ rotate: true
+ xy: 723, 12
+ size: 213, 197
+ orig: 213, 197
+ offset: 0, 0
+ index: -1
+particle_00008
+ rotate: true
+ xy: 1670, 736
+ size: 203, 196
+ orig: 203, 196
+ offset: 0, 0
+ index: -1
+particle_00009
+ rotate: true
+ xy: 1606, 315
+ size: 205, 191
+ orig: 205, 191
+ offset: 0, 0
+ index: -1
+particle_00010
+ rotate: true
+ xy: 1411, 284
+ size: 207, 193
+ orig: 207, 193
+ offset: 0, 0
+ index: -1
+particle_00011
+ rotate: true
+ xy: 1326, 69
+ size: 208, 196
+ orig: 208, 196
+ offset: 0, 0
+ index: -1
+particle_00012
+ rotate: true
+ xy: 1470, 730
+ size: 209, 198
+ orig: 209, 198
+ offset: 0, 0
+ index: -1
+particle_00013
+ rotate: true
+ xy: 1208, 279
+ size: 210, 201
+ orig: 210, 201
+ offset: 0, 0
+ index: -1
+particle_00014
+ rotate: true
+ xy: 1071, 491
+ size: 211, 203
+ orig: 211, 203
+ offset: 0, 0
+ index: -1
+particle_00015
+ rotate: true
+ xy: 922, 19
+ size: 212, 206
+ orig: 212, 206
+ offset: 0, 0
+ index: -1
+petal_1
+ rotate: true
+ xy: 425, 684
+ size: 255, 215
+ orig: 255, 215
+ offset: 0, 0
+ index: -1
+petal_1_shadow
+ rotate: false
+ xy: 1717, 1
+ size: 144, 130
+ orig: 144, 130
+ offset: 0, 0
+ index: -1
+petal_2
+ rotate: true
+ xy: 1799, 322
+ size: 200, 202
+ orig: 200, 202
+ offset: 0, 0
+ index: -1
+petal_2_shadow
+ rotate: false
+ xy: 1863, 10
+ size: 121, 121
+ orig: 121, 121
+ offset: 0, 0
+ index: -1
+petal_3
+ rotate: false
+ xy: 425, 466
+ size: 236, 216
+ orig: 236, 216
+ offset: 0, 0
+ index: -1
+petal_3_shadow
+ rotate: false
+ xy: 1857, 529
+ size: 128, 134
+ orig: 128, 134
+ offset: 0, 0
+ index: -1
+petal_4
+ rotate: false
+ xy: 642, 686
+ size: 242, 253
+ orig: 242, 253
+ offset: 0, 0
+ index: -1
+petal_4_shadow
+ rotate: false
+ xy: 1868, 792
+ size: 147, 147
+ orig: 147, 147
+ offset: 0, 0
+ index: -1
+starspark
+ rotate: true
+ xy: 34, 86
+ size: 370, 366
+ orig: 370, 366
+ offset: 0, 0
+ index: -1

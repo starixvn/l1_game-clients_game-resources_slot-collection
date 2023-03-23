@@ -1,0 +1,19 @@
+A_x1_no_border.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+symbol_A
+ rotate: false
+ xy: 0, 0
+ size: 252, 229
+ orig: 252, 229
+ offset: 0, 0
+ index: -1
+wipe_A
+ rotate: false
+ xy: 254, 25
+ size: 232, 204
+ orig: 232, 204
+ offset: 0, 0
+ index: -1

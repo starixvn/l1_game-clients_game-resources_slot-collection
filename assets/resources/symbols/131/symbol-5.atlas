@@ -1,0 +1,124 @@
+RR_Symbol.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Clouds
+ rotate: false
+ xy: 1036, 140
+ size: 273, 113
+ orig: 273, 113
+ offset: 0, 0
+ index: -1
+EK_Logo copy
+ rotate: false
+ xy: 917, 17
+ size: 131, 89
+ orig: 131, 89
+ offset: 0, 0
+ index: -1
+Frane
+ rotate: false
+ xy: 2, 21
+ size: 264, 232
+ orig: 264, 232
+ offset: 0, 0
+ index: -1
+Glow_EK_Logo
+ rotate: false
+ xy: 769, 2
+ size: 146, 104
+ orig: 146, 104
+ offset: 0, 0
+ index: -1
+Glow_Text_Rainbow
+ rotate: false
+ xy: 1311, 158
+ size: 262, 95
+ orig: 262, 95
+ offset: 0, 0
+ index: -1
+Glow_Text_Road
+ rotate: false
+ xy: 1825, 180
+ size: 156, 73
+ orig: 156, 73
+ offset: 0, 0
+ index: -1
+Gradient_EK_Logo
+ rotate: false
+ xy: 1183, 49
+ size: 131, 89
+ orig: 131, 89
+ offset: 0, 0
+ index: -1
+Gradient_Rainbow
+ rotate: false
+ xy: 268, 108
+ size: 254, 145
+ orig: 254, 145
+ offset: 0, 0
+ index: -1
+Gradient_Text_Rainbow
+ rotate: false
+ xy: 519, 26
+ size: 248, 80
+ orig: 248, 80
+ offset: 0, 0
+ index: -1
+Gradient_Text_Road
+ rotate: false
+ xy: 1316, 38
+ size: 142, 58
+ orig: 142, 58
+ offset: 0, 0
+ index: -1
+GradientInv_EK_Logo
+ rotate: false
+ xy: 1050, 49
+ size: 131, 89
+ orig: 131, 89
+ offset: 0, 0
+ index: -1
+GradientInv_Rainbow
+ rotate: false
+ xy: 524, 108
+ size: 254, 145
+ orig: 254, 145
+ offset: 0, 0
+ index: -1
+GradientInv_Text_Rainbow
+ rotate: false
+ xy: 1575, 173
+ size: 248, 80
+ orig: 248, 80
+ offset: 0, 0
+ index: -1
+GradientInv_Text_Road
+ rotate: false
+ xy: 1316, 98
+ size: 142, 58
+ orig: 142, 58
+ offset: 0, 0
+ index: -1
+Layer 5 copy
+ rotate: false
+ xy: 780, 108
+ size: 254, 145
+ orig: 254, 145
+ offset: 0, 0
+ index: -1
+Text_Rainbow
+ rotate: false
+ xy: 268, 21
+ size: 249, 85
+ orig: 249, 85
+ offset: 0, 0
+ index: -1
+Text_Road
+ rotate: true
+ xy: 1983, 111
+ size: 142, 63
+ orig: 142, 63
+ offset: 0, 0
+ index: -1

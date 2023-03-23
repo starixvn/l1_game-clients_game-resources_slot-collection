@@ -1,0 +1,19 @@
+Q_x1_no_border.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+symbol_Q
+ rotate: false
+ xy: 0, 0
+ size: 240, 231
+ orig: 240, 231
+ offset: 0, 0
+ index: -1
+wipe_Q
+ rotate: true
+ xy: 242, 11
+ size: 220, 206
+ orig: 220, 206
+ offset: 0, 0
+ index: -1

@@ -1,0 +1,19 @@
+K_x1_no_border.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+symbol_K
+ rotate: false
+ xy: 0, 204
+ size: 254, 228
+ orig: 254, 228
+ offset: 0, 0
+ index: -1
+wipe_K
+ rotate: false
+ xy: 0, 0
+ size: 232, 202
+ orig: 232, 202
+ offset: 0, 0
+ index: -1

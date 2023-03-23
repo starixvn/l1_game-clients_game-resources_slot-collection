@@ -1,0 +1,1730 @@
+{
+  "skeleton": {
+    "hash": "sas3R2VbjwhyFkyv7lFEPkZmMj8",
+    "spine": "3.7.91",
+    "width": 532,
+    "height": 461,
+    "images": "./images/",
+    "audio": "D:/Hardeep/New games/Rainbow_gold/rago_hv02_hat"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "main",
+      "parent": "root"
+    },
+    {
+      "name": "butterfly",
+      "parent": "root",
+      "x": 55.74,
+      "y": -146.98,
+      "scaleX": 1.1,
+      "scaleY": 1.1
+    },
+    {
+      "name": "butterfly1",
+      "parent": "root",
+      "length": 133.6,
+      "rotation": 89.22,
+      "x": -120.24,
+      "y": -97.37
+    }
+  ],
+  "slots": [
+    {
+      "name": "frame_bottom_shadow_2",
+      "bone": "root",
+      "attachment": "frame_bottom_shadow_2"
+    },
+    {
+      "name": "symbol_bg",
+      "bone": "root",
+      "attachment": "symbol_bg"
+    },
+    {
+      "name": "symbol_bg2",
+      "bone": "root",
+      "attachment": "symbol_bg",
+      "blend": "additive"
+    },
+    {
+      "name": "pattren",
+      "bone": "root",
+      "attachment": "pattren"
+    },
+    {
+      "name": "hat_lower_shadow_1",
+      "bone": "root",
+      "attachment": "hat_lower_shadow_1"
+    },
+    {
+      "name": "hat_shadow_2",
+      "bone": "main",
+      "attachment": "hat_shadow_2"
+    },
+    {
+      "name": "mask",
+      "bone": "root",
+      "attachment": "mask"
+    },
+    {
+      "name": "hat_shadow_1",
+      "bone": "main",
+      "attachment": "hat_shadow_1"
+    },
+    {
+      "name": "frame_right_shadow",
+      "bone": "root",
+      "attachment": "frame_right_shadow"
+    },
+    {
+      "name": "frame_left_shadow",
+      "bone": "root",
+      "attachment": "frame_left_shadow"
+    },
+    {
+      "name": "frame_upper_shadow",
+      "bone": "root",
+      "attachment": "frame_upper_shadow"
+    },
+    {
+      "name": "frame_bottom_shadow_1",
+      "bone": "root",
+      "attachment": "frame_bottom_shadow_1"
+    },
+    {
+      "name": "frame_right",
+      "bone": "root",
+      "attachment": "frame_right"
+    },
+    {
+      "name": "frame_left",
+      "bone": "root",
+      "attachment": "frame_left"
+    },
+    {
+      "name": "frame_upper",
+      "bone": "root",
+      "attachment": "frame_upper"
+    },
+    {
+      "name": "frame_bottom",
+      "bone": "root",
+      "attachment": "frame_bottom"
+    },
+    {
+      "name": "hat_lower_1",
+      "bone": "main",
+      "attachment": "hat_lower_1"
+    },
+    {
+      "name": "hat",
+      "bone": "main",
+      "attachment": "hat"
+    },
+    {
+      "name": "clover",
+      "bone": "main",
+      "attachment": "clover"
+    },
+    {
+      "name": "clover2",
+      "bone": "main",
+      "attachment": "clover",
+      "blend": "additive"
+    },
+    {
+      "name": "stroke",
+      "bone": "main",
+      "attachment": "stroke_00021",
+      "blend": "additive"
+    },
+    {
+      "name": "butterfly",
+      "bone": "butterfly",
+      "blend": "additive"
+    },
+    {
+      "name": "hat_bottom_1",
+      "bone": "main",
+      "attachment": "hat_bottom_1"
+    },
+    {
+      "name": "belt_lock_shadow",
+      "bone": "main",
+      "attachment": "belt_lock_shadow"
+    },
+    {
+      "name": "belt",
+      "bone": "main",
+      "attachment": "belt"
+    },
+    {
+      "name": "hat_upper_22",
+      "bone": "main",
+      "attachment": "hat_upper_22"
+    },
+    {
+      "name": "belt_lock",
+      "bone": "main",
+      "attachment": "belt_lock"
+    },
+    {
+      "name": "belt_lock2",
+      "bone": "main",
+      "attachment": "belt_lock",
+      "blend": "additive"
+    },
+    {
+      "name": "rago_butterfly02_00000",
+      "bone": "butterfly1"
+    }
+  ],
+  "skins": {
+    "default": {
+      "belt": {
+        "belt": {
+          "x": -3.08,
+          "y": -49.9,
+          "rotation": -1.29,
+          "width": 283,
+          "height": 123
+        }
+      },
+      "belt_lock": {
+        "belt_lock": {
+          "x": 52.5,
+          "y": -44.5,
+          "width": 179,
+          "height": 153
+        }
+      },
+      "belt_lock2": {
+        "belt_lock": {
+          "x": 52.5,
+          "y": -44.5,
+          "width": 179,
+          "height": 153
+        }
+      },
+      "belt_lock_shadow": {
+        "belt_lock_shadow": {
+          "x": 43,
+          "y": -46,
+          "width": 180,
+          "height": 162
+        }
+      },
+      "butterfly": {
+        "butterfly_00005": {
+          "x": 0.5,
+          "y": 0.5,
+          "width": 317,
+          "height": 236
+        },
+        "butterfly_00007": {
+          "x": 0.5,
+          "y": 0.5,
+          "width": 317,
+          "height": 236
+        },
+        "butterfly_00009": {
+          "x": 0.5,
+          "y": 0.5,
+          "width": 317,
+          "height": 236
+        },
+        "butterfly_00011": {
+          "x": 0.5,
+          "y": 0.5,
+          "width": 317,
+          "height": 236
+        },
+        "butterfly_00013": {
+          "x": 0.5,
+          "y": 0.5,
+          "width": 317,
+          "height": 236
+        },
+        "butterfly_00015": {
+          "x": 0.5,
+          "y": 0.5,
+          "width": 317,
+          "height": 236
+        },
+        "butterfly_00017": {
+          "x": 0.5,
+          "y": 0.5,
+          "width": 317,
+          "height": 236
+        },
+        "butterfly_00019": {
+          "x": 0.5,
+          "y": 0.5,
+          "width": 317,
+          "height": 236
+        },
+        "butterfly_00021": {
+          "x": 0.5,
+          "y": 0.5,
+          "width": 317,
+          "height": 236
+        },
+        "butterfly_00023": {
+          "x": 0.5,
+          "y": 0.5,
+          "width": 317,
+          "height": 236
+        },
+        "butterfly_00025": {
+          "x": 0.5,
+          "y": 0.5,
+          "width": 317,
+          "height": 236
+        },
+        "butterfly_00027": {
+          "x": 0.5,
+          "y": 0.5,
+          "width": 317,
+          "height": 236
+        },
+        "butterfly_00029": {
+          "x": 0.5,
+          "y": 0.5,
+          "width": 317,
+          "height": 236
+        },
+        "butterfly_00031": {
+          "x": 0.5,
+          "y": 0.5,
+          "width": 317,
+          "height": 236
+        },
+        "butterfly_00033": {
+          "x": 0.5,
+          "y": 0.5,
+          "width": 317,
+          "height": 236
+        },
+        "butterfly_00035": {
+          "x": 0.5,
+          "y": 0.5,
+          "width": 317,
+          "height": 236
+        },
+        "butterfly_00037": {
+          "x": 0.5,
+          "y": 0.5,
+          "width": 317,
+          "height": 236
+        },
+        "butterfly_00039": {
+          "x": 0.5,
+          "y": 0.5,
+          "width": 317,
+          "height": 236
+        },
+        "butterfly_00041": {
+          "x": 0.5,
+          "y": 0.5,
+          "width": 317,
+          "height": 236
+        },
+        "butterfly_00043": {
+          "x": 0.5,
+          "y": 0.5,
+          "width": 317,
+          "height": 236
+        }
+      },
+      "clover": {
+        "clover": {
+          "x": -68.72,
+          "y": 51.77,
+          "rotation": 0.42,
+          "width": 158,
+          "height": 114
+        }
+      },
+      "clover2": {
+        "clover": {
+          "x": -68.72,
+          "y": 51.77,
+          "rotation": 0.42,
+          "width": 158,
+          "height": 114
+        }
+      },
+      "frame_bottom": {
+        "frame_bottom": {
+          "x": 1.5,
+          "y": -182.5,
+          "width": 487,
+          "height": 33
+        }
+      },
+      "frame_bottom_shadow_1": {
+        "frame_bottom_shadow_1": {
+          "x": 4.5,
+          "y": -178.5,
+          "width": 511,
+          "height": 75
+        }
+      },
+      "frame_bottom_shadow_2": {
+        "frame_bottom_shadow_2": {
+          "x": 2.5,
+          "y": -207,
+          "width": 507,
+          "height": 44
+        }
+      },
+      "frame_left": {
+        "frame_left": {
+          "x": -228,
+          "y": 6,
+          "width": 32,
+          "height": 402
+        }
+      },
+      "frame_left_shadow": {
+        "frame_left_shadow": {
+          "x": -226.5,
+          "y": 5.5,
+          "width": 75,
+          "height": 433
+        }
+      },
+      "frame_right": {
+        "frame_right": {
+          "x": 232.5,
+          "y": 6,
+          "width": 33,
+          "height": 402
+        }
+      },
+      "frame_right_shadow": {
+        "frame_right_shadow": {
+          "x": 228,
+          "y": 5.5,
+          "width": 72,
+          "height": 433
+        }
+      },
+      "frame_upper": {
+        "frame_upper": {
+          "x": 1.5,
+          "y": 194,
+          "width": 487,
+          "height": 32
+        }
+      },
+      "frame_upper_shadow": {
+        "frame_upper_shadow": {
+          "x": 4.5,
+          "y": 191.5,
+          "width": 511,
+          "height": 75
+        }
+      },
+      "hat": {
+        "hat": {
+          "x": -38.5,
+          "y": 73,
+          "width": 343,
+          "height": 318
+        }
+      },
+      "hat_bottom_1": {
+        "hat_bottom_1": {
+          "x": 49,
+          "y": -89.76,
+          "width": 395,
+          "height": 183
+        }
+      },
+      "hat_lower_1": {
+        "hat_lower_1": {
+          "x": 4,
+          "y": -112,
+          "rotation": 360,
+          "width": 318,
+          "height": 108
+        }
+      },
+      "hat_lower_shadow_1": {
+        "hat_lower_shadow_1": {
+          "x": 17.5,
+          "y": -114.5,
+          "width": 501,
+          "height": 187
+        }
+      },
+      "hat_shadow_1": {
+        "hat_shadow_1": {
+          "x": -139.5,
+          "y": 46.5,
+          "width": 223,
+          "height": 351
+        }
+      },
+      "hat_shadow_2": {
+        "hat_shadow_2": {
+          "x": 101,
+          "y": 73.5,
+          "width": 114,
+          "height": 303
+        }
+      },
+      "hat_upper_22": {
+        "hat_upper_22": {
+          "x": -80,
+          "y": -111.88,
+          "width": 296,
+          "height": 120
+        }
+      },
+      "mask": {
+        "mask": {
+          "type": "clipping",
+          "end": "hat_shadow_1",
+          "vertexCount": 6,
+          "vertices": [
+            -226.81,
+            201.88,
+            194.15,
+            201.88,
+            237.89,
+            171.42,
+            237.11,
+            -188.62,
+            -234.62,
+            -180.03,
+            -233.84,
+            165.95
+          ],
+          "color": "ce3a3aff"
+        }
+      },
+      "pattren": {
+        "pattren": {
+          "y": 0.5,
+          "width": 442,
+          "height": 399
+        }
+      },
+      "rago_butterfly02_00000": {
+        "rago_butterfly02_00001": {
+          "x": -2.7,
+          "y": -5.91,
+          "scaleX": 2,
+          "scaleY": 2,
+          "rotation": -89.22,
+          "width": 104,
+          "height": 173
+        },
+        "rago_butterfly02_00002": {
+          "x": -2.7,
+          "y": -5.91,
+          "scaleX": 2,
+          "scaleY": 2,
+          "rotation": -89.22,
+          "width": 104,
+          "height": 173
+        },
+        "rago_butterfly02_00003": {
+          "x": -2.7,
+          "y": -5.91,
+          "scaleX": 2,
+          "scaleY": 2,
+          "rotation": -89.22,
+          "width": 104,
+          "height": 173
+        },
+        "rago_butterfly02_00004": {
+          "x": -2.7,
+          "y": -5.91,
+          "scaleX": 2,
+          "scaleY": 2,
+          "rotation": -89.22,
+          "width": 104,
+          "height": 173
+        },
+        "rago_butterfly02_00005": {
+          "x": -2.7,
+          "y": -5.91,
+          "scaleX": 2,
+          "scaleY": 2,
+          "rotation": -89.22,
+          "width": 104,
+          "height": 173
+        },
+        "rago_butterfly02_00006": {
+          "x": -2.7,
+          "y": -5.91,
+          "scaleX": 2,
+          "scaleY": 2,
+          "rotation": -89.22,
+          "width": 104,
+          "height": 173
+        },
+        "rago_butterfly02_00007": {
+          "x": -2.7,
+          "y": -5.91,
+          "scaleX": 2,
+          "scaleY": 2,
+          "rotation": -89.22,
+          "width": 104,
+          "height": 173
+        },
+        "rago_butterfly02_00008": {
+          "x": -2.7,
+          "y": -5.91,
+          "scaleX": 2,
+          "scaleY": 2,
+          "rotation": -89.22,
+          "width": 104,
+          "height": 173
+        },
+        "rago_butterfly02_00009": {
+          "x": -2.7,
+          "y": -5.91,
+          "scaleX": 2,
+          "scaleY": 2,
+          "rotation": -89.22,
+          "width": 104,
+          "height": 173
+        },
+        "rago_butterfly02_00010": {
+          "x": -2.7,
+          "y": -5.91,
+          "scaleX": 2,
+          "scaleY": 2,
+          "rotation": -89.22,
+          "width": 104,
+          "height": 173
+        },
+        "rago_butterfly02_00011": {
+          "x": -2.7,
+          "y": -5.91,
+          "scaleX": 2,
+          "scaleY": 2,
+          "rotation": -89.22,
+          "width": 104,
+          "height": 173
+        },
+        "rago_butterfly02_00012": {
+          "x": -2.7,
+          "y": -5.91,
+          "scaleX": 2,
+          "scaleY": 2,
+          "rotation": -89.22,
+          "width": 104,
+          "height": 173
+        },
+        "rago_butterfly02_00013": {
+          "x": -2.7,
+          "y": -5.91,
+          "scaleX": 2,
+          "scaleY": 2,
+          "rotation": -89.22,
+          "width": 104,
+          "height": 173
+        },
+        "rago_butterfly02_00014": {
+          "x": -2.7,
+          "y": -5.91,
+          "scaleX": 2,
+          "scaleY": 2,
+          "rotation": -89.22,
+          "width": 104,
+          "height": 173
+        },
+        "rago_butterfly02_00015": {
+          "x": -2.7,
+          "y": -5.91,
+          "scaleX": 2,
+          "scaleY": 2,
+          "rotation": -89.22,
+          "width": 104,
+          "height": 173
+        },
+        "rago_butterfly02_00016": {
+          "x": -2.7,
+          "y": -5.91,
+          "scaleX": 2,
+          "scaleY": 2,
+          "rotation": -89.22,
+          "width": 104,
+          "height": 173
+        },
+        "rago_butterfly02_00017": {
+          "x": -2.7,
+          "y": -5.91,
+          "scaleX": 2,
+          "scaleY": 2,
+          "rotation": -89.22,
+          "width": 104,
+          "height": 173
+        },
+        "rago_butterfly02_00018": {
+          "x": -2.7,
+          "y": -5.91,
+          "scaleX": 2,
+          "scaleY": 2,
+          "rotation": -89.22,
+          "width": 104,
+          "height": 173
+        },
+        "rago_butterfly02_00019": {
+          "x": -2.7,
+          "y": -5.91,
+          "scaleX": 2,
+          "scaleY": 2,
+          "rotation": -89.22,
+          "width": 104,
+          "height": 173
+        },
+        "rago_butterfly02_00020": {
+          "x": -2.7,
+          "y": -5.91,
+          "scaleX": 2,
+          "scaleY": 2,
+          "rotation": -89.22,
+          "width": 104,
+          "height": 173
+        },
+        "rago_butterfly02_00021": {
+          "x": -2.7,
+          "y": -5.91,
+          "scaleX": 2,
+          "scaleY": 2,
+          "rotation": -89.22,
+          "width": 104,
+          "height": 173
+        },
+        "rago_butterfly02_00022": {
+          "x": -2.7,
+          "y": -5.91,
+          "scaleX": 2,
+          "scaleY": 2,
+          "rotation": -89.22,
+          "width": 104,
+          "height": 173
+        }
+      },
+      "stroke": {
+        "stroke_00009": {
+          "x": -24.13,
+          "y": 73.2,
+          "width": 396,
+          "height": 307
+        },
+        "stroke_00011": {
+          "x": -24.13,
+          "y": 73.2,
+          "width": 396,
+          "height": 307
+        },
+        "stroke_00013": {
+          "x": -24.13,
+          "y": 73.2,
+          "width": 396,
+          "height": 307
+        },
+        "stroke_00015": {
+          "x": -24.13,
+          "y": 73.2,
+          "width": 396,
+          "height": 307
+        },
+        "stroke_00017": {
+          "x": -24.13,
+          "y": 73.2,
+          "width": 396,
+          "height": 307
+        },
+        "stroke_00019": {
+          "x": -24.13,
+          "y": 73.2,
+          "width": 396,
+          "height": 307
+        },
+        "stroke_00021": {
+          "x": -24.13,
+          "y": 73.2,
+          "width": 396,
+          "height": 307
+        },
+        "stroke_00023": {
+          "x": -24.13,
+          "y": 73.2,
+          "width": 396,
+          "height": 307
+        },
+        "stroke_00025": {
+          "x": -24.13,
+          "y": 73.2,
+          "width": 396,
+          "height": 307
+        },
+        "stroke_00027": {
+          "x": -24.13,
+          "y": 73.2,
+          "width": 396,
+          "height": 307
+        },
+        "stroke_00029": {
+          "x": -24.13,
+          "y": 73.2,
+          "width": 396,
+          "height": 307
+        },
+        "stroke_00031": {
+          "x": -24.13,
+          "y": 73.2,
+          "width": 396,
+          "height": 307
+        },
+        "stroke_00033": {
+          "x": -24.13,
+          "y": 73.2,
+          "width": 396,
+          "height": 307
+        },
+        "stroke_00035": {
+          "x": -24.13,
+          "y": 73.2,
+          "width": 396,
+          "height": 307
+        },
+        "stroke_00037": {
+          "x": -24.13,
+          "y": 73.2,
+          "width": 396,
+          "height": 307
+        },
+        "stroke_00038": {
+          "x": -24.13,
+          "y": 73.2,
+          "width": 396,
+          "height": 307
+        }
+      },
+      "symbol_bg": {
+        "symbol_bg": {
+          "x": 2,
+          "y": 5.5,
+          "width": 492,
+          "height": 409
+        }
+      },
+      "symbol_bg2": {
+        "symbol_bg": {
+          "x": 2,
+          "y": 5.5,
+          "width": 492,
+          "height": 409
+        }
+      }
+    }
+  },
+  "animations": {
+    "highlight": {
+      "slots": {
+        "belt_lock2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3667,
+              "color": "ffffff56",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.5333,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.7,
+              "color": "ffffff56",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.8667,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.0333,
+              "color": "ffffff56",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.2333,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.3667,
+              "color": "ffffff56",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "butterfly": {
+          "attachment": [
+            {
+              "time": 0.2,
+              "name": "butterfly_00005"
+            },
+            {
+              "time": 0.2667,
+              "name": "butterfly_00007"
+            },
+            {
+              "time": 0.3333,
+              "name": "butterfly_00009"
+            },
+            {
+              "time": 0.4,
+              "name": "butterfly_00011"
+            },
+            {
+              "time": 0.4667,
+              "name": "butterfly_00013"
+            },
+            {
+              "time": 0.5333,
+              "name": "butterfly_00015"
+            },
+            {
+              "time": 0.6,
+              "name": "butterfly_00017"
+            },
+            {
+              "time": 0.6667,
+              "name": "butterfly_00019"
+            },
+            {
+              "time": 0.7333,
+              "name": "butterfly_00021"
+            },
+            {
+              "time": 0.8,
+              "name": "butterfly_00023"
+            },
+            {
+              "time": 0.8667,
+              "name": "butterfly_00025"
+            },
+            {
+              "time": 0.9333,
+              "name": "butterfly_00027"
+            },
+            {
+              "time": 1,
+              "name": "butterfly_00029"
+            },
+            {
+              "time": 1.0667,
+              "name": "butterfly_00031"
+            },
+            {
+              "time": 1.1333,
+              "name": "butterfly_00033"
+            },
+            {
+              "time": 1.2,
+              "name": "butterfly_00035"
+            },
+            {
+              "time": 1.2667,
+              "name": "butterfly_00037"
+            },
+            {
+              "time": 1.3333,
+              "name": "butterfly_00039"
+            },
+            {
+              "time": 1.4,
+              "name": "butterfly_00041"
+            },
+            {
+              "time": 1.4667,
+              "name": "butterfly_00043"
+            },
+            {
+              "time": 1.5,
+              "name": null
+            }
+          ]
+        },
+        "clover2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.3,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.4667,
+              "color": "ffffff56",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.6333,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.8,
+              "color": "ffffff56",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.9667,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.1333,
+              "color": "ffffff56",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.3,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.4,
+              "color": "ffffff56",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "hat_lower_shadow_1": {
+          "color": [
+            {
+              "time": 0.2,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3667,
+              "color": "ffffff57",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.2667,
+              "color": "ffffff57",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "hat_shadow_1": {
+          "color": [
+            {
+              "time": 0.2667,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.4333,
+              "color": "ffffff98",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.2667,
+              "color": "ffffff98",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "pattren": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3667,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.5333,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.7,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.8667,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.0333,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.2,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.3333,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.4,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "rago_butterfly02_00000": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.1,
+              "color": "ffffff00"
+            },
+            {
+              "time": 0.2667,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.4,
+              "color": "ffffffff"
+            },
+            {
+              "time": 1.4667,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.2,
+              "name": "rago_butterfly02_00001"
+            },
+            {
+              "time": 0.2667,
+              "name": "rago_butterfly02_00002"
+            },
+            {
+              "time": 0.3,
+              "name": "rago_butterfly02_00003"
+            },
+            {
+              "time": 0.3333,
+              "name": "rago_butterfly02_00004"
+            },
+            {
+              "time": 0.3667,
+              "name": "rago_butterfly02_00005"
+            },
+            {
+              "time": 0.4333,
+              "name": "rago_butterfly02_00006"
+            },
+            {
+              "time": 0.5,
+              "name": "rago_butterfly02_00007"
+            },
+            {
+              "time": 0.5667,
+              "name": "rago_butterfly02_00008"
+            },
+            {
+              "time": 0.6333,
+              "name": "rago_butterfly02_00009"
+            },
+            {
+              "time": 0.7,
+              "name": "rago_butterfly02_00010"
+            },
+            {
+              "time": 0.7667,
+              "name": "rago_butterfly02_00011"
+            },
+            {
+              "time": 0.8333,
+              "name": "rago_butterfly02_00012"
+            },
+            {
+              "time": 0.8667,
+              "name": "rago_butterfly02_00013"
+            },
+            {
+              "time": 0.9333,
+              "name": "rago_butterfly02_00014"
+            },
+            {
+              "time": 1,
+              "name": "rago_butterfly02_00015"
+            },
+            {
+              "time": 1.0667,
+              "name": "rago_butterfly02_00016"
+            },
+            {
+              "time": 1.1333,
+              "name": "rago_butterfly02_00017"
+            },
+            {
+              "time": 1.2,
+              "name": "rago_butterfly02_00018"
+            },
+            {
+              "time": 1.2667,
+              "name": "rago_butterfly02_00019"
+            },
+            {
+              "time": 1.3,
+              "name": "rago_butterfly02_00020"
+            },
+            {
+              "time": 1.3667,
+              "name": "rago_butterfly02_00021"
+            },
+            {
+              "time": 1.4333,
+              "name": "rago_butterfly02_00022"
+            }
+          ]
+        },
+        "stroke": {
+          "attachment": [
+            {
+              "time": 0,
+              "name": null
+            },
+            {
+              "time": 0.2667,
+              "name": "stroke_00009"
+            },
+            {
+              "time": 0.3333,
+              "name": "stroke_00011"
+            },
+            {
+              "time": 0.4,
+              "name": "stroke_00013"
+            },
+            {
+              "time": 0.4667,
+              "name": "stroke_00015"
+            },
+            {
+              "time": 0.5333,
+              "name": "stroke_00017"
+            },
+            {
+              "time": 0.6,
+              "name": "stroke_00019"
+            },
+            {
+              "time": 0.6667,
+              "name": "stroke_00021"
+            },
+            {
+              "time": 0.7333,
+              "name": "stroke_00023"
+            },
+            {
+              "time": 0.8,
+              "name": "stroke_00025"
+            },
+            {
+              "time": 0.8667,
+              "name": "stroke_00027"
+            },
+            {
+              "time": 0.9333,
+              "name": "stroke_00029"
+            },
+            {
+              "time": 1,
+              "name": "stroke_00031"
+            },
+            {
+              "time": 1.0667,
+              "name": "stroke_00033"
+            },
+            {
+              "time": 1.1333,
+              "name": "stroke_00035"
+            },
+            {
+              "time": 1.2,
+              "name": "stroke_00037"
+            },
+            {
+              "time": 1.2667,
+              "name": "stroke_00038"
+            },
+            {
+              "time": 1.3333,
+              "name": null
+            }
+          ]
+        },
+        "symbol_bg2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.3667,
+              "color": "ffffff34",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.5333,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.7,
+              "color": "ffffff34",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.8667,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.0333,
+              "color": "ffffff34",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.2333,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.3667,
+              "color": "ffffff34",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "color": "ffffff00"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "main": {
+          "rotate": [
+            {
+              "time": 0.2,
+              "angle": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.6333,
+              "angle": 3.6,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.0667,
+              "angle": -3.31,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "angle": 0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0,
+                0,
+                0,
+                1
+              ]
+            },
+            {
+              "time": 0.2,
+              "x": 0,
+              "y": -20.29,
+              "curve": [
+                0,
+                0,
+                0.28,
+                1
+              ]
+            },
+            {
+              "time": 0.5333,
+              "x": 0,
+              "y": 74.5,
+              "curve": [
+                0.253,
+                0,
+                0.622,
+                0.48
+              ]
+            },
+            {
+              "time": 1.3667,
+              "x": 0,
+              "y": 90.63,
+              "curve": [
+                1,
+                0.01,
+                1,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "butterfly": {
+          "translate": [
+            {
+              "time": 1.2333,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.4667,
+              "x": 0,
+              "y": 63.72
+            }
+          ],
+          "scale": [
+            {
+              "time": 0.2,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.5,
+              "x": 1,
+              "y": 1.009,
+              "curve": [
+                0.247,
+                0,
+                0.631,
+                0.53
+              ]
+            },
+            {
+              "time": 1.5,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "butterfly1": {
+          "translate": [
+            {
+              "time": 0,
+              "x": -5.87,
+              "y": 123.27,
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2667,
+              "x": -5.87,
+              "y": 123.27
+            },
+            {
+              "time": 0.3,
+              "x": 0,
+              "y": 132.66
+            }
+          ]
+        }
+      },
+      "drawOrder": [
+        {
+          "time": 1.2667,
+          "offsets": [
+            {
+              "slot": "rago_butterfly02_00000",
+              "offset": -12
+            }
+          ]
+        }
+      ]
+    },
+    "idle": {}
+  }
+}

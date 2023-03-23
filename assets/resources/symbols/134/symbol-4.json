@@ -1,0 +1,3372 @@
+{
+  "skeleton": {
+    "hash": "gFzgtHcxQk/jm/nyI9qb75RSiiI",
+    "spine": "3.7.91",
+    "width": 531.1,
+    "height": 485.06,
+    "images": "./images/",
+    "audio": "D:/Hardeep/New games/Rainbow_gold/rago_hv5_ Guiness"
+  },
+  "bones": [
+    {
+      "name": "root"
+    },
+    {
+      "name": "main",
+      "parent": "root"
+    },
+    {
+      "name": "shadow",
+      "parent": "root",
+      "y": -173.01
+    },
+    {
+      "name": "f1",
+      "parent": "main",
+      "x": -92.58,
+      "y": 123.87
+    },
+    {
+      "name": "f2",
+      "parent": "main",
+      "x": 35.1,
+      "y": 161.79
+    },
+    {
+      "name": "fo",
+      "parent": "main",
+      "x": -101.05,
+      "y": 26.9,
+      "scaleX": 0.94,
+      "scaleY": 0.94
+    }
+  ],
+  "slots": [
+    {
+      "name": "rago_guiness_bg",
+      "bone": "root",
+      "attachment": "rago_guiness_bg"
+    },
+    {
+      "name": "rago_guiness_frame4_shadow",
+      "bone": "root",
+      "attachment": "rago_guiness_frame4_shadow"
+    },
+    {
+      "name": "rago_guiness_frame4",
+      "bone": "root",
+      "attachment": "rago_guiness_frame4"
+    },
+    {
+      "name": "rago_guiness_frame2_shadow",
+      "bone": "root",
+      "attachment": "rago_guiness_frame2_shadow"
+    },
+    {
+      "name": "rago_guiness_frame2",
+      "bone": "root",
+      "attachment": "rago_guiness_frame2"
+    },
+    {
+      "name": "rago_guiness_frame1_shadow",
+      "bone": "root",
+      "attachment": "rago_guiness_frame1_shadow"
+    },
+    {
+      "name": "rago_guiness_frame1",
+      "bone": "root",
+      "attachment": "rago_guiness_frame1"
+    },
+    {
+      "name": "rago_guiness_frame3_shadow",
+      "bone": "root",
+      "attachment": "rago_guiness_frame3_shadow"
+    },
+    {
+      "name": "rago_guiness_frame3",
+      "bone": "root",
+      "attachment": "rago_guiness_frame3"
+    },
+    {
+      "name": "rago_guiness_shaow",
+      "bone": "shadow",
+      "attachment": "rago_guiness_shaow"
+    },
+    {
+      "name": "rago_guiness_fx",
+      "bone": "main",
+      "attachment": "rago_guiness_fx"
+    },
+    {
+      "name": "rago_guiness_bear_1",
+      "bone": "main",
+      "attachment": "rago_guiness_bear_1"
+    },
+    {
+      "name": "rago_guiness_bear",
+      "bone": "main",
+      "attachment": "rago_guiness_bear"
+    },
+    {
+      "name": "beer_bubbles_00000",
+      "bone": "main",
+      "blend": "additive"
+    },
+    {
+      "name": "rago_guiness_bear_faum_2",
+      "bone": "main",
+      "attachment": "rago_guiness_bear_faum_2"
+    },
+    {
+      "name": "levels_2_copy_3",
+      "bone": "main",
+      "attachment": "levels_2_copy_3"
+    },
+    {
+      "name": "rago_guiness_glass_highlight_2",
+      "bone": "main",
+      "attachment": "rago_guiness_glass_highlight_2"
+    },
+    {
+      "name": "rago_guiness_glass_highlight_3",
+      "bone": "main",
+      "attachment": "rago_guiness_glass_highlight_2",
+      "blend": "additive"
+    },
+    {
+      "name": "rago_guiness_glass_highlight_1",
+      "bone": "main",
+      "attachment": "rago_guiness_glass_highlight_1"
+    },
+    {
+      "name": "rago_guiness_glass_handel",
+      "bone": "main",
+      "attachment": "rago_guiness_glass_handel"
+    },
+    {
+      "name": "rago_guiness_glass_handel_glow",
+      "bone": "main",
+      "attachment": "rago_guiness_glass_handel_glow"
+    },
+    {
+      "name": "rago_guiness_bear_faum_1_shadow",
+      "bone": "main",
+      "attachment": "rago_guiness_bear_faum_1_shadow"
+    },
+    {
+      "name": "rago_guiness_glass_partens",
+      "bone": "main",
+      "attachment": "rago_guiness_glass_partens"
+    },
+    {
+      "name": "rago_guiness_waterdrops",
+      "bone": "main",
+      "color": "ffffff81",
+      "attachment": "rago_guiness_waterdrops",
+      "blend": "additive"
+    },
+    {
+      "name": "rago_guiness_bear_faum_shadow",
+      "bone": "main",
+      "attachment": "rago_guiness_bear_faum_shadow"
+    },
+    {
+      "name": "rago_guiness_bear_faum_1",
+      "bone": "main",
+      "attachment": "rago_guiness_bear_faum_1"
+    },
+    {
+      "name": "rago_guiness_bear_faum",
+      "bone": "main",
+      "attachment": "rago_guiness_bear_faum"
+    },
+    {
+      "name": "rago_guiness_glass_water_drops5",
+      "bone": "main",
+      "attachment": "rago_guiness_glass_water_drops5"
+    },
+    {
+      "name": "rago_guiness_glass_water_drops4",
+      "bone": "main",
+      "attachment": "rago_guiness_glass_water_drops4"
+    },
+    {
+      "name": "rago_guiness_glass_water_drops6",
+      "bone": "main",
+      "color": "ffffff73",
+      "attachment": "rago_guiness_glass_water_drops4",
+      "blend": "additive"
+    },
+    {
+      "name": "fo2",
+      "bone": "fo",
+      "attachment": "fo_shadow"
+    },
+    {
+      "name": "fo",
+      "bone": "fo",
+      "attachment": "fo"
+    },
+    {
+      "name": "rago_guiness_glass_water_drops2",
+      "bone": "main",
+      "attachment": "rago_guiness_glass_water_drops2"
+    },
+    {
+      "name": "star",
+      "bone": "main",
+      "dark": "ffffff",
+      "attachment": "stars_park"
+    },
+    {
+      "name": "star2",
+      "bone": "main",
+      "dark": "ffffff",
+      "attachment": "stars_park"
+    },
+    {
+      "name": "star3",
+      "bone": "main",
+      "dark": "ffffff",
+      "attachment": "stars_park"
+    },
+    {
+      "name": "path",
+      "bone": "main",
+      "attachment": "path"
+    }
+  ],
+  "path": [
+    {
+      "name": "path",
+      "order": 0,
+      "bones": [
+        "fo"
+      ],
+      "target": "path",
+      "rotation": 81.1,
+      "position": 0.078
+    }
+  ],
+  "skins": {
+    "default": {
+      "beer_bubbles_00000": {
+        "beer_bubbles_00000": {
+          "x": 6.37,
+          "y": -22.99,
+          "width": 241,
+          "height": 233
+        },
+        "beer_bubbles_00002": {
+          "x": 6.37,
+          "y": -22.99,
+          "width": 241,
+          "height": 233
+        },
+        "beer_bubbles_00004": {
+          "x": 6.37,
+          "y": -22.99,
+          "width": 241,
+          "height": 233
+        },
+        "beer_bubbles_00006": {
+          "x": 6.37,
+          "y": -22.99,
+          "width": 241,
+          "height": 233
+        },
+        "beer_bubbles_00008": {
+          "x": 6.37,
+          "y": -22.99,
+          "width": 241,
+          "height": 233
+        },
+        "beer_bubbles_00010": {
+          "x": 6.37,
+          "y": -22.99,
+          "width": 241,
+          "height": 233
+        },
+        "beer_bubbles_00012": {
+          "x": 6.37,
+          "y": -22.99,
+          "width": 241,
+          "height": 233
+        },
+        "beer_bubbles_00014": {
+          "x": 6.37,
+          "y": -22.99,
+          "width": 241,
+          "height": 233
+        },
+        "beer_bubbles_00016": {
+          "x": 6.37,
+          "y": -22.99,
+          "width": 241,
+          "height": 233
+        },
+        "beer_bubbles_00018": {
+          "x": 6.37,
+          "y": -22.99,
+          "width": 241,
+          "height": 233
+        },
+        "beer_bubbles_00020": {
+          "x": 6.37,
+          "y": -22.99,
+          "width": 241,
+          "height": 233
+        },
+        "beer_bubbles_00022": {
+          "x": 6.37,
+          "y": -22.99,
+          "width": 241,
+          "height": 233
+        },
+        "beer_bubbles_00024": {
+          "x": 6.37,
+          "y": -22.99,
+          "width": 241,
+          "height": 233
+        },
+        "beer_bubbles_00026": {
+          "x": 6.37,
+          "y": -22.99,
+          "width": 241,
+          "height": 233
+        },
+        "beer_bubbles_00028": {
+          "x": 6.37,
+          "y": -22.99,
+          "width": 241,
+          "height": 233
+        },
+        "beer_bubbles_00030": {
+          "x": 6.37,
+          "y": -22.99,
+          "width": 241,
+          "height": 233
+        },
+        "beer_bubbles_00032": {
+          "x": 6.37,
+          "y": -22.99,
+          "width": 241,
+          "height": 233
+        },
+        "beer_bubbles_00034": {
+          "x": 6.37,
+          "y": -22.99,
+          "width": 241,
+          "height": 233
+        },
+        "beer_bubbles_00036": {
+          "x": 6.37,
+          "y": -22.99,
+          "width": 241,
+          "height": 233
+        },
+        "beer_bubbles_00038": {
+          "x": 6.37,
+          "y": -22.99,
+          "width": 241,
+          "height": 233
+        }
+      },
+      "fo": {
+        "fo": {
+          "rotation": 2.98,
+          "width": 23,
+          "height": 62
+        }
+      },
+      "fo2": {
+        "fo_shadow": {
+          "x": 4.5,
+          "y": -2.65,
+          "rotation": 1.17,
+          "width": 20,
+          "height": 62
+        }
+      },
+      "levels_2_copy_3": {
+        "levels_2_copy_3": {
+          "x": 0.5,
+          "y": -19.5,
+          "width": 195,
+          "height": 309
+        }
+      },
+      "path": {
+        "path": {
+          "type": "path",
+          "lengths": [
+            277.95,
+            317.05,
+            605.1
+          ],
+          "vertexCount": 9,
+          "vertices": [
+            -126.2,
+            120.15,
+            -123.55,
+            133.34,
+            -120.9,
+            146.53,
+            -79.21,
+            -11.96,
+            -112.37,
+            -141.25,
+            -113.77,
+            -146.72,
+            -127.14,
+            -164.71,
+            -140.21,
+            -167.13,
+            -153.28,
+            -169.55
+          ]
+        }
+      },
+      "rago_guiness_bear": {
+        "rago_guiness_bear": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            102,
+            -90,
+            -110,
+            -90,
+            -110,
+            103,
+            102,
+            103
+          ],
+          "hull": 4,
+          "edges": [
+            0,
+            2,
+            2,
+            4,
+            4,
+            6,
+            0,
+            6
+          ],
+          "width": 212,
+          "height": 193
+        }
+      },
+      "rago_guiness_bear_1": {
+        "rago_guiness_bear_1": {
+          "x": 13,
+          "y": -34.5,
+          "width": 250,
+          "height": 283
+        }
+      },
+      "rago_guiness_bear_faum": {
+        "rago_guiness_bear_faum": {
+          "type": "mesh",
+          "uvs": [
+            0.1406,
+            1,
+            0.12586,
+            0.79087,
+            0.04796,
+            0.57782,
+            0,
+            0.43151,
+            0,
+            0.24156,
+            0.08165,
+            0.08499,
+            0.32165,
+            0,
+            0.48165,
+            0,
+            0.66902,
+            0.00028,
+            0.93217,
+            0.00798,
+            1,
+            0.12606,
+            1,
+            0.26723,
+            0.95323,
+            0.57269,
+            0.89007,
+            0.56242,
+            0.86902,
+            0.48028,
+            0.78691,
+            0.51621,
+            0.69007,
+            0.45204,
+            0.62902,
+            0.36477,
+            0.55744,
+            0.39044,
+            0.50902,
+            0.54188,
+            0.34481,
+            0.55728,
+            0.31954,
+            0.65482,
+            0.31533,
+            0.79087,
+            0.22481,
+            0.82167,
+            0.20796,
+            1,
+            0.21638,
+            0.62916,
+            0.13428,
+            0.43664,
+            0.13849,
+            0.2467,
+            0.32375,
+            0.19279,
+            0.32375,
+            0.35964,
+            0.84586,
+            0.23386,
+            0.60375,
+            0.20049
+          ],
+          "triangles": [
+            27,
+            5,
+            28,
+            4,
+            5,
+            27,
+            27,
+            28,
+            29,
+            3,
+            4,
+            27,
+            26,
+            3,
+            27,
+            26,
+            27,
+            29,
+            26,
+            29,
+            20,
+            2,
+            3,
+            26,
+            25,
+            26,
+            20,
+            2,
+            26,
+            25,
+            21,
+            25,
+            20,
+            1,
+            2,
+            25,
+            22,
+            25,
+            21,
+            23,
+            1,
+            25,
+            22,
+            23,
+            25,
+            0,
+            1,
+            23,
+            24,
+            0,
+            23,
+            28,
+            6,
+            7,
+            28,
+            7,
+            31,
+            31,
+            18,
+            28,
+            31,
+            7,
+            8,
+            30,
+            8,
+            9,
+            30,
+            9,
+            10,
+            31,
+            8,
+            30,
+            30,
+            10,
+            11,
+            17,
+            31,
+            30,
+            17,
+            18,
+            31,
+            16,
+            17,
+            30,
+            14,
+            30,
+            11,
+            16,
+            30,
+            14,
+            15,
+            16,
+            14,
+            12,
+            13,
+            14,
+            11,
+            12,
+            14,
+            5,
+            6,
+            28,
+            18,
+            29,
+            28,
+            19,
+            29,
+            18,
+            20,
+            29,
+            19
+          ],
+          "vertices": [
+            2,
+            4,
+            -143.04,
+            -154.79,
+            0.76,
+            3,
+            -15.36,
+            -116.87,
+            0.24,
+            2,
+            4,
+            -146.4,
+            -115.68,
+            0.76,
+            3,
+            -18.72,
+            -77.76,
+            0.24,
+            2,
+            4,
+            -164.16,
+            -75.84,
+            0.76,
+            3,
+            -36.48,
+            -37.92,
+            0.24,
+            2,
+            4,
+            -175.1,
+            -48.48,
+            0.76,
+            3,
+            -47.42,
+            -10.56,
+            0.24,
+            2,
+            4,
+            -175.1,
+            -12.96,
+            0.76,
+            3,
+            -47.42,
+            24.96,
+            0.24,
+            2,
+            4,
+            -156.48,
+            16.32,
+            0.76,
+            3,
+            -28.8,
+            54.24,
+            0.24,
+            2,
+            4,
+            -101.76,
+            32.21,
+            0.824,
+            3,
+            25.92,
+            70.13,
+            0.176,
+            2,
+            4,
+            -65.28,
+            32.21,
+            0.872,
+            3,
+            62.4,
+            70.13,
+            0.128,
+            2,
+            4,
+            -22.56,
+            32.16,
+            0.912,
+            3,
+            105.12,
+            70.08,
+            0.088,
+            1,
+            4,
+            37.44,
+            30.72,
+            1,
+            1,
+            4,
+            52.9,
+            8.64,
+            1,
+            1,
+            4,
+            52.9,
+            -17.76,
+            1,
+            1,
+            4,
+            42.24,
+            -74.88,
+            1,
+            2,
+            4,
+            27.84,
+            -72.96,
+            0.912,
+            3,
+            155.52,
+            -35.04,
+            0.088,
+            2,
+            4,
+            23.04,
+            -57.6,
+            0.912,
+            3,
+            150.72,
+            -19.68,
+            0.088,
+            2,
+            4,
+            4.32,
+            -64.32,
+            0.912,
+            3,
+            132,
+            -26.4,
+            0.088,
+            2,
+            4,
+            -17.76,
+            -52.32,
+            0.912,
+            3,
+            109.92,
+            -14.4,
+            0.088,
+            2,
+            4,
+            -31.68,
+            -36,
+            0.872,
+            3,
+            96,
+            1.92,
+            0.128,
+            2,
+            4,
+            -48,
+            -40.8,
+            0.872,
+            3,
+            79.68,
+            -2.88,
+            0.128,
+            2,
+            4,
+            -59.04,
+            -69.12,
+            0.872,
+            3,
+            68.64,
+            -31.2,
+            0.128,
+            1,
+            4,
+            -96.48,
+            -72,
+            1,
+            2,
+            4,
+            -102.24,
+            -90.24,
+            0.824,
+            3,
+            25.44,
+            -52.32,
+            0.176,
+            2,
+            4,
+            -103.2,
+            -115.68,
+            0.824,
+            3,
+            24.48,
+            -77.76,
+            0.176,
+            2,
+            4,
+            -123.84,
+            -121.44,
+            0.76,
+            3,
+            3.84,
+            -83.52,
+            0.24,
+            2,
+            4,
+            -127.68,
+            -154.79,
+            0.76,
+            3,
+            0,
+            -116.87,
+            0.24,
+            2,
+            4,
+            -125.76,
+            -85.44,
+            0.76,
+            3,
+            1.92,
+            -47.52,
+            0.24,
+            2,
+            4,
+            -144.48,
+            -49.44,
+            0.76,
+            3,
+            -16.8,
+            -11.52,
+            0.24,
+            2,
+            4,
+            -143.52,
+            -13.92,
+            0.76,
+            3,
+            -15.84,
+            24,
+            0.24,
+            2,
+            4,
+            -101.28,
+            -3.84,
+            0.824,
+            3,
+            26.4,
+            34.08,
+            0.176,
+            2,
+            4,
+            -101.28,
+            -35.04,
+            0.824,
+            3,
+            26.4,
+            2.88,
+            0.176,
+            2,
+            4,
+            17.76,
+            -11.52,
+            0.912,
+            3,
+            145.44,
+            26.4,
+            0.088,
+            2,
+            4,
+            -37.44,
+            -5.28,
+            0.872,
+            3,
+            90.24,
+            32.64,
+            0.128
+          ],
+          "hull": 25,
+          "edges": [
+            0,
+            2,
+            2,
+            4,
+            4,
+            6,
+            6,
+            8,
+            8,
+            10,
+            10,
+            12,
+            12,
+            14,
+            14,
+            16,
+            16,
+            18,
+            18,
+            20,
+            20,
+            22,
+            22,
+            24,
+            24,
+            26,
+            26,
+            28,
+            28,
+            30,
+            30,
+            32,
+            32,
+            34,
+            34,
+            36,
+            36,
+            38,
+            38,
+            40,
+            40,
+            42,
+            42,
+            44,
+            44,
+            46,
+            46,
+            48,
+            0,
+            48
+          ],
+          "width": 228,
+          "height": 187
+        }
+      },
+      "rago_guiness_bear_faum_1": {
+        "rago_guiness_bear_faum_1": {
+          "x": -79.5,
+          "y": -107.5,
+          "width": 31,
+          "height": 89
+        }
+      },
+      "rago_guiness_bear_faum_1_shadow": {
+        "rago_guiness_bear_faum_1_shadow": {
+          "x": -78,
+          "y": -108,
+          "width": 28,
+          "height": 88
+        }
+      },
+      "rago_guiness_bear_faum_2": {
+        "rago_guiness_bear_faum_2": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            88,
+            51,
+            -114,
+            51,
+            -114,
+            169,
+            88,
+            169
+          ],
+          "hull": 4,
+          "edges": [
+            0,
+            2,
+            2,
+            4,
+            4,
+            6,
+            0,
+            6
+          ],
+          "width": 202,
+          "height": 118
+        }
+      },
+      "rago_guiness_bear_faum_shadow": {
+        "rago_guiness_bear_faum_shadow": {
+          "type": "mesh",
+          "uvs": [
+            0.04177,
+            1,
+            0.02199,
+            0.75398,
+            0,
+            0.55422,
+            0,
+            0.26956,
+            0.14507,
+            0.0698,
+            0.35387,
+            0,
+            0.77148,
+            0,
+            1,
+            0.16968,
+            1,
+            0.51177,
+            0.91874,
+            0.51177,
+            0.89016,
+            0.43187,
+            0.7451,
+            0.43436,
+            0.60663,
+            0.27455,
+            0.50773,
+            0.46932,
+            0.29453,
+            0.53924,
+            0.25497,
+            0.72152,
+            0.17145,
+            0.8289,
+            0.1121,
+            1,
+            0.12089,
+            0.63912,
+            0.12529,
+            0.3195,
+            0.4352,
+            0.22711,
+            0.80664,
+            0.21462
+          ],
+          "triangles": [
+            19,
+            3,
+            4,
+            4,
+            20,
+            19,
+            14,
+            19,
+            20,
+            2,
+            3,
+            19,
+            18,
+            2,
+            19,
+            14,
+            18,
+            19,
+            15,
+            18,
+            14,
+            1,
+            2,
+            18,
+            16,
+            18,
+            15,
+            1,
+            18,
+            16,
+            0,
+            1,
+            16,
+            17,
+            0,
+            16,
+            21,
+            6,
+            7,
+            20,
+            5,
+            6,
+            12,
+            20,
+            6,
+            21,
+            12,
+            6,
+            10,
+            21,
+            7,
+            11,
+            12,
+            21,
+            11,
+            21,
+            10,
+            13,
+            20,
+            12,
+            8,
+            9,
+            10,
+            8,
+            10,
+            7,
+            20,
+            4,
+            5,
+            14,
+            20,
+            13
+          ],
+          "vertices": [
+            2,
+            4,
+            -138.08,
+            -161.79,
+            0.84,
+            3,
+            -10.4,
+            -123.87,
+            0.16,
+            2,
+            4,
+            -141.87,
+            -120.21,
+            0.84,
+            3,
+            -14.19,
+            -82.29,
+            0.16,
+            2,
+            4,
+            -146.1,
+            -86.45,
+            0.84,
+            3,
+            -18.42,
+            -48.53,
+            0.16,
+            2,
+            4,
+            -146.1,
+            -38.34,
+            0.84,
+            3,
+            -18.42,
+            -0.42,
+            0.16,
+            2,
+            4,
+            -118.24,
+            -4.58,
+            0.84,
+            3,
+            9.44,
+            33.34,
+            0.16,
+            2,
+            4,
+            -78.15,
+            7.21,
+            0.904,
+            3,
+            49.53,
+            45.13,
+            0.096,
+            2,
+            4,
+            2.03,
+            7.21,
+            0.928,
+            3,
+            129.71,
+            45.13,
+            0.072,
+            1,
+            4,
+            45.9,
+            -21.46,
+            1,
+            1,
+            4,
+            45.9,
+            -79.28,
+            1,
+            2,
+            4,
+            30.3,
+            -79.28,
+            0.928,
+            3,
+            157.98,
+            -41.36,
+            0.072,
+            2,
+            4,
+            24.82,
+            -65.77,
+            0.928,
+            3,
+            152.5,
+            -27.85,
+            0.072,
+            2,
+            4,
+            -3.04,
+            -66.2,
+            0.928,
+            3,
+            124.64,
+            -28.28,
+            0.072,
+            2,
+            4,
+            -29.62,
+            -39.19,
+            0.904,
+            3,
+            98.06,
+            -1.27,
+            0.096,
+            2,
+            4,
+            -48.61,
+            -72.1,
+            0.904,
+            3,
+            79.07,
+            -34.18,
+            0.096,
+            2,
+            4,
+            -89.55,
+            -83.92,
+            0.84,
+            3,
+            38.13,
+            -46,
+            0.16,
+            2,
+            4,
+            -97.14,
+            -114.73,
+            0.84,
+            3,
+            30.54,
+            -76.81,
+            0.16,
+            2,
+            4,
+            -113.18,
+            -132.87,
+            0.84,
+            3,
+            14.5,
+            -94.95,
+            0.16,
+            2,
+            4,
+            -124.57,
+            -161.79,
+            0.84,
+            3,
+            3.11,
+            -123.87,
+            0.16,
+            2,
+            4,
+            -122.88,
+            -100.8,
+            0.84,
+            3,
+            4.8,
+            -62.88,
+            0.16,
+            2,
+            4,
+            -122.04,
+            -46.78,
+            0.84,
+            3,
+            5.64,
+            -8.86,
+            0.16,
+            2,
+            4,
+            -62.54,
+            -31.17,
+            0.904,
+            3,
+            65.14,
+            6.75,
+            0.096,
+            2,
+            4,
+            8.78,
+            -29.06,
+            0.928,
+            3,
+            136.46,
+            8.86,
+            0.072
+          ],
+          "hull": 18,
+          "edges": [
+            0,
+            2,
+            2,
+            4,
+            4,
+            6,
+            6,
+            8,
+            8,
+            10,
+            10,
+            12,
+            12,
+            14,
+            14,
+            16,
+            16,
+            18,
+            18,
+            20,
+            20,
+            22,
+            22,
+            24,
+            24,
+            26,
+            26,
+            28,
+            28,
+            30,
+            30,
+            32,
+            32,
+            34,
+            0,
+            34
+          ],
+          "width": 192,
+          "height": 169
+        }
+      },
+      "rago_guiness_bg": {
+        "rago_guiness_bg": {
+          "y": -0.5,
+          "width": 496,
+          "height": 399
+        }
+      },
+      "rago_guiness_frame1": {
+        "rago_guiness_frame1": {
+          "x": 232,
+          "y": 1,
+          "width": 34,
+          "height": 408
+        }
+      },
+      "rago_guiness_frame1_shadow": {
+        "rago_guiness_frame1_shadow": {
+          "x": 205,
+          "y": 1,
+          "width": 92,
+          "height": 412
+        }
+      },
+      "rago_guiness_frame2": {
+        "rago_guiness_frame2": {
+          "x": -1,
+          "y": 191.5,
+          "width": 492,
+          "height": 35
+        }
+      },
+      "rago_guiness_frame2_shadow": {
+        "rago_guiness_frame2_shadow": {
+          "x": -1,
+          "y": 181,
+          "width": 504,
+          "height": 58
+        }
+      },
+      "rago_guiness_frame3": {
+        "rago_guiness_frame3": {
+          "x": -234,
+          "y": 1,
+          "width": 34,
+          "height": 408
+        }
+      },
+      "rago_guiness_frame3_shadow": {
+        "rago_guiness_frame3_shadow": {
+          "x": -221.5,
+          "y": 1,
+          "width": 63,
+          "height": 418
+        }
+      },
+      "rago_guiness_frame4": {
+        "rago_guiness_frame4": {
+          "x": -1,
+          "y": -187.5,
+          "width": 492,
+          "height": 37
+        }
+      },
+      "rago_guiness_frame4_shadow": {
+        "rago_guiness_frame4_shadow": {
+          "x": -2,
+          "y": -181,
+          "width": 502,
+          "height": 54
+        }
+      },
+      "rago_guiness_fx": {
+        "rago_guiness_fx": {
+          "x": -4.5,
+          "y": -161.5,
+          "width": 433,
+          "height": 91
+        }
+      },
+      "rago_guiness_glass_handel": {
+        "rago_guiness_glass_handel": {
+          "x": 123.5,
+          "y": 22.5,
+          "width": 117,
+          "height": 203
+        }
+      },
+      "rago_guiness_glass_handel_glow": {
+        "rago_guiness_glass_handel_glow": {
+          "x": 122,
+          "y": 56.5,
+          "width": 110,
+          "height": 165
+        }
+      },
+      "rago_guiness_glass_highlight_1": {
+        "rago_guiness_glass_highlight_1": {
+          "x": 12,
+          "y": -38,
+          "width": 248,
+          "height": 276
+        }
+      },
+      "rago_guiness_glass_highlight_2": {
+        "rago_guiness_glass_highlight_2": {
+          "x": 51,
+          "y": -35.5,
+          "width": 170,
+          "height": 281
+        }
+      },
+      "rago_guiness_glass_highlight_3": {
+        "rago_guiness_glass_highlight_2": {
+          "x": 51,
+          "y": -35.5,
+          "width": 170,
+          "height": 281
+        }
+      },
+      "rago_guiness_glass_partens": {
+        "rago_guiness_glass_partens": {
+          "x": 1.5,
+          "y": -7,
+          "width": 107,
+          "height": 98
+        }
+      },
+      "rago_guiness_glass_water_drops2": {
+        "rago_guiness_glass_water_drops2": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            50,
+            -57,
+            32,
+            -57,
+            32,
+            -10,
+            50,
+            -10
+          ],
+          "hull": 4,
+          "edges": [
+            0,
+            2,
+            2,
+            4,
+            4,
+            6,
+            0,
+            6
+          ],
+          "width": 18,
+          "height": 46
+        }
+      },
+      "rago_guiness_glass_water_drops4": {
+        "rago_guiness_glass_water_drops4": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            24,
+            85,
+            12,
+            85,
+            12,
+            112,
+            24,
+            112
+          ],
+          "hull": 4,
+          "edges": [
+            0,
+            2,
+            2,
+            4,
+            4,
+            6,
+            0,
+            6
+          ],
+          "width": 12,
+          "height": 27
+        }
+      },
+      "rago_guiness_glass_water_drops5": {
+        "rago_guiness_glass_water_drops5": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            0.98936,
+            0,
+            0.98936,
+            0,
+            0.01064,
+            1,
+            0.01064
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            9,
+            66,
+            -15,
+            66,
+            -15,
+            112,
+            9,
+            112
+          ],
+          "hull": 4,
+          "edges": [
+            0,
+            2,
+            2,
+            4,
+            4,
+            6,
+            0,
+            6
+          ],
+          "width": 24,
+          "height": 47
+        }
+      },
+      "rago_guiness_glass_water_drops6": {
+        "rago_guiness_glass_water_drops4": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            -30.86,
+            -65.49,
+            -42.63,
+            -67.83,
+            -47.89,
+            -41.34,
+            -36.12,
+            -39.01
+          ],
+          "hull": 4,
+          "edges": [
+            0,
+            2,
+            2,
+            4,
+            4,
+            6,
+            0,
+            6
+          ],
+          "width": 12,
+          "height": 27
+        }
+      },
+      "rago_guiness_shaow": {
+        "rago_guiness_shaow": {
+          "x": -17.5,
+          "y": 127.01,
+          "width": 329,
+          "height": 290
+        }
+      },
+      "rago_guiness_waterdrops": {
+        "rago_guiness_waterdrops": {
+          "x": 14,
+          "y": -31,
+          "width": 258,
+          "height": 332
+        }
+      },
+      "star": {
+        "stars_park": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            243.04,
+            11.19,
+            14.54,
+            11.19,
+            14.54,
+            236.64,
+            243.04,
+            236.64
+          ],
+          "hull": 4,
+          "edges": [
+            0,
+            2,
+            2,
+            4,
+            4,
+            6,
+            0,
+            6
+          ],
+          "width": 150,
+          "height": 148
+        }
+      },
+      "star2": {
+        "stars_park": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            144.04,
+            -248.42,
+            -84.46,
+            -248.42,
+            -84.46,
+            -22.97,
+            144.04,
+            -22.97
+          ],
+          "hull": 4,
+          "edges": [
+            0,
+            2,
+            2,
+            4,
+            4,
+            6,
+            0,
+            6
+          ],
+          "width": 150,
+          "height": 148
+        }
+      },
+      "star3": {
+        "stars_park": {
+          "type": "mesh",
+          "uvs": [
+            1,
+            1,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "triangles": [
+            1,
+            2,
+            3,
+            1,
+            3,
+            0
+          ],
+          "vertices": [
+            278.1,
+            -126.82,
+            49.6,
+            -126.82,
+            49.6,
+            98.63,
+            278.1,
+            98.63
+          ],
+          "hull": 4,
+          "edges": [
+            0,
+            2,
+            2,
+            4,
+            4,
+            6,
+            0,
+            6
+          ],
+          "width": 150,
+          "height": 148
+        }
+      }
+    }
+  },
+  "animations": {
+    "highlight": {
+      "slots": {
+        "beer_bubbles_00000": {
+          "color": [
+            {
+              "time": 1.2667,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "color": "ffffff00"
+            }
+          ],
+          "attachment": [
+            {
+              "time": 0.2333,
+              "name": "beer_bubbles_00000"
+            },
+            {
+              "time": 0.3,
+              "name": "beer_bubbles_00002"
+            },
+            {
+              "time": 0.3667,
+              "name": "beer_bubbles_00004"
+            },
+            {
+              "time": 0.4333,
+              "name": "beer_bubbles_00006"
+            },
+            {
+              "time": 0.5,
+              "name": "beer_bubbles_00008"
+            },
+            {
+              "time": 0.5667,
+              "name": "beer_bubbles_00010"
+            },
+            {
+              "time": 0.6333,
+              "name": "beer_bubbles_00012"
+            },
+            {
+              "time": 0.7,
+              "name": "beer_bubbles_00014"
+            },
+            {
+              "time": 0.7667,
+              "name": "beer_bubbles_00016"
+            },
+            {
+              "time": 0.8333,
+              "name": "beer_bubbles_00018"
+            },
+            {
+              "time": 0.9,
+              "name": "beer_bubbles_00020"
+            },
+            {
+              "time": 0.9667,
+              "name": "beer_bubbles_00022"
+            },
+            {
+              "time": 1.0333,
+              "name": "beer_bubbles_00024"
+            },
+            {
+              "time": 1.1,
+              "name": "beer_bubbles_00026"
+            },
+            {
+              "time": 1.1667,
+              "name": "beer_bubbles_00028"
+            },
+            {
+              "time": 1.2333,
+              "name": "beer_bubbles_00030"
+            },
+            {
+              "time": 1.3,
+              "name": "beer_bubbles_00032"
+            },
+            {
+              "time": 1.3667,
+              "name": "beer_bubbles_00034"
+            },
+            {
+              "time": 1.4333,
+              "name": "beer_bubbles_00036"
+            },
+            {
+              "time": 1.5,
+              "name": "beer_bubbles_00038"
+            }
+          ]
+        },
+        "fo": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.2333,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.3,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "fo2": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.6333,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.8,
+              "color": "ffffffff",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.3,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "rago_guiness_fx": {
+          "color": [
+            {
+              "time": 0.0333,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.2,
+              "color": "ffffff29",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.2667,
+              "color": "ffffff29",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "rago_guiness_glass_highlight_3": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 0.2,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.4667,
+              "color": "ffffff7a",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.2,
+              "color": "ffffff7a",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "color": "ffffff00"
+            }
+          ]
+        },
+        "rago_guiness_glass_water_drops2": {
+          "color": [
+            {
+              "time": 0.7667,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3333,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "rago_guiness_glass_water_drops4": {
+          "color": [
+            {
+              "time": 1.1667,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.3333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3667,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "rago_guiness_glass_water_drops5": {
+          "color": [
+            {
+              "time": 1,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.2333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "color": "ffffffff"
+            }
+          ]
+        },
+        "rago_guiness_glass_water_drops6": {
+          "color": [
+            {
+              "time": 0,
+              "color": "ffffff7f",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.1667,
+              "color": "ffffff7f",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.3333,
+              "color": "ffffff00",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.3667,
+              "color": "ffffff00",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "color": "ffffff7f"
+            }
+          ]
+        },
+        "rago_guiness_shaow": {
+          "color": [
+            {
+              "time": 0.2,
+              "color": "ffffffff",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.4667,
+              "color": "ffffff9b",
+              "curve": "stepped"
+            },
+            {
+              "time": 1.2333,
+              "color": "ffffff9b",
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "color": "ffffffff"
+            }
+          ]
+        }
+      },
+      "bones": {
+        "main": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": [
+                0,
+                0,
+                0.38,
+                1
+              ]
+            },
+            {
+              "time": 0.2,
+              "angle": -3.6,
+              "curve": [
+                0,
+                0,
+                0.462,
+                1
+              ]
+            },
+            {
+              "time": 0.4667,
+              "angle": 7.9,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.2,
+              "angle": 10.3,
+              "curve": [
+                0.727,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "angle": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0,
+                0,
+                0.38,
+                1
+              ]
+            },
+            {
+              "time": 0.2,
+              "x": 0.95,
+              "y": 0.95,
+              "curve": [
+                0,
+                0,
+                0.462,
+                1
+              ]
+            },
+            {
+              "time": 0.4667,
+              "x": 1.08,
+              "y": 1.08,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.2,
+              "x": 1.1,
+              "y": 1.1,
+              "curve": [
+                0.727,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "shadow": {
+          "rotate": [
+            {
+              "time": 0,
+              "angle": 0,
+              "curve": [
+                0,
+                0,
+                0.462,
+                1
+              ]
+            },
+            {
+              "time": 0.2,
+              "angle": -4.97,
+              "curve": [
+                0,
+                0,
+                0.462,
+                1
+              ]
+            },
+            {
+              "time": 0.4667,
+              "angle": 3.95,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.2333,
+              "angle": 6.59,
+              "curve": [
+                0.727,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "angle": 0
+            }
+          ],
+          "scale": [
+            {
+              "time": 0,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0,
+                0,
+                0.462,
+                1
+              ]
+            },
+            {
+              "time": 0.2,
+              "x": 1.037,
+              "y": 1.037,
+              "curve": [
+                0,
+                0,
+                0.462,
+                1
+              ]
+            },
+            {
+              "time": 0.4667,
+              "x": 0.931,
+              "y": 0.931,
+              "curve": "stepped"
+            },
+            {
+              "time": 1.2333,
+              "x": 0.931,
+              "y": 0.931,
+              "curve": [
+                0.727,
+                0,
+                1,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "x": 1,
+              "y": 1
+            }
+          ]
+        },
+        "f1": {
+          "translate": [
+            {
+              "time": 0.2,
+              "x": 0,
+              "y": 0,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.7667,
+              "x": 2.88,
+              "y": -21.53,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.3333,
+              "x": 2.88,
+              "y": -39.24,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "x": 0,
+              "y": 0
+            }
+          ]
+        },
+        "fo": {
+          "scale": [
+            {
+              "time": 0.8,
+              "x": 1,
+              "y": 1,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 1.3,
+              "x": 0.532,
+              "y": 0.532
+            }
+          ]
+        }
+      },
+      "paths": {
+        "path": {
+          "position": [
+            {
+              "time": 0,
+              "position": 0.078,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.4333,
+              "position": 0.3112,
+              "curve": [
+                0.25,
+                0,
+                0.75,
+                1
+              ]
+            },
+            {
+              "time": 0.8,
+              "position": 0.3908,
+              "curve": [
+                0,
+                0,
+                0.162,
+                1
+              ]
+            },
+            {
+              "time": 1.5,
+              "position": 0.8851
+            }
+          ]
+        }
+      },
+      "deform": {
+        "default": {
+          "rago_guiness_bear": {
+            "rago_guiness_bear": [
+              {
+                "time": 0,
+                "curve": [
+                  0,
+                  0,
+                  0.383,
+                  1
+                ]
+              },
+              {
+                "time": 0.2,
+                "offset": 4,
+                "vertices": [
+                  -2.46274,
+                  29.05217,
+                  0.41484,
+                  -36.86984
+                ],
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3,
+                "offset": 6,
+                "vertices": [
+                  -1.89541,
+                  -1.26236
+                ],
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "offset": 4,
+                "vertices": [
+                  -1.92146,
+                  11.85995,
+                  4.66327,
+                  -52.66066
+                ],
+                "curve": [
+                  0.246,
+                  0,
+                  0.633,
+                  0.54
+                ]
+              },
+              {
+                "time": 0.8333,
+                "offset": 4,
+                "vertices": [
+                  -0.77937,
+                  4.81054,
+                  0.76487,
+                  -22.11014
+                ],
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.2,
+                "offset": 4,
+                "vertices": [
+                  -1.92146,
+                  11.85995,
+                  4.66327,
+                  -52.66066
+                ],
+                "curve": [
+                  0.725,
+                  0,
+                  1,
+                  1
+                ]
+              },
+              {
+                "time": 1.5
+              }
+            ]
+          },
+          "rago_guiness_bear_faum": {
+            "rago_guiness_bear_faum": [
+              {
+                "time": 0.5667,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8,
+                "offset": 1,
+                "vertices": [
+                  -17.28989,
+                  0.00001,
+                  -17.28931,
+                  0.00004,
+                  -5.66811,
+                  0,
+                  -5.66793,
+                  0.00003,
+                  -4.21124,
+                  0,
+                  -4.21114,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0.00001,
+                  -0.51529,
+                  0.00003,
+                  -4.21124,
+                  0,
+                  -4.21114,
+                  0.00007,
+                  -3.26268,
+                  0,
+                  -3.26236,
+                  0.00007,
+                  -3.26268,
+                  0,
+                  -3.26236,
+                  0.00014,
+                  -17.28989,
+                  0.00001,
+                  -17.28931,
+                  0.00003,
+                  -4.21124,
+                  0,
+                  -4.21114
+                ],
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "offset": 1,
+                "vertices": [
+                  3.32011,
+                  0,
+                  3.32014,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  3.32011,
+                  0,
+                  3.32014
+                ],
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.2
+              }
+            ]
+          },
+          "rago_guiness_bear_faum_2": {
+            "rago_guiness_bear_faum_2": [
+              {
+                "time": 0,
+                "curve": [
+                  0,
+                  0,
+                  0.383,
+                  1
+                ]
+              },
+              {
+                "time": 0.2,
+                "vertices": [
+                  2.48478,
+                  -39.4945,
+                  -1.23351,
+                  19.60545
+                ],
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.3,
+                "vertices": [
+                  -1.87668,
+                  -9.36546
+                ],
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.5,
+                "vertices": [
+                  5.47285,
+                  -67.52514,
+                  0.53378,
+                  7.0603
+                ],
+                "curve": [
+                  0.246,
+                  0,
+                  0.633,
+                  0.54
+                ]
+              },
+              {
+                "time": 0.8333,
+                "vertices": [
+                  1.10438,
+                  -32.95574,
+                  0.21651,
+                  2.86374
+                ],
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.2,
+                "vertices": [
+                  5.47285,
+                  -67.52514,
+                  0.53378,
+                  7.0603
+                ],
+                "curve": [
+                  0.725,
+                  0,
+                  1,
+                  1
+                ]
+              },
+              {
+                "time": 1.5
+              }
+            ]
+          },
+          "rago_guiness_glass_water_drops2": {
+            "rago_guiness_glass_water_drops2": [
+              {
+                "time": 0,
+                "vertices": [
+                  9.29996,
+                  -24.17999,
+                  9.29996,
+                  -24.17999,
+                  9.29996,
+                  -24.17999,
+                  9.29996,
+                  -24.17999
+                ],
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1333,
+                "vertices": [
+                  15.83636,
+                  -62.4061,
+                  15.83636,
+                  -62.4061,
+                  15.83636,
+                  -62.4061,
+                  15.83636,
+                  -62.4061
+                ],
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.1667,
+                "vertices": [
+                  9.29996,
+                  -24.17999,
+                  9.29996,
+                  -24.17999,
+                  9.29996,
+                  -24.17999,
+                  9.29996,
+                  -24.17999
+                ]
+              }
+            ]
+          },
+          "rago_guiness_glass_water_drops4": {
+            "rago_guiness_glass_water_drops4": [
+              {
+                "time": 0.3333,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "vertices": [
+                  8.72836,
+                  -23.09283,
+                  9.22046,
+                  -26.49405,
+                  1.56772,
+                  -27.60129,
+                  1.07562,
+                  -24.20006
+                ],
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3667
+              }
+            ]
+          },
+          "rago_guiness_glass_water_drops5": {
+            "rago_guiness_glass_water_drops5": [
+              {
+                "time": 0.2,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.2667,
+                "vertices": [
+                  4.08146,
+                  -34.81614,
+                  4.08146,
+                  -34.81614,
+                  4.08146,
+                  -34.81614,
+                  4.08146,
+                  -34.81614
+                ],
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3
+              }
+            ]
+          },
+          "rago_guiness_glass_water_drops6": {
+            "rago_guiness_glass_water_drops4": [
+              {
+                "time": 0.3333,
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3333,
+                "vertices": [
+                  8.72836,
+                  -23.09283,
+                  9.22046,
+                  -26.49405,
+                  1.56772,
+                  -27.60129,
+                  1.07562,
+                  -24.20006
+                ],
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1.3667
+              }
+            ]
+          },
+          "star": {
+            "stars_park": [
+              {
+                "time": 0,
+                "vertices": [
+                  -113.26233,
+                  111.75216,
+                  113.26233,
+                  111.75216,
+                  113.26233,
+                  -111.75217,
+                  -113.26233,
+                  -111.75217
+                ],
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2,
+                "vertices": [
+                  -113.26233,
+                  111.75216,
+                  113.26233,
+                  111.75216,
+                  113.26233,
+                  -111.75217,
+                  -113.26233,
+                  -111.75217
+                ],
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.4,
+                "vertices": [
+                  -46.34637,
+                  45.72841,
+                  46.34636,
+                  45.72841,
+                  46.34636,
+                  -45.72841,
+                  -46.34636,
+                  -45.72841
+                ],
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6,
+                "vertices": [
+                  -113.26233,
+                  111.75216,
+                  113.26233,
+                  111.75216,
+                  113.26233,
+                  -111.75217,
+                  -113.26233,
+                  -111.75217
+                ]
+              }
+            ]
+          },
+          "star2": {
+            "stars_park": [
+              {
+                "time": 0,
+                "vertices": [
+                  -113.26233,
+                  111.75216,
+                  113.26233,
+                  111.75216,
+                  113.26233,
+                  -111.75217,
+                  -113.26233,
+                  -111.75217
+                ],
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4,
+                "vertices": [
+                  -113.26233,
+                  111.75216,
+                  113.26233,
+                  111.75216,
+                  113.26233,
+                  -111.75217,
+                  -113.26233,
+                  -111.75217
+                ],
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.6,
+                "vertices": [
+                  -46.34637,
+                  45.72841,
+                  46.34636,
+                  45.72841,
+                  46.34636,
+                  -45.72841,
+                  -46.34636,
+                  -45.72841
+                ],
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8,
+                "vertices": [
+                  -113.26233,
+                  111.75216,
+                  113.26233,
+                  111.75216,
+                  113.26233,
+                  -111.75217,
+                  -113.26233,
+                  -111.75217
+                ]
+              }
+            ]
+          },
+          "star3": {
+            "stars_park": [
+              {
+                "time": 0,
+                "vertices": [
+                  -113.26233,
+                  111.75216,
+                  113.26233,
+                  111.75216,
+                  113.26233,
+                  -111.75217,
+                  -113.26233,
+                  -111.75217
+                ],
+                "curve": "stepped"
+              },
+              {
+                "time": 0.6,
+                "vertices": [
+                  -113.26233,
+                  111.75216,
+                  113.26233,
+                  111.75216,
+                  113.26233,
+                  -111.75217,
+                  -113.26233,
+                  -111.75217
+                ],
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 0.8,
+                "vertices": [
+                  -46.34637,
+                  45.72841,
+                  46.34636,
+                  45.72841,
+                  46.34636,
+                  -45.72841,
+                  -46.34636,
+                  -45.72841
+                ],
+                "curve": [
+                  0.25,
+                  0,
+                  0.75,
+                  1
+                ]
+              },
+              {
+                "time": 1,
+                "vertices": [
+                  -113.26233,
+                  111.75216,
+                  113.26233,
+                  111.75216,
+                  113.26233,
+                  -111.75217,
+                  -113.26233,
+                  -111.75217
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "idle": {}
+  }
+}

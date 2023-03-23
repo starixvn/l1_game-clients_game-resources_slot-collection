@@ -1,0 +1,19 @@
+wild_x1_no_border.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+symbol_wild
+ rotate: true
+ xy: 0, 0
+ size: 245, 237
+ orig: 245, 237
+ offset: 0, 0
+ index: -1
+wipe_wild
+ rotate: true
+ xy: 239, 11
+ size: 234, 221
+ orig: 234, 221
+ offset: 0, 0
+ index: -1

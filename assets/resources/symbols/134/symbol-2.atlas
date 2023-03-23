@@ -1,0 +1,236 @@
+rago_hv03_horseshoe.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg_particle_00005
+ rotate: true
+ xy: 997, 3
+ size: 83, 88
+ orig: 83, 88
+ offset: 0, 0
+ index: -1
+bg_particle_00007
+ rotate: true
+ xy: 1087, 3
+ size: 83, 88
+ orig: 83, 88
+ offset: 0, 0
+ index: -1
+bg_particle_00009
+ rotate: true
+ xy: 1177, 3
+ size: 83, 88
+ orig: 83, 88
+ offset: 0, 0
+ index: -1
+bg_particle_00011
+ rotate: false
+ xy: 1416, 128
+ size: 83, 88
+ orig: 83, 88
+ offset: 0, 0
+ index: -1
+bg_particle_00013
+ rotate: false
+ xy: 1501, 178
+ size: 83, 88
+ orig: 83, 88
+ offset: 0, 0
+ index: -1
+bg_particle_00015
+ rotate: false
+ xy: 1586, 178
+ size: 83, 88
+ orig: 83, 88
+ offset: 0, 0
+ index: -1
+bg_particle_00017
+ rotate: true
+ xy: 1626, 93
+ size: 83, 88
+ orig: 83, 88
+ offset: 0, 0
+ index: -1
+bg_particle_00019
+ rotate: false
+ xy: 1671, 178
+ size: 83, 88
+ orig: 83, 88
+ offset: 0, 0
+ index: -1
+bg_particle_00021
+ rotate: false
+ xy: 1626, 3
+ size: 83, 88
+ orig: 83, 88
+ offset: 0, 0
+ index: -1
+bg_particle_00023
+ rotate: true
+ xy: 1449, 375
+ size: 83, 88
+ orig: 83, 88
+ offset: 0, 0
+ index: -1
+bg_particle_00025
+ rotate: false
+ xy: 1539, 370
+ size: 83, 88
+ orig: 83, 88
+ offset: 0, 0
+ index: -1
+bg_particle_00027
+ rotate: true
+ xy: 1449, 290
+ size: 83, 88
+ orig: 83, 88
+ offset: 0, 0
+ index: -1
+bg_particle_00029
+ rotate: false
+ xy: 1539, 280
+ size: 83, 88
+ orig: 83, 88
+ offset: 0, 0
+ index: -1
+bg_particle_00030
+ rotate: true
+ xy: 907, 3
+ size: 83, 88
+ orig: 83, 88
+ offset: 0, 0
+ index: -1
+bg_pattern_00002
+ rotate: true
+ xy: 1253, 218
+ size: 240, 194
+ orig: 240, 194
+ offset: 0, 0
+ index: -1
+frame_bottom_shadow_2
+ rotate: false
+ xy: 616, 23
+ size: 203, 18
+ orig: 203, 18
+ offset: 0, 0
+ index: -1
+frame_right
+ rotate: true
+ xy: 2, 2
+ size: 33, 402
+ orig: 33, 402
+ offset: 0, 0
+ index: -1
+frame_right_shadow
+ rotate: true
+ xy: 491, 43
+ size: 38, 217
+ orig: 38, 217
+ offset: 0, 0
+ index: -1
+frame_upper
+ rotate: false
+ xy: 2, 37
+ size: 487, 32
+ orig: 487, 32
+ offset: 0, 0
+ index: -1
+frame_upper_shadow
+ rotate: false
+ xy: 406, 5
+ size: 208, 30
+ orig: 208, 30
+ offset: 0, 0
+ index: -1
+ribbon_3
+ rotate: true
+ xy: 710, 48
+ size: 33, 39
+ orig: 33, 39
+ offset: 0, 0
+ index: -1
+ribbon_4
+ rotate: false
+ xy: 1267, 4
+ size: 136, 105
+ orig: 136, 105
+ offset: 0, 0
+ index: -1
+ribbon_4_shadow
+ rotate: false
+ xy: 1716, 117
+ size: 59, 59
+ orig: 59, 59
+ offset: 0, 0
+ index: -1
+ribbon_5
+ rotate: true
+ xy: 1405, 12
+ size: 97, 87
+ orig: 97, 87
+ offset: 0, 0
+ index: -1
+ribbon_5_shadow
+ rotate: false
+ xy: 616, 3
+ size: 37, 18
+ orig: 37, 18
+ offset: 0, 0
+ index: -1
+ribbon_6
+ rotate: false
+ xy: 1253, 111
+ size: 161, 105
+ orig: 161, 105
+ offset: 0, 0
+ index: -1
+ribbon_6_shadow
+ rotate: false
+ xy: 821, 20
+ size: 84, 61
+ orig: 84, 61
+ offset: 0, 0
+ index: -1
+ribbon_7
+ rotate: true
+ xy: 1494, 17
+ size: 109, 130
+ orig: 109, 130
+ offset: 0, 0
+ index: -1
+ribbon_7_shadow
+ rotate: false
+ xy: 1711, 17
+ size: 64, 74
+ orig: 64, 74
+ offset: 0, 0
+ index: -1
+shoes
+ rotate: false
+ xy: 484, 83
+ size: 399, 375
+ orig: 399, 375
+ offset: 0, 0
+ index: -1
+shoes_shadow
+ rotate: true
+ xy: 1626, 268
+ size: 190, 152
+ orig: 190, 152
+ offset: 0, 0
+ index: -1
+starspark
+ rotate: true
+ xy: 885, 88
+ size: 370, 366
+ orig: 370, 366
+ offset: 0, 0
+ index: -1
+symbol_bg
+ rotate: false
+ xy: 2, 71
+ size: 480, 387
+ orig: 480, 387
+ offset: 0, 0
+ index: -1

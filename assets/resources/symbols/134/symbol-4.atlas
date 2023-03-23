@@ -1,0 +1,362 @@
+rago_hv5_guiness.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+beer_bubbles_00000
+ rotate: true
+ xy: 314, 334
+ size: 241, 233
+ orig: 241, 233
+ offset: 0, 0
+ index: -1
+beer_bubbles_00002
+ rotate: true
+ xy: 340, 91
+ size: 241, 233
+ orig: 241, 233
+ offset: 0, 0
+ index: -1
+beer_bubbles_00004
+ rotate: false
+ xy: 702, 707
+ size: 241, 233
+ orig: 241, 233
+ offset: 0, 0
+ index: -1
+beer_bubbles_00006
+ rotate: false
+ xy: 945, 707
+ size: 241, 233
+ orig: 241, 233
+ offset: 0, 0
+ index: -1
+beer_bubbles_00008
+ rotate: true
+ xy: 549, 429
+ size: 241, 233
+ orig: 241, 233
+ offset: 0, 0
+ index: -1
+beer_bubbles_00010
+ rotate: false
+ xy: 784, 472
+ size: 241, 233
+ orig: 241, 233
+ offset: 0, 0
+ index: -1
+beer_bubbles_00012
+ rotate: false
+ xy: 1027, 472
+ size: 241, 233
+ orig: 241, 233
+ offset: 0, 0
+ index: -1
+beer_bubbles_00014
+ rotate: true
+ xy: 575, 186
+ size: 241, 233
+ orig: 241, 233
+ offset: 0, 0
+ index: -1
+beer_bubbles_00016
+ rotate: false
+ xy: 810, 237
+ size: 241, 233
+ orig: 241, 233
+ offset: 0, 0
+ index: -1
+beer_bubbles_00018
+ rotate: false
+ xy: 1053, 237
+ size: 241, 233
+ orig: 241, 233
+ offset: 0, 0
+ index: -1
+beer_bubbles_00020
+ rotate: false
+ xy: 810, 2
+ size: 241, 233
+ orig: 241, 233
+ offset: 0, 0
+ index: -1
+beer_bubbles_00022
+ rotate: false
+ xy: 1053, 2
+ size: 241, 233
+ orig: 241, 233
+ offset: 0, 0
+ index: -1
+beer_bubbles_00024
+ rotate: false
+ xy: 1195, 945
+ size: 241, 233
+ orig: 241, 233
+ offset: 0, 0
+ index: -1
+beer_bubbles_00026
+ rotate: false
+ xy: 1188, 710
+ size: 241, 233
+ orig: 241, 233
+ offset: 0, 0
+ index: -1
+beer_bubbles_00028
+ rotate: false
+ xy: 1438, 945
+ size: 241, 233
+ orig: 241, 233
+ offset: 0, 0
+ index: -1
+beer_bubbles_00030
+ rotate: false
+ xy: 1431, 710
+ size: 241, 233
+ orig: 241, 233
+ offset: 0, 0
+ index: -1
+beer_bubbles_00032
+ rotate: false
+ xy: 1270, 475
+ size: 241, 233
+ orig: 241, 233
+ offset: 0, 0
+ index: -1
+beer_bubbles_00034
+ rotate: true
+ xy: 1296, 232
+ size: 241, 233
+ orig: 241, 233
+ offset: 0, 0
+ index: -1
+beer_bubbles_00036
+ rotate: false
+ xy: 1513, 475
+ size: 241, 233
+ orig: 241, 233
+ offset: 0, 0
+ index: -1
+beer_bubbles_00038
+ rotate: true
+ xy: 1531, 232
+ size: 241, 233
+ orig: 241, 233
+ offset: 0, 0
+ index: -1
+fo
+ rotate: false
+ xy: 2, 26
+ size: 23, 62
+ orig: 23, 62
+ offset: 0, 0
+ index: -1
+fo_shadow
+ rotate: false
+ xy: 500, 891
+ size: 20, 62
+ orig: 20, 62
+ offset: 0, 0
+ index: -1
+levels_2_copy_3
+ rotate: false
+ xy: 333, 577
+ size: 195, 309
+ orig: 195, 309
+ offset: 0, 0
+ index: -1
+rago_guiness_bear
+ rotate: false
+ xy: 1526, 37
+ size: 212, 193
+ orig: 212, 193
+ offset: 0, 0
+ index: -1
+rago_guiness_bear_1
+ rotate: false
+ xy: 62, 311
+ size: 250, 283
+ orig: 250, 283
+ offset: 0, 0
+ index: -1
+rago_guiness_bear_faum
+ rotate: false
+ xy: 1296, 43
+ size: 228, 187
+ orig: 228, 187
+ offset: 0, 0
+ index: -1
+rago_guiness_bear_faum_1
+ rotate: true
+ xy: 1296, 10
+ size: 31, 89
+ orig: 31, 89
+ offset: 0, 0
+ index: -1
+rago_guiness_bear_faum_1_shadow
+ rotate: false
+ xy: 780, 96
+ size: 28, 88
+ orig: 28, 88
+ offset: 0, 0
+ index: -1
+rago_guiness_bear_faum_2
+ rotate: true
+ xy: 1740, 28
+ size: 202, 118
+ orig: 202, 118
+ offset: 0, 0
+ index: -1
+rago_guiness_bear_faum_shadow
+ rotate: true
+ xy: 1674, 751
+ size: 192, 169
+ orig: 192, 169
+ offset: 0, 0
+ index: -1
+rago_guiness_bg
+ rotate: false
+ xy: 2, 888
+ size: 496, 399
+ orig: 496, 399
+ offset: 0, 0
+ index: -1
+rago_guiness_frame1
+ rotate: true
+ xy: 1264, 1216
+ size: 34, 408
+ orig: 34, 408
+ offset: 0, 0
+ index: -1
+rago_guiness_frame1_shadow
+ rotate: true
+ xy: 760, 1007
+ size: 92, 412
+ orig: 92, 412
+ offset: 0, 0
+ index: -1
+rago_guiness_frame2
+ rotate: false
+ xy: 1264, 1252
+ size: 492, 35
+ orig: 492, 35
+ offset: 0, 0
+ index: -1
+rago_guiness_frame2_shadow
+ rotate: true
+ xy: 2, 90
+ size: 504, 58
+ orig: 504, 58
+ offset: 0, 0
+ index: -1
+rago_guiness_frame3
+ rotate: true
+ xy: 1254, 1180
+ size: 34, 408
+ orig: 34, 408
+ offset: 0, 0
+ index: -1
+rago_guiness_frame3_shadow
+ rotate: true
+ xy: 760, 942
+ size: 63, 418
+ orig: 63, 418
+ offset: 0, 0
+ index: -1
+rago_guiness_frame4
+ rotate: false
+ xy: 760, 1194
+ size: 492, 37
+ orig: 492, 37
+ offset: 0, 0
+ index: -1
+rago_guiness_frame4_shadow
+ rotate: false
+ xy: 760, 1233
+ size: 502, 54
+ orig: 502, 54
+ offset: 0, 0
+ index: -1
+rago_guiness_fx
+ rotate: false
+ xy: 760, 1101
+ size: 433, 91
+ orig: 433, 91
+ offset: 0, 0
+ index: -1
+rago_guiness_glass_handel
+ rotate: true
+ xy: 575, 67
+ size: 117, 203
+ orig: 117, 203
+ offset: 0, 0
+ index: -1
+rago_guiness_glass_handel_glow
+ rotate: false
+ xy: 1756, 584
+ size: 110, 165
+ orig: 110, 165
+ offset: 0, 0
+ index: -1
+rago_guiness_glass_highlight_1
+ rotate: true
+ xy: 62, 61
+ size: 248, 276
+ orig: 248, 276
+ offset: 0, 0
+ index: -1
+rago_guiness_glass_highlight_2
+ rotate: false
+ xy: 530, 672
+ size: 170, 281
+ orig: 170, 281
+ offset: 0, 0
+ index: -1
+rago_guiness_glass_partens
+ rotate: true
+ xy: 1756, 475
+ size: 107, 98
+ orig: 107, 98
+ offset: 0, 0
+ index: -1
+rago_guiness_glass_water_drops2
+ rotate: true
+ xy: 702, 687
+ size: 18, 46
+ orig: 18, 46
+ offset: 0, 0
+ index: -1
+rago_guiness_glass_water_drops4
+ rotate: true
+ xy: 1195, 1180
+ size: 12, 27
+ orig: 12, 27
+ offset: 0, 0
+ index: -1
+rago_guiness_glass_water_drops5
+ rotate: false
+ xy: 549, 380
+ size: 24, 47
+ orig: 24, 47
+ offset: 0, 0
+ index: -1
+rago_guiness_shaow
+ rotate: false
+ xy: 2, 596
+ size: 329, 290
+ orig: 329, 290
+ offset: 0, 0
+ index: -1
+rago_guiness_waterdrops
+ rotate: false
+ xy: 500, 955
+ size: 258, 332
+ orig: 258, 332
+ offset: 0, 0
+ index: -1
+stars_park
+ rotate: true
+ xy: 1681, 1100
+ size: 150, 148
+ orig: 150, 148
+ offset: 0, 0
+ index: -1

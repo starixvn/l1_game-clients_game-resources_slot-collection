@@ -1,0 +1,19 @@
+J_x1_no_border.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+symbol_J
+ rotate: true
+ xy: 0, 0
+ size: 213, 228
+ orig: 213, 228
+ offset: 0, 0
+ index: -1
+wipe_J
+ rotate: false
+ xy: 230, 11
+ size: 193, 202
+ orig: 193, 202
+ offset: 0, 0
+ index: -1
